@@ -1,0 +1,16 @@
+characters = {
+	FSR_Malvy = {
+		name = "Leon Malenyev" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_malenyev
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits={ father_of_malenyevism revolutionary_leader malenyevist_internationalist contana_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

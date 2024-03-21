@@ -1,0 +1,31 @@
+
+state={
+	id=226
+	name="STATE_226"
+	manpower=20000000
+	state_category=metropolis
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		victory_points = {
+			10134 20 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		27 1533 3715 5211 5396 6520 6939 7010 7601 8608 9112 9665 10134 11644 19097 19109 19195 19224 19225 19314 19337 19338 19378 19435 19447 19494 19495 19507 19589 19590 19663 19681 19701 19713 19743 19765 19773 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=72
+	name="STATE_72"
+	manpower=3000000
+	state_category=town
+
+	resources={
+		tungsten = 14
+	}
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			11904 20 
+		}
+		victory_points = {
+			513 20 
+		}
+		victory_points = {
+			373 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			373 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		317 320 373 513 746 1198 1297 1969 2287 2756 2998 3337 3367 3594 3931 4175 4827 4837 5420 5865 5873 5889 6071 6131 6174 6364 7110 7384 7644 7649 7757 7868 8010 8332 8830 10056 10205 10664 10669 11864 11904 12039 12423 12643 12702 13126 13155 13197 13214 13246 13251 13258 13260 13263 13281 13294 13386 13443 13496 13512 30118 30120 30125 30126 30128 30130 30131 30133 30134 30135 30137 30138 30139 30141 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

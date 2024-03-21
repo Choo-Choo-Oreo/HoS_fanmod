@@ -1,0 +1,34 @@
+
+state={
+	id=110
+	name="STATE_110"
+	manpower=20000000
+	state_category=town
+
+	resources={
+		aluminium = 2
+		tungsten = 15
+		steel = 23
+		chromium = 3
+	}
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		824 919 2328 2397 4857 5584 6375 7062 7069 9067 9705 10111 10791 10832 10876 11419 11498 11874 11915 12348 12621 12624 12681 17433 17483 17504 17582 17583 17613 17614 17644 17692 17770 17885 17922 17942 17943 17954 17977 18003 18020 18044 18069 18070 18105 18155 18194 18291 18327 18374 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,105 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_alphonso"
+		texturefile = "gfx/leaders/SRD/EwaldAlphonso.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_rayne"
+		texturefile = "gfx/leaders/SRD/AntonRayne.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_beatrice"
+		texturefile = "gfx/leaders/RUM/BeatriceLivingston.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_parliament"
+		texturefile = "gfx/leaders/RUM/RumburgRepublic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_dwight"
+		texturefile = "gfx/leaders/ARC/DwightWalker.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_malenyev"
+		texturefile = "gfx/leaders/FSR/LeonMalenyev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_alvarez"
+		texturefile = "gfx/leaders/LSP/PatricioAlvarez.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_hegel"
+		texturefile = "gfx/leaders/VLG/EmmerichHegel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_hoorten"
+		texturefile = "gfx/leaders/AGN/MaartinVanHoorten.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_smolak"
+		texturefile = "gfx/leaders/WHL/WiktorSmolak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_mikel"
+		texturefile = "gfx/leaders/ERD/MikelIII.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_iosef"
+		texturefile = "gfx/leaders/SRD/IosefLancea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_iosef_small"
+		texturefile = "gfx/interface/ideas/idea_SRD_iosef_lancea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_kruger"
+		texturefile = "gfx/leaders/SRD/ValkenKruger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_kruger_small"
+		texturefile = "gfx/interface/ideas/idea_SRD_valken_kruger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ricter"
+		texturefile = "gfx/leaders/SRD/FrensRicter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_schar"
+		texturefile = "gfx/leaders/SRD/IonasSchar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_schar_small"
+		texturefile = "gfx/interface/ideas/idea_SRD_ionas_schar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_rumburg1"
+		texturefile = "gfx/leaders/RUM/RumburgGeneral1.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_rumburg2"
+		texturefile = "gfx/leaders/RUM/RumburgGeneral2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_reynard"
+		texturefile = "gfx/leaders/MTY/ReynardIX.dds"
+	}
+}

@@ -1,0 +1,46 @@
+basic_conversion_democracy = {
+	OR = {
+		has_government = social_democratic
+		has_government = liberal
+		has_government = conservative
+	}
+}
+basic_conversion_communism = {
+	OR = {
+		has_government = revolutionary_socialist
+		has_government = reformist_socialist
+	}
+}
+basic_conversion_fascism = {
+	OR = {
+		has_government = paternal_autocrat
+		has_government = reactionary_nationalist
+	}
+}
+basic_conversion_neutrality = {
+	OR = {
+		has_government = authoritarian_democrat
+	}
+}
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			basic_conversion_communism = yes
+			ROOT = {
+				basic_conversion_communism = no
+			}
+		}
+		AND = {
+			basic_conversion_democracy = yes
+			ROOT = {
+				basic_conversion_democracy = no
+			}
+		}
+		AND = {
+			basic_conversion_fascism = yes
+			ROOT = {
+				basic_conversion_fascism = no
+			}
+		}
+	}
+}

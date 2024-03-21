@@ -1,0 +1,44 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower=6400000
+	state_category=large_city
+
+	resources={
+		aluminium = 4
+		steel = 11
+	}
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+		victory_points = {
+			11760 30 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 3
+			dockyard = 1
+			11760 = {
+				naval_base = 6
+
+			}
+			9269 = {
+				naval_base = 5
+
+			}
+		}
+	}
+
+	provinces={
+		59 264 352 800 847 1578 2705 4248 4268 5154 5431 5772 6742 8573 8822 9086 9269 10391 10520 10569 10575 10941 11150 11760 11936 12051 12189 12353 12377 12594 14734 14906 14916 14917 15134 15146 15175 15240 15253 15282 15300 15323 15370 15408 15409 15459 15471 15479 15549 15571 15585 15618 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

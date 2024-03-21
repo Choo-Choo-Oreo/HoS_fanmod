@@ -1,0 +1,451 @@
+division_template = {
+	name = "Royal Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Royal Horse Guard"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      	
+		engineer = { x = 0 y = 1 }   
+	}
+}
+
+#################################### UNITS ###########################################
+units = {
+##################### Southern Rumburg #####################
+    division= {
+        name = "1st Royal Infantry Division"
+        location = 11940
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "2nd Royal Infantry Division"
+        location = 15725
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "3rd Royal Infantry Division"
+        location = 10082
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "4th Royal Infantry Division"
+        location = 4930
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "5th Royal Infantry Division"
+        location = 1135
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "6th Royal Infantry Division"
+        location = 16570
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+	division= {
+        name = "7th Royal Infantry Division"
+        location = 9564
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+##################### Central Rumburg #####################
+    division= {
+        name = "8th Royal Infantry Division"
+        location = 3238
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "9th Royal Infantry Division"
+        location = 8617
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "10th Royal Infantry Division"
+        location = 3061
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "11th Royal Infantry Division"
+        location = 3207
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "12th Royal Infantry Division"
+        location = 5402
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "13th Royal Infantry Division"
+        location = 12686
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "14th Royal Infantry Division"
+        location = 2371
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "15th Royal Infantry Division"
+        location = 14028
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+	division= {
+        name = "16th Royal Infantry Division"
+        location = 9584
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "17th Royal Infantry Division"
+        location = 9348
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "18th Royal Infantry Division"
+        location = 687
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+##################### Far Western Rumburg #####################
+    division= {
+        name = "19th Royal Infantry Division"
+        location = 87
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "20th Royal Infantry Division"
+        location = 3003
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "21st Royal Infantry Division"
+        location = 12748
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "22nd Royal Infantry Division"
+        location = 13096
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "23rd Royal Infantry Division"
+        location = 1993
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "24th Royal Infantry Division"
+        location = 8722
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+	division= {
+        name = "25th Royal Infantry Division"
+        location = 11476
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+##################### Border Guard #####################
+    division= {
+        name = "26th Royal Infantry Division"
+        location = 6257
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "27th Royal Infantry Division"
+        location = 4770
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "28th Royal Infantry Division"
+        location = 13557
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "29th Royal Infantry Division"
+        location = 10519
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "30th Royal Infantry Division"
+        location = 13712
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "31st Royal Infantry Division"
+        location = 16788
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "32nd Royal Infantry Division"
+        location = 1208
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "33rd Royal Infantry Division"
+        location = 16640
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+	division= {
+        name = "34th Royal Infantry Division"
+        location = 4930
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "35th Royal Infantry Division"
+        location = 6394
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+    division= {
+        name = "36th Royal Infantry Division"
+        location = 14217
+        division_template = "Royal Infantry Brigade"
+        start_experience_factor = 0.2
+
+    }
+##################### Cavalry #####################
+    division= {
+        name = "1st Royal Horse Guard"
+        location = 11070
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "2nd Royal Horse Guard"
+        location = 13861
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "3rd Royal Horse Guard"
+        location = 13813
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "4th Royal Horse Guard"
+        location = 2623
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "5th Royal Horse Guard"
+        location = 13644
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "6th Royal Horse Guard"
+        location = 4109
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+	division= {
+        name = "7th Royal Horse Guard"
+        location = 7334
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "8th Royal Horse Guard"
+        location = 6221
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "9th Royal Horse Guard"
+        location = 4271
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "10th Royal Horse Guard"
+        location = 3408
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "11th Royal Horse Guard"
+        location = 9979
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "12th Royal Horse Guard"
+        location = 5158
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "13th Royal Horse Guard"
+        location = 10613
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "14th Royal Horse Guard"
+        location = 1772
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "15th Royal Horse Guard"
+        location = 7750
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+	division= {
+        name = "16th Royal Horse Guard"
+        location = 6559
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "17th Royal Horse Guard"
+        location = 16788
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "18th Royal Horse Guard"
+        location = 16389
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "19th Royal Horse Guard"
+        location = 11541
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "20th Royal Horse Guard"
+        location = 1135
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "21st Royal Horse Guard"
+        location = 10836
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "22nd Royal Horse Guard"
+        location = 8636
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "23rd Royal Horse Guard"
+        location = 2000
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "24th Royal Horse Guard"
+        location = 13255
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+	division= {
+        name = "25th Royal Horse Guard"
+        location = 13444
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "26th Royal Horse Guard"
+        location = 1407
+        division_template = "Royal Horse Guard"
+        start_experience_factor = 0.3
+    }
+}

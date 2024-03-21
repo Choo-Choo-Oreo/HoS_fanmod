@@ -1,0 +1,17 @@
+characters = {
+	ARC_Dwight = {
+		name = "Dwight Walker" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_dwight
+			}
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits={ free_market_advocate ato_founder arc_intervention arcasia_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

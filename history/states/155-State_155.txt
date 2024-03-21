@@ -1,0 +1,69 @@
+
+state={
+	id=155
+	name="STATE_155"
+	manpower=50000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = NSH
+		add_core_of = NSH
+
+		victory_points = {
+			11443 30 
+		}
+		victory_points = {
+			22323 20 
+		}
+		victory_points = {
+			1532 20 
+		}
+		victory_points = {
+			359 20 
+		}
+		victory_points = {
+			22138 20 
+		}
+		victory_points = {
+			4143 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			11443 = {
+				naval_base = 6
+
+			}
+			22323 = {
+				naval_base = 4
+
+			}
+			22138 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		119 132 140 186 252 359 522 603 663 1301 1447 1532 1605 1893 1904 1965 2540 2587 2779 2955 3067 3297 3404 3984 3988 4143 4479 4486 4540 4675 4834 5108 5131 5136 5150 5336 5417 5631 5918 6027 6110 6623 6817 6825 7469 8787 8808 9822 10436 10500 10582 10877 11086 11417 11443 11449 11753 12313 12571 22101 22137 22138 22140 22154 22155 22161 22183 22186 22187 22188 22206 22214 22244 22257 22288 22323 22326 22327 22333 22337 22359 22362 22370 22547 22548 22551 30237 30239 30241 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,358 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+	erdmarg_king = {
+		random = no
+		stability_factor = -0.15
+		war_support_factor = -0.05
+		revolutionary_socialist_acceptance = -30
+		reformist_socialist_acceptance = -30
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	erdmarg_royal = {
+		random = no
+		political_advisor_cost_factor = -0.20
+		political_power_gain = 0.05
+		opinion_gain_monthly_same_ideology_factor = 1.0
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	market_reformer = {
+		random = no
+		consumer_goods_factor = -0.02
+		license_purchase_cost = -0.25
+		production_speed_buildings_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	alcoholic = {
+		random = no
+		political_power_gain = -0.1
+		trade_opinion_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	corrupt = {
+		random = no
+		stability_factor = -0.05
+		local_resources_factor = -0.08
+		research_speed_factor = -0.02
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	father_of_malenyevism = {
+		random = no
+		political_power_gain = 0.1
+		stability_factor = 0.1
+		trade_opinion_factor = 0.25
+		revolutionary_socialist_acceptance = 75
+		reformist_socialist_acceptance = 50
+		social_democratic_acceptance = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	revolutionary_leader = {
+		random = no
+		compliance_growth_on_our_occupied_states = 0.25
+		war_support_factor = 0.05
+		improve_relations_maintain_cost_factor = -0.15
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	malenyevist_internationalist = {
+		random = no
+		foreign_subversive_activites = -0.25
+		lend_lease_tension = -0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	short_tamper = {
+		random = no
+		trade_opinion_factor = 0.25
+		improve_relations_maintain_cost_factor = 0.15
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	worker_lover = {
+		random = no
+		industrial_capacity_factory = 0.1
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	popular_leader = {
+		random = no
+		political_power_gain = 0.1
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	democratic_dictator = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.08
+		weekly_casualties_war_support = 0.001
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wehlens_big_daddy = {
+		random = no
+		required_garrison_factor = -0.05
+		root_out_resistance_effectiveness_factor = 0.1
+		command_power_gain = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	free_market_advocate = {
+		random = no
+		consumer_goods_factor = -0.02
+		industrial_capacity_factory = 0.04
+		local_resources_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ato_founder = {
+		random = no
+		war_support_factor = 0.08
+		liberal_acceptance = 75
+		conservative_acceptance = 50
+		authoritarian_democrat_acceptance = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	arc_intervention = {
+		random = no
+		stability_factor = 0.04
+		lend_lease_tension = -0.15
+		request_lease_tension = -0.15
+		send_volunteer_size = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	parliament_low = {
+		random = no
+		political_advisor_cost_factor = 0.25
+		trade_laws_cost_factor = 0.25
+		mobilization_laws_cost_factor = 0.25
+		stability_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	parliament_high = {
+		random = no
+		political_advisor_cost_factor = -0.25
+		trade_laws_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ambitious_queen = {
+		random = no
+		political_power_factor = 0.05
+		justify_war_goal_time = -0.1
+		offensive_war_stability_factor = 0.1
+		command_power_gain = 0.05
+		war_support_factor = 0.1
+		trade_opinion_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ewald = {
+		random = no
+		political_power_factor = -0.1
+		political_advisor_cost_factor = 0.50
+		stability_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ricter = {
+		random = no
+		liberal_acceptance = 80
+		conservative_acceptance = 15
+		authoritarian_democrat_acceptance = -10
+		lend_lease_tension = -0.15
+		request_lease_tension = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	antondictator = {
+		random = no
+		political_power_factor = 0.1
+		stability_factor = 0.05
+		war_support_factor = 0.1
+		justify_war_goal_time = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anton = {
+		random = no
+		political_power_factor = 0.08
+		stability_factor = 0.02
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	antonpuppet = {
+		random = no
+		political_power_factor = -0.35
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	temppowers = {
+		random = no
+		stability_factor = 0.1
+		political_advisor_cost_factor = -0.35
+		trade_laws_cost_factor = -0.35
+		mobilization_laws_cost_factor = -0.35
+		economy_cost_factor = -0.35
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	head_of_gasom = {
+		random = no
+		economy_cost_factor = -0.05
+		consumer_goods_factor = -0.02
+		local_resources_factor = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	purple_blooded_nationalist = {
+		random = no
+		political_power_gain = 0.15
+		war_support_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	allignment_nationalist = {
+		random = no
+		opinion_gain_monthly_factor = -0.25
+		trade_opinion_factor = -0.25
+		drift_defence_factor = 0.5
+        reactionary_nationalist_acceptance = -75
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	arcasia_friend = {
+		random = no
+		revolutionary_socialist_acceptance = -75
+		reformist_socialist_acceptance = -75
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	contana_friend = {
+		random = no
+		liberal_acceptance = -75
+		conservative_acceptance = -75
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	no_friend = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

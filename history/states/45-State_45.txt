@@ -1,0 +1,37 @@
+
+state={
+	id=45
+	name="STATE_45"
+	manpower=832100
+	state_category=town
+
+	resources = {
+		steel =10
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+		add_core_of = BFF
+
+		victory_points = {
+			16198 23 
+		}
+		victory_points = {
+			16263 7 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		275 1619 3716 6158 6242 6650 6701 6798 7671 8042 8346 8432 9342 9520 10411 12144 12646 16017 16130 16197 16198 16263 16311 16330 16410 16444 16499 16601 16627 16669 16744 16759 16797 16874 16983 30186 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

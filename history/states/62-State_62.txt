@@ -1,0 +1,48 @@
+
+state={
+	id=62
+	name="STATE_62"
+	manpower=50000000
+	state_category=metropolis
+
+	resources={
+		aluminium = 4
+		tungsten = 10
+	}
+
+	history={
+		owner = SSA
+		add_core_of = SSA
+
+		victory_points = {
+			18421 30 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			18421 = {
+				naval_base = 6
+
+			}
+			18085 = {
+				naval_base = 4
+
+			}
+			5130 = {
+				naval_base = 5
+
+			}
+		}
+	}
+
+	provinces={
+		225 1938 2179 2256 2625 2852 3021 3183 4710 4842 5130 5226 6041 6232 7759 7925 8187 8316 8624 8759 9250 10196 10632 10887 11816 11995 12010 12176 12442 12554 12611 17829 17848 17897 17924 17956 18022 18046 18071 18085 18097 18098 18106 18149 18195 18248 18249 18272 18279 18308 18339 18340 18353 18363 18364 18389 18407 18421 18461 18555 18586 18620 18664 18702 18755 18756 18831 18851 18909 18910 19013 19022 19171 19229 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

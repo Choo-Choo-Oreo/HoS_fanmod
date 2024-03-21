@@ -1,0 +1,37 @@
+
+state={
+	id=115
+	name="STATE_115"
+	manpower=52000000
+	state_category=metropolis
+
+	history={
+		owner = RIZ
+		add_core_of = RIZ
+
+		victory_points = {
+			3043 32 
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 10
+			dockyard = 1
+			20495 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1413 3043 4814 7427 10470 11068 11406 12143 20412 20482 20495 20496 20558 20577 20590 20659 20667 20710 20727 20793 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

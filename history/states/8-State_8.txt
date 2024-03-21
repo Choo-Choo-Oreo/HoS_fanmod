@@ -1,0 +1,47 @@
+
+state={
+	id=8
+	name="STATE_8"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = MKN
+		add_core_of = MKN
+
+		victory_points = {
+			978 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			2931 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+
+	provinces={
+		218 416 439 557 563 978 1011 1147 1242 1648 1890 1997 2597 2739 2743 2931 2995 3485 3835 3959 5201 6035 6092 6524 6756 6912 9279 9739 12443 12710 12723 12724 12731 12750 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

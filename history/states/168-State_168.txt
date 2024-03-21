@@ -1,0 +1,62 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = TAU
+		add_core_of = TAU
+
+		victory_points = {
+			22336 20 
+		}
+		victory_points = {
+			7297 30 
+		}
+		victory_points = {
+			22249 20 
+		}
+		victory_points = {
+			3670 20 
+		}
+		victory_points = {
+			4404 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			22336 = {
+				naval_base = 6
+
+			}
+			7297 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		28 138 181 205 754 895 938 1101 1179 1384 1477 1580 1722 1825 2352 2379 2399 2622 2660 2747 2961 3046 3118 3256 3262 3670 3915 3917 3995 4041 4072 4080 4209 4404 4567 4659 4791 4819 5262 5662 5804 6635 6725 6924 6950 7030 7227 7297 7519 7937 8227 8312 8315 8593 8611 8650 9097 9246 9319 9352 9626 9875 10092 10267 10555 10967 11739 11815 12578 22091 22095 22107 22133 22144 22145 22148 22153 22200 22204 22222 22226 22236 22249 22260 22269 22270 22284 22295 22304 22310 22336 22358 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

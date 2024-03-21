@@ -1,0 +1,33 @@
+
+state={
+	id=15
+	name="STATE_15"
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+		victory_points = {
+			16353 8 
+		}
+		victory_points = {
+			16312 6 
+		}
+		victory_points = {
+			16773 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		405 1241 3614 4537 6642 7647 8311 9393 10478 11942 12538 16199 16241 16312 16353 16393 16429 16511 16572 16699 16772 16773 16892 16893 
+	}
+	manpower=2132100
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

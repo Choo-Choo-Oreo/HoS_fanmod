@@ -1,0 +1,35 @@
+
+state={
+	id=85
+	name="STATE_85"
+	manpower=7000000
+	state_category=town
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+
+		victory_points = {
+			12479 20 
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			11969 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1276 8158 9226 11565 11969 12479 13268 13421 13430 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

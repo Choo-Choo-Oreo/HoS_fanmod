@@ -1,0 +1,39 @@
+
+state={
+	id=273
+	name="STATE_273"
+	manpower=3600000
+	state_category=large_city
+
+	resources={
+		oil = 6
+		aluminium = 2
+		tungsten = 1
+		steel = 3
+	}
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+		victory_points = {
+			3848 25 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			air_base = 7
+			dockyard = 2
+			21676 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces={
+		1028 1259 2198 2832 3426 3538 3691 3785 3848 4473 5785 5922 6025 6282 6403 7050 7248 7356 8790 8979 9036 9369 9622 9989 10293 10890 11662 12290 21393 21449 21475 21509 21527 21552 21585 21596 21618 21634 21646 21647 21661 21664 21676 21720 21738 21753 30223 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

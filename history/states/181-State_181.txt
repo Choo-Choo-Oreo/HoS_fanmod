@@ -1,0 +1,44 @@
+
+state={
+	id=181
+	name="STATE_181"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = STO
+		add_core_of = STO
+
+		victory_points = {
+			2301 30 
+		}
+		victory_points = {
+			12033 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+
+		}
+
+	}
+
+	provinces={
+		39 182 348 526 620 753 801 1024 1190 1316 1318 1573 1669 1674 1987 2099 2253 2301 2308 2475 3130 3353 3417 3942 4426 4727 5290 5350 5597 6584 6663 8385 8773 12033 22374 22385 22399 22400 22404 22408 22420 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,437 @@
+ideas = {
+
+	country = {
+		GEN_tradewar_economy_spirit = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = tur_balkan_central_bank_wealthy_greece
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_start_efficiency_factor = -0.05
+				production_lack_of_resource_penalty_factor = 0.5
+				line_change_production_efficiency_factor = -0.08
+				state_production_speed_industrial_complex_factor = -0.25
+				state_production_speed_arms_factory_factor = -0.25
+				research_speed_factor = -0.1
+			}
+		}
+
+		GEN_tradewar_economy_spirit_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = tur_balkan_central_bank_wealthy_greece
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.13
+				production_factory_max_efficiency_factor = -0.13
+				production_factory_start_efficiency_factor = -0.13
+				production_lack_of_resource_penalty_factor = 0.40
+				line_change_production_efficiency_factor = -0.08
+				state_production_speed_industrial_complex_factor = -0.20
+				state_production_speed_arms_factory_factor = -0.20
+				research_speed_factor = -0.08
+			}
+		}
+
+		GEN_privatisation_spirit = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan
+				
+			removal_cost = -1
+				
+			modifier = {
+				min_export = 0.02
+				stability_factor = -0.1
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_start_efficiency_factor = -0.10
+				production_lack_of_resource_penalty_factor = 0.20
+				line_change_production_efficiency_factor = -0.07
+				state_production_speed_industrial_complex_factor = -0.10
+				state_production_speed_arms_factory_factor = -0.10
+				research_speed_factor = -0.04
+			}
+		}
+
+		GEN_privatisation_spirit_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan
+				
+			removal_cost = -1
+				
+			modifier = {
+				min_export = 0.05
+				stability_factor = 0
+				consumer_goods_factor = 0
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = -0.08
+				production_factory_start_efficiency_factor = -0.08
+				production_lack_of_resource_penalty_factor = 0
+				line_change_production_efficiency_factor = -0.07
+				state_production_speed_industrial_complex_factor = 0
+				state_production_speed_arms_factory_factor = -0.1
+				research_speed_factor = 0
+			}
+		}
+
+		GEN_privatisation_spirit_3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan_civilian
+				
+			removal_cost = -1
+				
+			modifier = {
+				min_export = 0.08
+				consumer_goods_factor = -0.05
+				stability_factor = 0.1
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_start_efficiency_factor = -0.05
+				production_lack_of_resource_penalty_factor = -0.1
+				line_change_production_efficiency_factor = -0.05
+				state_production_speed_industrial_complex_factor = 0.1
+				state_production_speed_arms_factory_factor = -0.1
+				research_speed_factor = 0.04
+			}
+		}
+
+		GEN_relaxed_regulations = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_foreign_capital
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.02
+				political_power_factor = 0.05
+			}
+		}
+
+		GEN_increased_taxes = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_foreign_capital
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.02
+				consumer_goods_factor = -0.08
+				political_power_factor = 0.05
+			}
+		}
+
+		GEN_increase_state_control = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_political_support
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = -0.02
+			}
+		}
+
+		GEN_nationalisation_spirit = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan
+				
+			removal_cost = -1
+				
+			modifier = {
+				min_export = -0.02
+				stability_factor = -0.05
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_start_efficiency_factor = -0.10
+				production_lack_of_resource_penalty_factor = 0.20
+				line_change_production_efficiency_factor = -0.07
+				state_production_speed_industrial_complex_factor = -0.10
+				state_production_speed_arms_factory_factor = -0.10
+				research_speed_factor = -0.04
+			}
+		}
+
+		GEN_nationalisation_spirit_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan
+				
+			removal_cost = -1
+				
+			modifier = {
+				min_export = -0.04
+				stability_factor = 0
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_start_efficiency_factor = -0.05
+				production_lack_of_resource_penalty_factor = 0.10
+				line_change_production_efficiency_factor = -0.05
+				state_production_speed_industrial_complex_factor = -0.10
+				state_production_speed_arms_factory_factor = -0.05
+				research_speed_factor = 0
+			}
+		}
+
+		GEN_nationalisation_spirit_3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan_military
+				
+			removal_cost = -1
+				
+			modifier = {
+				min_export = -0.08
+				consumer_goods_factor = 0.05
+				war_support_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_start_efficiency_factor = 0.05
+				production_lack_of_resource_penalty_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				state_production_speed_industrial_complex_factor = -0.1
+				state_production_speed_arms_factory_factor = 0.1
+				research_speed_factor = 0.02
+			}
+		}
+
+		GEN_mixed_spirit = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.1
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_start_efficiency_factor = -0.05
+				production_lack_of_resource_penalty_factor = 0.20
+				line_change_production_efficiency_factor = -0.05
+				state_production_speed_industrial_complex_factor = -0.10
+				state_production_speed_arms_factory_factor = -0.10
+				research_speed_factor = -0.04
+				local_resources_factor = -0.15
+			}
+		}
+
+		GEN_mixed_spirit_2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = -0.02
+				production_factory_start_efficiency_factor = -0.02
+				production_lack_of_resource_penalty_factor = 0.10
+				line_change_production_efficiency_factor = -0.05
+				state_production_speed_industrial_complex_factor = -0.05
+				state_production_speed_arms_factory_factor = -0.05
+				research_speed_factor = 0
+				local_resources_factor = -0.1
+			}
+		}
+
+		GEN_mixed_spirit_3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = SOV_third_five_year_plan
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				production_speed_buildings_factor = -0.05
+				min_export = 0.05
+				research_speed_factor = 0.03
+				local_resources_factor = -0.05
+			}
+		}
+
+		GEN_arcasian_aid_spirit = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_goods_red_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				state_production_speed_arms_factory_factor = 0.15
+			}
+		}
+
+		GEN_contanan_aid_spirit = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_goods_red_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+				consumer_goods_factor = -0.05
+				state_production_speed_industrial_complex_factor = 0.15
+			}
+		}
+
+		GEN_competative_economy = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_deal_with_the_devil
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = -0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		GEN_cooperative_economy = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_deal_with_the_devil2
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = 0.1
+				production_speed_buildings_factor = -0.05
+			}
+		}
+
+		GEN_state_economy = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_deal_with_the_devil
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = -0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		GEN_party_economy = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_deal_with_the_devil2
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = 0.1
+				production_speed_buildings_factor = -0.05
+			}
+		}
+
+		SRD_motto = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = sordland_emblem
+				
+			removal_cost = -1
+				
+			modifier = {
+				conscription = 0.005
+				surrender_limit = 0.08
+				army_core_defence_factor = 0.04
+			}
+		}
+	}
+}

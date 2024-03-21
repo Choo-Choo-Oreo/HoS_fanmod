@@ -1,0 +1,28 @@
+state={
+	id=260
+	name="STATE_260"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = RIZ
+		add_core_of = RIZ
+
+		buildings = {
+			infrastructure = 2
+			21141 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		21141 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=22
+	name="STATE_22"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		buildings = {
+			infrastructure = 2
+			8212 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2035 8212 13267 13319 13352 
+	}
+
+	buildings_max_level_factor=1.00
+
+}

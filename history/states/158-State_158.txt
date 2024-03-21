@@ -1,0 +1,39 @@
+
+state={
+	id=158
+	name="STATE_158"
+	manpower=43000000
+	state_category=large_city
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			19955 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+			20170 = {
+				naval_base = 2
+
+			}
+			19955 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1687 1801 2757 3002 5957 6051 6228 6491 10026 10842 11112 12618 12644 19845 19855 19954 19955 19994 20022 20044 20064 20123 20170 20220 20246 20295 20314 20337 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

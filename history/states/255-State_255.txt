@@ -1,0 +1,33 @@
+
+state={
+	id=255
+	name="STATE_255"
+	manpower=7000000
+	state_category=town
+
+	resources={
+		oil = 2
+		rubber = 1
+		steel = 3
+	}
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		630 1132 4131 7065 11826 13536 13679 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}

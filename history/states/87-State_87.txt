@@ -1,0 +1,51 @@
+
+state={
+	id=87
+	name="STATE_87"
+	manpower=80000000
+	state_category=large_city
+
+	resources={
+		aluminium = 4
+		tungsten = 2
+		steel = 1
+	}
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		victory_points = {
+			12170 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			dockyard = 2
+			19806 = {
+				naval_base = 6
+
+			}
+			20373 = {
+				naval_base = 6
+
+			}
+			8718 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		150 212 963 1065 2320 2382 2838 2884 7213 8326 8605 8718 9222 10089 10182 10244 10674 10971 12021 12170 12256 19540 19662 19723 19781 19806 19807 19817 19852 19864 19892 19918 19929 20073 20093 20113 20130 20165 20207 20254 20284 20300 20334 20373 20393 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

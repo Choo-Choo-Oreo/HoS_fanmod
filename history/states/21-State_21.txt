@@ -1,0 +1,25 @@
+
+state={
+	id=21
+	name="STATE_21"
+	manpower=22000000
+	state_category=large_city
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		169 987 1088 3106 3273 3471 5589 6294 6580 7119 7406 7825 7994 8209 8785 8928 9492 10154 10394 10655 11031 11069 18632 18663 18675 18725 18791 18908 18951 19009 19010 19040 19107 19108 19133 19158 19183 19206 19299 19377 19397 19475 19493 19582 19588 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

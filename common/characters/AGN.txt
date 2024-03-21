@@ -1,0 +1,16 @@
+characters = {
+	AGN_Hoorten = {
+		name = "Maartin Van Hoorten" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_hoorten
+			}
+		}
+		country_leader = {
+			ideology = conservative_subtype
+			traits={ popular_leader arcasia_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=1
+	name="STATE_1"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = PNS
+		add_core_of = PNS
+
+		victory_points = {
+			10091 21 
+		}
+		victory_points = {
+			1928 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+
+		}
+
+	}
+
+	provinces={
+		230 358 618 893 955 1609 1645 1928 2263 2521 2591 2676 2902 2991 3140 3212 3287 3372 3752 5289 5333 6122 6160 7375 7599 8454 8905 9476 9816 9897 10091 10355 10372 11636 12785 12815 12816 12847 12863 12884 12913 12942 12997 13028 13043 29944 29947 29950 29970 29986 29990 29996 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

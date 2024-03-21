@@ -1,0 +1,36 @@
+
+state={
+	id=26
+	name="STATE_26"
+	manpower=22000000
+	state_category=town
+
+	resources={
+		oil = 14
+		steel = 6
+	}
+
+	history={
+		owner = WHL
+		add_core_of = WHL
+
+
+		victory_points = {
+			18082 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		78 1497 4598 5606 6608 7849 8466 9948 10628 10940 11967 18042 18053 18082 18147 18153 18154 18235 18236 18314 18477 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

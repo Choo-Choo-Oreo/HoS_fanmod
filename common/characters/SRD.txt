@@ -1,0 +1,215 @@
+characters = {
+	SRD_Alphy = {
+		name = "Ewald Alphonso" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_alphonso
+			}
+		}
+		country_leader = {
+			ideology = conservative_subtype
+			traits={ ewald head_of_gasom arcasia_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+	SRD_Ricter = {
+		name = "Frens Ricter" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ricter
+			}
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits={ anton ricter arcasia_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+	SRD_Anton = {
+		name = "Anton Rayne" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_rayne
+			}
+		}
+		country_leader = {
+			ideology = conservative_subtype
+			traits={ anton no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+	SRD_Kesaro = {
+		name = "Kesaro Kibener" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRD/KesaroKibener.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalist_subtype
+			traits={ purple_blooded_nationalist allignment_nationalist }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+        SRD_Stahler = {
+		name = "Denis Stahler" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRD/DenisStahler_Placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits={ contana_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+        SRD_Ejall= {
+		name = "Fetih Ejall" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRD/FetihEjall_Placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			traits={ contana_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+        SRD_Suheil= {
+		name = "Manoly Suheil" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRD/ManolySuheil_Placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_subtype
+			traits={ no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+        SRD_Gloria= {
+		name = "Gloria Tory" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRD/GloriaTory_Placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits={ no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+    
+    SRD_AntonEmergency = {
+        name = "Anton Rayne" 
+        portraits = {
+            civilian = {
+                large = GFX_portrait_rayne
+            }
+        }
+        country_leader = {
+            ideology = authoritarian_democrat_subtype
+            traits={ anton no_friend }
+            expire = "1950.1.1.1"
+            id = -1
+        }
+    }
+
+	SRD_AntonDictator = {
+        name = "Anton Rayne" 
+        portraits = {
+            civilian = {
+                large = GFX_portrait_rayne
+            }
+        }
+        country_leader = {
+            ideology = reactionary_nationalist_subtype
+            traits={ antondictator no_friend }
+            expire = "1950.1.1.1"
+            id = -1
+        }
+    }
+
+	SRD_Iosef = {
+		name = "Iosef Lancea" 
+		portraits = {
+			army={
+				large=GFX_portrait_iosef
+				small=GFX_portrait_iosef_small
+			}
+		}
+		corps_commander={
+				traits={ politically_connected brilliant_strategist organizer }
+				skill=5
+				attack_skill=5
+				defense_skill=3
+				planning_skill=6
+				logistics_skill=7
+				legacy_id=2000
+		    }
+	}
+	SRD_Kruger = {
+		name = "Valken Kruger" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_kruger
+			}
+			army={
+				large=GFX_portrait_kruger
+				small=GFX_portrait_kruger_small
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits={ no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+		field_marshal={
+				traits={ old_guard politically_connected war_hero harsh_leader inflexible_strategist skilled_staffer }
+				skill=7
+				attack_skill=4
+				defense_skill=7
+				planning_skill=5
+				logistics_skill=1
+				legacy_id=2001
+		    }
+	}
+	SRD_Schar = {
+		name = "Ionas Schar" 
+		portraits = {
+			army={
+				large=GFX_portrait_schar
+				small=GFX_portrait_schar_small
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer seawolf }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=4
+			legacy_id=2002
+		}
+	}
+}

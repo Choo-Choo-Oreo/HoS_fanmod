@@ -1,0 +1,18 @@
+
+state={
+	id=297
+	name="STATE_297"
+	provinces={
+		1542 1664 1912 2004 2298 2822 3425 3853 3887 4087 4975 4993 5736 7668 7789 10444 11261 11445 11599 13249 13256 13286 13340 13366 13424 13462 13551 13572 13640 13648 
+	}
+	manpower=7800000
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	history={
+		owner = FSR
+		add_core_of = FSR
+
+	}
+}

@@ -1,0 +1,259 @@
+ideas = {
+
+	country = {
+		SRD_soll_constitution = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_constitutional_guarantees
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = -0.05
+				war_support_factor = 0.1
+			}
+		}
+
+		SRD_confusion = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_neutrality_drift_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = -0.2
+				war_support_factor = -0.15
+				stability_factor = -0.1
+				authoritarian_democrat_drift = -0.01
+			}
+		}
+
+		SRD_bff_threat = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_purge
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+
+		SRD_bff_threat2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_purge
+				
+			removal_cost = -1
+				
+			modifier = {
+				resistance_damage_to_garrison = 0.15
+				resistance_growth = 0.05
+			}
+		}
+
+		SRD_bff_threat3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_purge
+				
+			removal_cost = -1
+				
+			modifier = {
+				resistance_damage_to_garrison = 0.05
+				resistance_growth = 0.01
+			}
+		}
+
+		SRD_unrest = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = chi_war_of_resistance
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+
+		SRD_unrest2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = chi_war_of_resistance3
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.05
+			}
+		}
+
+		SRD_unrest3 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = chi_war_of_resistance
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.02
+				political_power_cost = 0.01
+			}
+		}
+
+		SRD_rumburg = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = CZE_planning_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.15
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		SRD_democratic_constitution = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_constitutional_guarantees
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.05
+				stability_weekly = 0.001
+			}
+		}
+
+		SRD_dictator_constitution = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_constitutional_guarantees
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.05
+				stability_factor = -0.05
+			}
+		}
+
+		SRD_military_in_bergia = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_intel_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.05
+				stability_weekly = 0.001
+			}
+		}
+
+		SRD_soll_legacy = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_disjointed_gov
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+
+		SRD_usp_supremacy = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = FRA_scw_intervention_republicans_focus
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = 0.05
+				authoritarian_democrat_drift = 0.01
+			}
+		}
+
+		SRD_usp_supremacy2 = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_democratic_opposition
+				
+			removal_cost = -1
+				
+			modifier = {
+				liberal_drift = -0.02
+				social_democratic_drift = -0.02
+				reactionary_nationalist_drift = -0.01
+			}
+		}
+		SRD_nfp_supremacy = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = FRA_scw_intervention_republicans_focus
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = 0.05
+				reactionary_nationalist_drift = 0.01
+			}
+		}
+	}
+}

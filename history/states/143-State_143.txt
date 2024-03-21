@@ -1,0 +1,33 @@
+
+state={
+	id=143
+	name="STATE_143"
+	manpower=432100
+	state_category = rural
+
+	resources={
+		aluminium=2
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			4241 10
+		}
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		4241 4681 7194 7296 10250 10567 11758 12202 12575 13895 14110 14140 14328 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+characters = {
+	WHL_Smolak = {
+		name = "Wiktor Smolak" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_smolak
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits={ democratic_dictator wehlens_big_daddy contana_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

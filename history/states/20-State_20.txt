@@ -1,0 +1,35 @@
+
+state={
+	id=20
+	name="STATE_20"
+	manpower=12000000
+	state_category=large_city
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			dockyard = 1
+			19120 = {
+				naval_base = 6
+
+			}
+			18584 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1835 2373 3066 6425 6887 7167 7988 11270 12458 12650 18362 18458 18459 18517 18584 18597 18605 18715 18726 18792 18802 18803 18816 18838 18922 18923 18946 19041 19075 19120 22508 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,53 @@
+
+state={
+	id=31
+	name="STATE_31"
+	manpower=12000000
+	state_category=large_city
+
+	resources={
+		rubber = 1
+		steel = 10
+	}
+
+	history={
+		owner = RIZ
+		add_core_of = RIZ
+
+		victory_points = {
+			20867 30 
+		}
+		victory_points = {
+			21229 30 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+			dockyard = 1
+			21229 = {
+				naval_base = 6
+
+			}
+			21012 = {
+				naval_base = 4
+
+			}
+			5562 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		404 660 1571 1748 1802 2109 2337 2699 3009 3097 3277 3865 5562 5769 6354 6371 6621 7432 7764 8050 9544 9610 9613 12128 20533 20668 20686 20744 20753 20765 20825 20826 20867 20868 20878 20905 20910 20923 20934 20953 20956 20960 20975 21012 21013 21034 21047 21057 21058 21069 21229 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

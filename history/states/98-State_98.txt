@@ -1,0 +1,37 @@
+
+state={
+	id=98
+	name="STATE_98"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = OTK
+		add_core_of = OTK
+
+		buildings = {
+			infrastructure = 2
+			22510 = {
+				naval_base = 2
+
+			}
+			19747 = {
+				naval_base = 2
+
+			}
+			19278 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		19278 19363 19427 19440 19649 19673 19747 19754 22510 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

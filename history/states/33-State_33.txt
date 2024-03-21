@@ -1,0 +1,36 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower=22000000
+	state_category=city
+
+	history={
+		owner = WHL
+		add_core_of = WHL
+
+
+		victory_points = {
+			1416 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			19772 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		117 192 1227 1416 2027 2719 2954 4152 4253 4420 4465 4690 4947 6679 6885 7196 7219 8166 8754 11177 11448 11734 19083 19179 19251 19298 19311 19312 19376 19409 19422 19434 19461 19492 19526 19558 19581 19604 19617 19670 19671 19680 19699 19700 19712 19734 19771 19772 19793 19794 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

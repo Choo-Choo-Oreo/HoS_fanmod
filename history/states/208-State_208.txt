@@ -1,0 +1,19 @@
+
+state={
+	id=208
+	name="STATE_208"
+
+	history={
+		owner = FSR
+		add_core_of = FSR
+
+	}
+
+	provinces={
+		1767 2672 3322 3332 3508 4043 4293 4533 5029 5089 5520 6186 6293 6385 6829 6836 7535 10148 10194 11012 12287 13187 13218 13292 13306 13310 13317 13329 13336 13415 13432 13433 
+	}
+	manpower=2800000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

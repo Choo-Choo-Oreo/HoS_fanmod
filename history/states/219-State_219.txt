@@ -1,0 +1,40 @@
+
+state={
+	id=219
+	name="STATE_219"
+	manpower=532100
+	state_category=town
+
+	resources={
+		steel = 1
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			15238 10 
+		}
+		victory_points = {
+			14976 7 
+		}
+		victory_points = {
+			14905 3 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1792 2492 3728 3787 4671 5592 5951 6024 6450 6501 6552 8247 8961 9737 9898 9944 10677 10707 11026 11129 12020 14441 14562 14576 14690 14776 14812 14874 14875 14887 14905 14926 14958 14965 14976 14977 14988 14989 15075 15082 15093 15199 15238 15281 15355 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

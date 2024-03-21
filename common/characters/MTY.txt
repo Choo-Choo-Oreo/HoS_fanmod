@@ -1,0 +1,16 @@
+characters = {
+	MTY_Reynard = {
+		name = "Duke Reynard IX" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_reynard
+			}
+		}
+		country_leader = {
+			ideology = conservative_subtype
+			traits={ no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

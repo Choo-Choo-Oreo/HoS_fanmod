@@ -1,0 +1,82 @@
+characters = {
+	IMA_zabdu_keira = {
+		name = "Zabdu Keira" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_zabdu_keira
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits={ no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			traits = { fortress_buster organizer war_hero }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+
+	IMA_kwanzana_enzenauer = {
+		name = "Kwanzana Enzenauer" 
+		portraits = {
+			army = {
+				large = GFX_portrait_IMA_kwanzana_enzenauer
+				small = GFX_portrait_IMA_kwanzana_enzenauer_small
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer war_hero }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	IMA_bwada_nkuedi = {
+		name = "Bwada Nkuedi" 
+		portraits = {
+			army = {
+				large = GFX_portrait_IMA_bwada_nkuedi
+				small = GFX_portrait_IMA_bwada_nkuedi_small
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected media_personality }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+
+	IMA_rjazuzi_salhina = {
+		name = "Rjazuzi Salhina" 
+		portraits = {
+			army = {
+				large = GFX_portrait_IMA_rjazuzi_salhina
+				small = GFX_portrait_IMA_rjazuzi_salhina_small
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

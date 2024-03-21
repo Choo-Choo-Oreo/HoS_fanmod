@@ -1,0 +1,31 @@
+
+state={
+	id=83
+	name="STATE_83"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		buildings = {
+			infrastructure = 3
+			11764 = {
+				naval_base = 2
+
+			}
+			18877 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	provinces={
+		11764 12217 18877 19184 22504 22505 22506 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

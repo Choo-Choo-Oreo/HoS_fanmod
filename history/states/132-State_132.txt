@@ -1,0 +1,164 @@
+state={
+	id=132
+	name="STATE_132"
+	manpower=8000000
+	state_category=metropolis
+
+	resources={
+		oil = 15
+		aluminium = 15
+		rubber = 15
+		tungsten = 15
+		steel = 15
+		chromium = 15
+	}
+
+	history={
+		owner = FAI
+		add_core_of = FAI
+
+		victory_points = {
+			2808 30 
+		}
+		victory_points = {
+			12672 29 
+		}
+		victory_points = {
+			8435 20 
+		}
+		victory_points = {
+			21995 20 
+		}
+		victory_points = {
+			11381 20 
+		}
+		victory_points = {
+			21986 20 
+		}
+		victory_points = {
+			22353 20 
+		}
+		victory_points = {
+			664 20 
+		}
+		victory_points = {
+			2689 20 
+		}
+		victory_points = {
+			22163 20 
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			2808 = {
+				naval_base = 2
+
+			}
+			12672 = {
+				naval_base = 2
+
+			}
+			8435 = {
+				naval_base = 2
+
+			}
+			21995 = {
+				naval_base = 2
+
+			}
+			11381 = {
+				naval_base = 2
+
+			}
+			21986 = {
+				naval_base = 2
+
+			}
+			22353 = {
+				naval_base = 2
+
+			}
+			664 = {
+				naval_base = 2
+
+			}
+			2689 = {
+				naval_base = 2
+
+			}
+			22163 = {
+				naval_base = 2
+
+			}
+			22541 = {
+				naval_base = 2
+
+			}
+			11892 = {
+				naval_base = 2
+
+			}
+			5053 = {
+				naval_base = 2
+
+			}
+			10012 = {
+				naval_base = 2
+
+			}
+			12330 = {
+				naval_base = 2
+
+			}
+			7573 = {
+				naval_base = 2
+
+			}
+			22415 = {
+				naval_base = 2
+
+			}
+			22544 = {
+				naval_base = 2
+
+			}
+			22537 = {
+				naval_base = 2
+
+			}
+			2205 = {
+				naval_base = 2
+
+			}
+			3613 = {
+				naval_base = 2
+
+			}
+			9714 = {
+				naval_base = 2
+
+			}
+			22526 = {
+				naval_base = 2
+
+			}
+			224 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		244 628 664 1829 1991 2122 2205 2689 2808 3199 3284 3544 3613 3800 3804 3981 4075 4685 4786 4840 4920 5053 5709 6479 6698 7043 7060 7107 7402 7529 7573 8435 8930 9179 9231 9714 10012 10336 10697 11205 11213 11245 11381 11797 11892 12330 12367 12672 21740 21757 21759 21775 21800 21916 21931 21936 21959 21963 21986 21989 21995 22011 22049 22114 22163 22349 22353 22369 22415 22526 22537 22541 22544 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

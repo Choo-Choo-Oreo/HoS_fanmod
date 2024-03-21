@@ -1,0 +1,30 @@
+
+state={
+	id=263
+	name="STATE_263"
+	manpower=2000000
+	state_category=town
+
+	resources={
+		oil = 2
+	}
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2286 6336 7470 8438 8990 10423 11344 12184 17750 17861 17952 18068 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

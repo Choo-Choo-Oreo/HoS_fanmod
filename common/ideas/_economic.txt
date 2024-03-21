@@ -1,0 +1,553 @@
+ideas = {
+
+	economy = {
+		law = yes
+		use_list_view = yes
+
+		undisturbed_isolation = {
+
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.50
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = 0.5
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 0.20
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 0.75
+				max_fuel_factor = -0.45
+				fuel_gain_factor = -0.6
+				agency_upgrade_time = 1.0
+			}
+
+			allowed_to_remove = {
+				OR = {
+					has_war_support > 0.5
+					has_war = yes
+					has_completed_focus = USA_limited_intervention
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+
+		isolation = {
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.4
+				production_speed_industrial_complex_factor = -0.4
+				production_speed_arms_factory_factor = -0.4
+				production_speed_dockyard_factor = -0.4
+				conversion_cost_civ_to_mil_factor= 0.4
+				conversion_cost_mil_to_civ_factor = 0.4
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 0.20
+				send_volunteers_tension = 0.20
+				guarantee_tension = 0.5
+				max_fuel_factor = -0.35
+				fuel_gain_factor = -0.5
+				agency_upgrade_time = 0.8
+			}
+			allowed_to_remove = {
+				OR = {
+					has_war_support > 0.75
+					has_war = yes
+					has_completed_focus = USA_limited_intervention
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+
+		civilian_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea civilian_economy" }
+			on_remove = { set_variable = { previous_economic_law = token:civilian_economy } }
+			level = 5
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.35
+				production_speed_industrial_complex_factor = -0.3
+				production_speed_arms_factory_factor = -0.3
+				conversion_cost_civ_to_mil_factor = 0.3
+				conversion_cost_mil_to_civ_factor = 0.3
+				max_fuel_factor = -0.25
+				fuel_gain_factor = -0.4
+			}
+
+			default = yes
+			cancel_if_invalid = no
+
+			ai_will_do = { factor = 0 }
+		}
+
+		low_economic_mobilisation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea low_economic_mobilisation" }
+			on_remove = { set_variable = { previous_economic_law = token:low_economic_mobilisation } }
+			level = 4
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				has_war_support > 0.15
+			}
+
+			modifier = {
+				unit_limit_factory_bonus = 0.1
+				consumer_goods_factor = 0.3
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				fuel_gain_factor = -0.25
+			}
+
+			ai_will_do = { factor = 600 }
+		}
+
+		partial_economic_mobilisation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea partial_economic_mobilisation" }
+			on_remove = { set_variable = { previous_economic_law = token:partial_economic_mobilisation } }
+			level = 3
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				has_war_support > 0.25
+			}
+
+			modifier = {
+				unit_limit_factory_bonus = 0.2
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
+			}
+
+			ai_will_do = {
+				factor = 700
+				modifier = { #one step at a time
+					factor = 0
+					NOT = { has_idea = low_economic_mobilisation }
+				}
+			}
+		}
+
+		war_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea war_economy" }
+			on_remove = { set_variable = { previous_economic_law = token:war_economy } }
+			level = 2
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				has_war_support > 0.5
+				has_war = yes
+				any_enemy_country = {
+					ic_ratio = { tag = ROOT ratio > 0.4 }
+				}
+			}
+
+			modifier = {
+				unit_limit_factory_bonus = 0.3
+				consumer_goods_factor = 0.2
+				production_speed_arms_factory_factor = 0.2
+				conversion_cost_civ_to_mil_factor = -0.2
+				conversion_cost_mil_to_civ_factor = -0.2
+			}
+
+			ai_will_do = {
+				factor = 60
+				modifier = { #one step at a time
+					factor = 0
+					NOT = { has_idea = partial_economic_mobilisation }
+				}
+				modifier = {
+					factor = 20
+					manpower_per_military_factory > 3000
+				}
+			}
+		}
+
+		tot_economic_mobilisation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tot_economic_mobilisation" }
+			on_remove = { set_variable = { previous_economic_law = token:tot_economic_mobilisation } }
+			level = 1
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				has_war = yes
+				has_war_support > 0.8
+				any_enemy_country = {
+					ic_ratio = { tag = ROOT ratio > 0.5 }
+				}
+			}
+
+			modifier = {
+				unit_limit_factory_bonus = 0.4
+				consumer_goods_factor = 0.10
+				conscription = -0.03
+				production_speed_arms_factory_factor = 0.3
+				conversion_cost_civ_to_mil_factor = -0.3
+				conversion_cost_mil_to_civ_factor = -0.3
+			}
+
+			ai_will_do = {
+				factor = 10
+				modifier = { #one step at a time
+					factor = 0
+					NOT = { has_idea = war_economy }
+				}
+				modifier = { #don't increase if it would drop conscription to zero
+					factor = 0
+					OR = {
+						target_conscription_amount < 0.03
+						manpower_per_military_factory < 10000
+					}
+				}
+				modifier = { #Weight will overly overtake war economy if the AI has plenty of manpower
+					factor = 100
+					manpower_per_military_factory > 15000
+				}
+			}
+		}
+	}
+
+	trade_laws = {
+		law = yes
+		use_list_view = yes
+
+		uncontrolled_exports = {
+
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = isolation
+
+			modifier = {
+				min_export = 0.25
+				consumer_goods_factor = 0.05
+				civilian_intel_to_others = 40.0
+				navy_intel_to_others = 40.0
+				agency_upgrade_time = 0.15
+			}
+
+			allowed_to_remove = {
+				OR = {
+					has_war = yes
+					has_completed_focus = POL_integrate_gdansk_industries
+					has_completed_focus = POL_expand_gdynia_seaport
+					NOT = {
+						owns_state = 85
+						owns_state = 807
+					}
+					any_owned_state = {
+						NOT = {
+							state = 85
+							state = 807
+						}
+						is_coastal = yes
+					}
+				}
+			}
+
+			on_remove = {
+				effect_tooltip =  {
+					remove_dynamic_modifier = { modifier = international_city }
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							tag = POL
+							85 = { is_demilitarized_zone = no }
+							has_civil_war = no 
+						}
+						85 = {
+							if = {
+								limit = {
+									has_dynamic_modifier = { modifier = international_city }
+								}
+								remove_dynamic_modifier = { modifier = international_city }
+							}
+						}
+					}
+				}
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		free_trade = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea free_trade" }
+			on_remove = { set_variable = { previous_trade_law = token:free_trade } }
+			level = 4
+
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.1
+				civilian_intel_to_others = 40.0
+				navy_intel_to_others = 20.0
+			}
+
+			ai_will_do = {
+				factor = 0.5
+				modifier = {
+					check_variable = { resource@steel > 0 }
+					add = resource@steel
+				}
+				modifier = {
+					check_variable = { resource@oil > 0 }
+					add = resource@oil
+				}
+				modifier = {
+					check_variable = { resource@rubber > 0 }
+					add = resource@rubber
+				}
+				modifier = {
+					check_variable = { resource@aluminium > 0 }
+					add = resource@aluminium
+				}
+				modifier = {
+					check_variable = { resource@tungsten > 0 }
+					add = resource@tungsten
+				}
+				modifier = {
+					check_variable = { resource@chromium > 0 }
+					add = resource@chromium
+				}
+			}
+		}
+
+		export_focus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea export_focus" }
+			on_remove = { set_variable = { previous_trade_law = token:export_focus } }
+			level = 3
+
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+				civilian_intel_to_others = 20.0
+				navy_intel_to_others = 10.0
+			}
+
+			default = yes
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					check_variable = { resource_produced@steel > 0 }
+
+					subtract_from_temp_variable = { steel_deficit = resource@steel }
+					add = steel_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@oil > 0 }
+
+					subtract_from_temp_variable = { oil_deficit = resource@oil }
+					add = oil_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@rubber > 0 }
+
+					subtract_from_temp_variable = { rubber_deficit = resource@rubber }
+					add = rubber_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@aluminium > 0 }
+
+					subtract_from_temp_variable = { aluminium_deficit = resource@aluminium }
+					add = aluminium_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@tungsten > 0 }
+
+					subtract_from_temp_variable = { tungsten_deficit = resource@tungsten }
+					add = tungsten_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@chromium > 0 }
+
+					subtract_from_temp_variable = { chromium_deficit = resource@chromium }
+					add = chromium_deficit
+				}
+			}
+		}
+
+		limited_exports = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea limited_exports" }
+			on_remove = { set_variable = { previous_trade_law = token:limited_exports } }
+			level = 2
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				OR = {
+					has_idea = partial_economic_mobilisation
+					has_idea = war_economy
+					has_idea = tot_economic_mobilisation
+				}
+			}
+
+			modifier = {
+				min_export = 0.25
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.01
+				civilian_intel_to_others = 10.0
+				navy_intel_to_others = 5
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					is_major = no #only majors should choose limited exports
+				}
+				modifier = {
+					factor = 0
+					is_in_faction = yes #don't screw over your allies
+				}
+				modifier = {
+					factor = 0
+					has_war = no #if at peace, prioritise the bonuses
+				}
+				modifier = {
+					check_variable = { resource_produced@steel > 0 }
+
+					subtract_from_temp_variable = { steel_deficit = resource@steel }
+					add = steel_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@oil > 0 }
+
+					subtract_from_temp_variable = { oil_deficit = resource@oil }
+					add = oil_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@rubber > 0 }
+
+					subtract_from_temp_variable = { rubber_deficit = resource@rubber }
+					add = rubber_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@aluminium > 0 }
+
+					subtract_from_temp_variable = { aluminium_deficit = resource@aluminium }
+					add = aluminium_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@tungsten > 0 }
+
+					subtract_from_temp_variable = { tungsten_deficit = resource@tungsten }
+					add = tungsten_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@chromium > 0 }
+
+					subtract_from_temp_variable = { chromium_deficit = resource@chromium }
+					add = chromium_deficit
+				}
+			}
+		}
+
+		closed_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea closed_economy" }
+			on_remove = { set_variable = { previous_trade_law = token:closed_economy } }
+			level = 1
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				has_war = yes
+				OR = {
+					has_idea = war_economy
+					has_idea = tot_economic_mobilisation
+				}
+			}
+
+			modifier = {
+				min_export = 0
+				custom_modifier_tooltip = closed_economy_TT
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					is_major = no #only majors should choose limited exports
+				}
+				modifier = {
+					factor = 0
+					is_in_faction = yes #don't screw over your allies
+				}
+				modifier = {
+					factor = 0
+					has_war = no #if at peace, prioritise the bonuses
+				}
+				modifier = {
+					check_variable = { resource_produced@steel > 0 }
+
+					subtract_from_temp_variable = { steel_deficit = resource@steel }
+					add = steel_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@oil > 0 }
+
+					subtract_from_temp_variable = { oil_deficit = resource@oil }
+					add = oil_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@rubber > 0 }
+
+					subtract_from_temp_variable = { rubber_deficit = resource@rubber }
+					add = rubber_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@aluminium > 0 }
+
+					subtract_from_temp_variable = { aluminium_deficit = resource@aluminium }
+					add = aluminium_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@tungsten > 0 }
+
+					subtract_from_temp_variable = { tungsten_deficit = resource@tungsten }
+					add = tungsten_deficit
+				}
+				modifier = {
+					check_variable = { resource_produced@chromium > 0 }
+
+					subtract_from_temp_variable = { chromium_deficit = resource@chromium }
+					add = chromium_deficit
+				}
+			}
+		}
+	}
+}

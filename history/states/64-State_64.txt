@@ -1,0 +1,33 @@
+
+state={
+	id=64
+	name="STATE_64"
+	manpower=6000000
+	state_category=city
+
+	resources={
+		tungsten = 5
+		steel = 2
+		aluminium = 10
+	}
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 2
+		}
+
+	}
+
+	provinces={
+		131 1715 2230 7118 12422 13700 13708 13731 13779 13782 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

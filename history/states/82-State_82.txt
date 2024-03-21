@@ -1,0 +1,28 @@
+
+state={
+	id=82
+	name="STATE_82"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+
+		buildings = {
+			infrastructure = 2
+			10392 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		10392 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

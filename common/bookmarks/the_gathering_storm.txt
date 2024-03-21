@@ -1,0 +1,98 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1953.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SRD"
+		default = yes
+		
+		"ARC"={
+			history = "ARC_GATHERING_STORM_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"LSP"={
+			history = "LSP_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AGN"={
+			history = "AGN_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SRD"={
+			history = "SRD_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas={
+				SRD_motto
+				SRD_rumburg
+				SRD_bff_threat
+			}
+			focuses = {
+				SRD_declare_emergency_focus
+				SRD_reform_const_focus
+				SRD_purple_blood_focus
+			}
+		}
+		"RUM"={
+			history = "RUM_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				RUM_rumburg
+				RUM_minor_sanctions
+				RUM_alone
+			}	
+			focuses = {
+				RUM_empire_focus
+				RUM_status_focus
+				RUM_republic_focus
+			}		
+		}
+		"VLG"={
+			history = "VLG_GATHERING_STORM_DESC"
+			ideology = reformist_socialist
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"FSR"={
+			history = "FSR_GATHERING_STORM_DESC"
+			ideology = revolutionary_socialist
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+########## MINOR COUNTRIES ###############
+		"WHL"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+########################################
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

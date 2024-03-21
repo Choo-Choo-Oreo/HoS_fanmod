@@ -1,0 +1,224 @@
+﻿add_namespace = srd
+#Election#
+country_event = {
+	type = country_event
+	id = srd.1
+	title = srd.election.t
+	desc = srd.election.d
+	picture = GFX_report_event_election_vote
+
+	trigger = {
+		tag = SRD
+		date > 1954.1.1
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = {
+		name = srd.election.a
+			custom_effect_tooltip = SRD_election_tt
+		hidden_effect = {
+			complete_national_focus = SRD_elections_focus
+			promote_character = SRD_Anton
+			retire_character = SRD_Alphy
+			SRD = { country_event = { id = srd.3 days = 25 } }
+		}
+	}
+	option = {
+		name = srd.election.b
+			custom_effect_tooltip = SRD_election2_tt
+			add_timed_idea = { idea = SRD_confusion days = 150 }
+		hidden_effect = {
+			set_politics = { 
+			ruling_party = liberal
+			elections_allowed = yes
+			}
+				add_popularity = {  
+				ideology = liberal
+				popularity = 0.1
+			}
+			complete_national_focus = SRD_elections_focus
+			promote_character = SRD_Anton
+			retire_character = SRD_Alphy
+			SRD = { country_event = { id = srd.3 days = 25 } }
+		}
+	}
+}
+#Declare Emergency#
+country_event = {
+	type = country_event
+	id = srd.2
+	title = srd.2.t
+	desc = srd.2.d
+	picture = GFX_report_event_tur_ataturk_impassioned_speech
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+
+		option = {
+		name = srd.2.a
+			custom_effect_tooltip = SRD_emergency_tt
+			add_popularity = {  
+				ideology = revolutionary_socialist
+				popularity = -0.1
+			}
+			add_popularity = {  
+				ideology = reformist_socialist
+				popularity = -0.1
+			}
+		hidden_effect = {
+		set_politics = { 
+			ruling_party = authoritarian_democrat
+			elections_allowed = no
+			election_frequency = 60
+		}
+		retire_character = SRD_tory
+		promote_character = SRD_AntonEmergency
+            remove_country_leader_trait = anton
+            add_country_leader_trait = temppowers
+            add_country_leader_trait = antonpuppet
+	    }
+    }
+}
+#Circas Dies#
+country_event = {
+	type = country_event
+	id = srd.3
+	title = srd.3.t
+	desc = srd.3.d
+	picture = GFX_report_event_worker_protests
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = {
+		name = srd.3.a
+			custom_effect_tooltip = SRD_circas_tt
+			add_ideas = SRD_unrest2
+		hidden_effect = {
+			SRD = { country_event = { id = srd.4 days = 125 } }
+			remove_ideas = SRD_unrest
+		}
+	}
+}
+#BFF gets ready#
+country_event = {
+	type = country_event
+	id = srd.4
+	title = srd.4.t
+	desc = srd.4.d
+	picture = GFX_report_event_fascist_militia
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = {
+		name = srd.4.a
+			custom_effect_tooltip = SRD_bergia_control_tt
+			add_ideas = SRD_bff_threat2
+		hidden_effect = {
+			remove_ideas = SRD_bff_threat
+			remove_state_core = 50
+			50 = {
+			start_resistance = yes
+			set_resistance = 10
+			}
+			remove_state_core = 49
+			49 = {
+			start_resistance = yes
+			set_resistance = 10
+			}
+			remove_state_core = 52
+			52 = {
+			start_resistance = yes
+			set_resistance = 10
+			}
+			remove_state_core = 45
+			45 = {
+			start_resistance = yes
+			set_resistance = 10
+			}
+			remove_state_core = 139
+			139 = {
+			start_resistance = yes
+			set_resistance = 10
+			}
+		}
+	}
+}
+#Hawker#
+country_event = {
+	type = country_event
+	id = srd.5
+	title = srd.5.t
+	desc = srd.5.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = { #harsh!#
+		name = srd.5.a
+			add_political_power = -5
+		hidden_effect = {
+			SRD = { set_country_flag = harsh_emergency }
+		}
+	}
+	option = {
+		name = srd.5.b #harsnt#
+			add_political_power = -5
+		hidden_effect = {
+		}
+	}
+}
+#NEWUSP#
+country_event = {
+	type = country_event
+	id = srd.6
+	title = srd.6.t
+	desc = srd.6.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = {
+		name = srd.6.a
+			custom_effect_tooltip = SRD_uspnew_tt
+		hidden_effect = {
+			add_popularity = {  
+				ideology = conservative
+				popularity = -0.8
+			}
+		}
+	}
+}

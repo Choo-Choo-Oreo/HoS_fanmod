@@ -1,0 +1,38 @@
+
+state={
+	id=24
+	name="STATE_24"
+	manpower=8000000
+	state_category=city
+
+	resources={
+		oil = 6
+		tungsten = 2
+		steel = 10
+	}
+
+	history={
+		owner = WHL
+		add_core_of = WHL
+		add_core_of = BFF
+
+		victory_points = {
+			5878 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		403 2212 2231 2914 2941 3176 3564 5461 5878 6793 6819 7104 7251 8232 8409 8525 8709 8902 10311 10610 11493 11502 11653 12257 16667 16712 16758 16770 16789 16809 16906 16907 16918 17001 17029 17046 17168 17204 17215 17281 17306 17340 17341 17355 17397 17430 17431 17432 17454 17541 17542 17566 17612 17638 17678 17730 17731 17779 17826 17860 17940 17976 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=176
+	name="STATE_176"
+	manpower=7000000
+	state_category=town
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		280 3117 3818 4656 5839 6438 6807 7032 7530 7902 8228 9334 9529 9724 9920 11013 11298 11556 11917 11996 12386 16482 16550 16621 16690 16749 16803 16815 16927 16949 16960 17000 17037 17066 17067 17079 17090 17163 17211 17349 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

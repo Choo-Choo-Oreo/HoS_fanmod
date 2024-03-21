@@ -1,0 +1,37 @@
+
+state={
+	id=135
+	name="STATE_135"
+	manpower=200000
+	state_category=metropolis
+
+	history={
+		owner = NEQ
+		add_core_of = NEQ
+
+		victory_points = {
+			9174 23 
+		}
+
+		buildings = {
+			infrastructure = 3
+			9174 = {
+				naval_base = 2
+
+			}
+			22527 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		197 4133 4425 5197 5708 7710 9174 21767 21777 21783 21794 21801 21804 21822 21848 22527 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

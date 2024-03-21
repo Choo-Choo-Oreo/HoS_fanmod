@@ -1,0 +1,62 @@
+
+state={
+	id=171
+	name="STATE_171"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = XLN
+		add_core_of = XLN
+
+		victory_points = {
+			9824 20 
+		}
+		victory_points = {
+			4247 30 
+		}
+		victory_points = {
+			22250 20 
+		}
+		victory_points = {
+			10063 20 
+		}
+		victory_points = {
+			9273 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			22250 = {
+				naval_base = 6
+
+			}
+			9824 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		123 340 423 452 574 768 857 991 993 1001 1173 1332 1405 1428 1511 1601 1743 1758 2175 2411 2445 2849 3019 3077 3155 3529 3620 3643 3993 4162 4192 4247 4286 4335 4784 5117 5169 5221 5518 6039 6870 6914 7822 8236 8527 8857 9099 9154 9190 9273 9415 9817 9824 9907 10063 10740 10749 10837 11002 11224 12363 22162 22198 22207 22221 22223 22230 22246 22250 22255 22256 22261 22267 22268 22278 22282 22287 22302 22305 22306 22319 22335 22340 22348 22545 29805 29813 30233 30234 30235 30238 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

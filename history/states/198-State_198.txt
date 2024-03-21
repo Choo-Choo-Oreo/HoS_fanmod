@@ -1,0 +1,56 @@
+
+state={
+	id=198
+	name="STATE_198"
+
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = FCO
+		add_core_of = FCO
+
+		victory_points = {
+			7364 30 
+		}
+		victory_points = {
+			2725 27 
+		}
+		victory_points = {
+			12106 25 
+		}
+		victory_points = {
+			22181 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 4
+			air_base = 7
+			dockyard = 1
+			4224 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		162 195 216 277 399 490 524 550 685 701 740 838 900 998 1050 1483 1613 1753 1918 2037 2105 2115 2144 2244 2335 2505 2559 2562 2621 2651 2725 3080 3267 3306 3311 3330 3479 3610 3617 3761 4218 4224 4527 4752 4777 5046 5324 5391 5550 5738 5751 5800 5843 5923 5982 6197 6351 6601 6828 6856 7202 7222 7286 7364 7718 8261 8661 9206 9465 9962 10321 10488 11237 11693 12026 12106 12175 12299 22142 22150 22175 22181 22195 22196 22208 22219 22232 22233 22271 22272 22273 22281 22290 22291 22292 22293 22308 22312 22317 22334 22338 22344 22351 22356 22375 22376 22378 30236 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=39
+	name="STATE_39"
+	manpower=3632100
+	state_category=metropolis
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			8351 50 
+		}
+		victory_points = {
+			8789 19 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 10
+
+		}
+
+	}
+
+	provinces={
+		8231 8351 8789 16529 16671 16731 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

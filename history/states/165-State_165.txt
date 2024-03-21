@@ -1,0 +1,31 @@
+
+state={
+	id=165
+	name="STATE_165"
+	manpower=12000000
+	state_category=city
+
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			17392 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		259 2646 2962 3128 3170 3910 6093 7139 7225 7252 9284 10430 10826 11738 12351 16879 17065 17153 17175 17258 17274 17275 17289 17361 17362 17392 17412 17423 17439 17440 17448 17499 17509 17510 17534 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

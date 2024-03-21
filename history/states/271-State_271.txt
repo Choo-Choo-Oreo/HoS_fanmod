@@ -1,0 +1,55 @@
+
+state={
+	id=271
+	name="STATE_271"
+	manpower=6000000
+	state_category=city
+
+	resources={
+		tungsten = 1
+		steel = 3
+		chromium = 2
+	}
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+		victory_points = {
+			4226 29 
+		}
+		victory_points = {
+			10329 24 
+		}
+		victory_points = {
+			1514 22 
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			4226 = {
+				naval_base = 6
+
+			}
+			10329 = {
+				naval_base = 4
+
+			}
+			1514 = {
+				naval_base = 5
+
+			}
+		}
+	}
+
+	provinces={
+		243 469 1414 1514 1830 1910 2250 2602 2737 3005 3192 3240 3512 3660 3930 4068 4226 4978 5439 5729 5787 6020 6930 7744 8916 9766 10203 10329 10935 11689 11803 12306 12308 12320 12471 21853 21859 21872 21888 21921 21935 21966 21968 21988 21998 22006 22020 22029 22041 22052 22066 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}

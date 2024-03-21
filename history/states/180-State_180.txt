@@ -1,0 +1,41 @@
+
+state={
+	id=180
+	name="STATE_180"
+	manpower=2000000
+	state_category=town
+
+	history={
+		owner = GDS
+		add_core_of = GDS
+
+		buildings = {
+			infrastructure = 2
+			22557 = {
+				naval_base = 1
+
+			}
+			22556 = {
+				naval_base = 2
+
+			}
+			22554 = {
+				naval_base = 2
+
+			}
+			6564 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6564 22554 22556 22557 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

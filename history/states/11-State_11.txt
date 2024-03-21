@@ -1,0 +1,36 @@
+
+state={
+	id=11
+	name="STATE_11"
+	manpower=3560000
+	state_category=city
+
+	resources={
+		aluminium = 2
+		tungsten = 1
+		chromium = 3
+	}
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+			3326 = {
+				naval_base = 6
+
+			}
+		}
+	}
+
+	provinces={
+		307 310 328 426 886 2251 2683 2829 3326 3813 4252 4390 4447 4480 6299 6813 6907 6970 7371 7399 7473 8203 8613 8932 9317 10223 10314 10450 10779 11168 12626 14199 14252 14295 14315 14403 14422 14459 14483 14530 14563 14600 14601 14613 14633 14654 14692 14704 14714 14715 14752 14787 14876 15032 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

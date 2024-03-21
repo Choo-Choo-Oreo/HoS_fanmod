@@ -1,0 +1,39 @@
+
+state={
+	id=120
+	name="STATE_120"
+	manpower=12000000
+	state_category=large_city
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		victory_points = {
+			11484 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			11484 = {
+				naval_base = 6
+
+			}
+			19820 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+	provinces={
+		344 681 1249 2294 3530 4297 4463 4600 6104 6525 6772 7455 10102 10647 11378 11484 12071 12093 19141 19315 19368 19464 19480 19541 19550 19569 19570 19634 19714 19744 19819 19820 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=14
+	name="STATE_14"
+	manpower=1132100
+	state_category = large_city
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			11286 30
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 5
+			dockyard = 1
+			11286 ={
+				naval_base = 8
+			}
+		}
+
+	}
+
+	provinces={
+		1564 1624 3914 4410 4831 5237 6123 7068 8893 10881 11286 11465 13872 13886 13942 13947 14025 14048 14111 14130 14218 14242 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

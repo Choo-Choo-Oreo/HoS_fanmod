@@ -1,0 +1,27 @@
+state={
+	id=78
+	name="STATE_78"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		buildings = {
+			infrastructure = 2
+			18548 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		18471 18548 18624 
+	}
+
+	buildings_max_level_factor=1.000
+}

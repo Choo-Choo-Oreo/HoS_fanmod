@@ -1,0 +1,42 @@
+
+state={
+	id=28
+	name="STATE_28"
+	manpower=12000000
+	state_category=metropolis
+
+	resources={
+		tungsten = 2
+		steel = 15
+	}
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+
+		victory_points = {
+			13852 30 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 7
+			dockyard = 1
+			13852 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2257 2407 5555 5777 11090 13814 13852 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=92
+	name="STATE_92"
+	manpower=60000000
+	state_category=large_city
+
+	resources={
+		aluminium = 8
+		tungsten = 5
+	}
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		victory_points = {
+			10030 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		432 1219 1640 1768 3687 4728 6398 6504 7654 8561 10030 10190 10810 10870 11116 12025 12232 12383 12653 17282 17384 17419 17460 17492 17516 17517 17581 17643 17666 17667 17751 17752 17793 17875 17907 17921 17941 17953 18002 18043 18055 18095 18124 30197 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

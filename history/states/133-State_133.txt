@@ -1,0 +1,30 @@
+
+state={
+	id=133
+	name="STATE_133"
+	manpower=7000000
+	state_category=city
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			18395 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		1094 1472 1831 2949 4213 4992 6952 7437 7854 9013 11573 18161 18162 18200 18225 18256 18274 18321 18394 18395 18486 18487 18488 18532 18533 18562 18602 18720 18730 18874 18882 18893 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

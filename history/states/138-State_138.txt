@@ -1,0 +1,48 @@
+
+state={
+	id=138
+	name="STATE_138"
+	manpower=2332100
+	state_category=large_city
+
+	resources={
+		aluminium=3
+		steel=1
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			15996 30 
+		}
+		victory_points = {
+			15423 28 
+		}
+		victory_points = {
+			3561 21 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			air_base = 6
+			15996 = {
+				naval_base = 5
+			}
+			15423 = {
+				naval_base = 4
+			}
+
+		}
+
+	}
+
+	provinces={
+		582 2980 3561 5858 6243 8350 9697 9719 10256 11024 12514 15322 15356 15423 15709 15827 15996 16040 16117 16152 16281 16313 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=109
+	name="STATE_109"
+	manpower=20000000
+	state_category=large_city
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		victory_points = {
+			18019 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		187 942 2148 2556 3119 3134 4476 5826 5888 6163 6240 6602 7175 7220 7936 8191 10090 10116 10281 10395 11878 11924 12502 17691 17732 17759 17806 17876 17932 18011 18012 18019 18083 18117 18171 18207 18219 18230 18290 18387 18478 18583 18595 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

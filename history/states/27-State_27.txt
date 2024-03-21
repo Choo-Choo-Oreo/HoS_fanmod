@@ -1,0 +1,29 @@
+state={
+	id=27
+	name="STATE_27"
+	manpower=3200000
+	state_category=metropolis
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+		victory_points = {
+			14396 50 
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 10
+		}
+	}
+
+	provinces={
+		766 14396 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

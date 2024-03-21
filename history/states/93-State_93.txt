@@ -1,0 +1,41 @@
+
+state={
+	id=93
+	name="STATE_93"
+	manpower=2300000
+	state_category=metropolis
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_claim_by = RIZ
+
+
+		victory_points = {
+			21309 30 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			21309 = {
+				naval_base = 2
+
+			}
+			21397 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		479 1379 6984 8375 9916 21277 21309 21310 21322 21323 21346 21358 21377 21397 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

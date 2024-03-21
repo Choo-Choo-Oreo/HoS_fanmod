@@ -1,0 +1,35 @@
+state={
+	id=30
+	name="STATE_30"
+	manpower=2432556
+	state_category=large_city
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+		add_core_of = VLG
+
+		victory_points = {
+			11361 35 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 7
+			dockyard = 1
+			11361 = {
+				naval_base = 9
+
+			}
+
+		}
+
+	}
+	provinces={
+		530 6605 11361 14189 14310 14502 
+	}
+
+	buildings_max_level_factor=1.000
+}

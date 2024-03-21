@@ -1,0 +1,46 @@
+
+state={
+	id=268
+	name="STATE_268"
+	manpower=3200000
+	state_category=metropolis
+
+	resources={
+		rubber = 12
+		chromium = 4
+	}
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+		victory_points = {
+			11374 30 
+		}
+		victory_points = {
+			8582 24 
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+			8582 = {
+				naval_base = 6
+
+			}
+			8424 = {
+				naval_base = 4
+
+			}
+		}
+	}
+	provinces={
+		346 375 1998 3138 3692 5258 5615 6164 6999 7511 7643 8424 8503 8582 8835 9083 9859 10645 11374 11957 21764 21832 21834 21849 21854 21857 21860 21879 21883 21908 21917 21954 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

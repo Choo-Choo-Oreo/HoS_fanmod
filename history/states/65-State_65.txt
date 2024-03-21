@@ -1,0 +1,32 @@
+
+state={
+	id=65
+	name="STATE_65"
+	manpower=34567
+	state_category = rural
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			22486 2
+		}
+
+		buildings = {
+			infrastructure = 1
+			22486 = {
+				naval_base = 1
+
+			}
+		}
+	}
+
+	provinces={
+		22486 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}

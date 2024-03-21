@@ -1,0 +1,41 @@
+
+state={
+	id=196
+	name="STATE_196"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 20
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = GDS
+		add_core_of = GDS
+
+		victory_points = {
+			2206 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+
+		}
+
+	}
+
+	provinces={
+		265 679 907 1106 1554 1874 2206 2297 2327 2921 3709 4142 4541 5833 5987 6038 6960 7685 11431 22407 22429 22433 22444 22452 22457 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

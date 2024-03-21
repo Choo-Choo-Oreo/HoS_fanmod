@@ -1,0 +1,31 @@
+characters = {
+	BFF_BFF = {
+		name = "BFF Council" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BFF/BFF_Placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_subtype
+			traits={ no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+	BFF_Ejall = {
+		name = "Fetih Ejall" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BFF/FetihEjall_Placeholder.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			traits={ contana_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

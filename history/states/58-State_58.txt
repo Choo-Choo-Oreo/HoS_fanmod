@@ -1,0 +1,41 @@
+
+state={
+	id=58
+	name="STATE_58"
+	manpower=300000
+	state_category=town
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+		buildings = {
+			infrastructure = 3
+			22491 = {
+				naval_base = 2
+
+			}
+			17658 = {
+				naval_base = 2
+
+			}
+			22496 = {
+				naval_base = 1
+
+			}
+			22497 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		10951 17658 17886 17896 22490 22491 22492 22493 22494 22496 22497 22501 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

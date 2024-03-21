@@ -1,0 +1,34 @@
+
+state={
+	id=106
+	name="STATE_106"
+	manpower=832100
+	state_category=town
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			17827 23 
+		}
+		victory_points = {
+			4627 3 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		30 546 931 1682 1914 2780 2978 3091 3456 4627 7498 8193 9143 9397 10096 10527 11307 11316 11369 11757 12007 12649 17131 17195 17218 17284 17308 17324 17378 17434 17477 17478 17544 17545 17598 17624 17679 17693 17717 17780 17794 17827 17923 18045 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

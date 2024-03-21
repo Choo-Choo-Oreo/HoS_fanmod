@@ -1,0 +1,26 @@
+
+state={
+	id=12
+	name="STATE_12"
+	manpower=12000000
+	state_category=town
+
+	history={
+		owner = RUM
+		add_core_of = RUM
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		995 1175 1650 2129 2550 2791 2826 2943 3438 4265 5190 7305 10803 11067 11897 12082 12608 13380 13403 13426 13444 13500 13594 13605 13625 13652 13686 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

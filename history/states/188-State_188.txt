@@ -1,0 +1,47 @@
+
+state={
+	id=188
+	name="STATE_188"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = KAE
+		add_core_of = KAE
+
+		victory_points = {
+			1627 30 
+		}
+		victory_points = {
+			1936 25 
+		}
+		victory_points = {
+			1872 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+
+		}
+
+	}
+
+	provinces={
+		102 122 234 433 448 520 747 874 1002 1079 1099 1304 1527 1627 1745 1856 1872 1923 1936 1954 2014 2024 2104 2138 2143 2188 2356 2377 2530 2666 3443 3577 3672 4005 4047 4137 4431 4446 4614 4878 4931 5032 5057 5095 5248 5254 5456 5459 5786 5816 6102 6189 6190 6201 8071 8269 8517 8643 8651 8735 8763 9466 9489 10195 10236 10367 11858 12263 22309 22314 22320 22331 22332 22352 22363 22367 22381 22386 22389 22401 22406 22419 22421 22427 22430 22431 22439 22440 22458 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

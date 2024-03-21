@@ -1,0 +1,18 @@
+
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		67 846 877 1352 1846 2063 2124 2648 3706 3850 4723 5648 5988 7146 8299 8647 8792 11466 12117 13070 13134 13145 13167 13179 13196 13217 13222 13240 13279 13280 13332 13375 
+	}
+	manpower=3400000
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	history={
+		owner = FSR
+		add_core_of = FSR
+
+	}
+}

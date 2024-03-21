@@ -1,0 +1,18 @@
+
+state={
+	id=276
+	name="STATE_276"
+	provinces={
+		2655 2830 4485 4886 5119 5332 5781 6191 8119 8146 8541 8618 8706 8806 9981 11074 11517 11810 12382 14907 14991 15105 15106 15136 15272 15410 15529 15539 15640 15663 
+	}
+	manpower=4100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+
+	history={
+		owner = FSR
+		add_core_of = FSR
+
+	}
+}

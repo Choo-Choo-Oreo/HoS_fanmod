@@ -1,0 +1,34 @@
+
+state={
+	id=104
+	name="STATE_104"
+	manpower=1760000
+	state_category=town
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+
+		victory_points = {
+			8596 22 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			8596 = {
+				naval_base = 6
+
+			}
+		}
+	}
+
+	provinces={
+		1068 2075 2629 2728 3472 4283 5074 5502 5658 5832 6769 7882 8204 8596 8913 9270 11054 11204 11233 11661 12657 13548 13575 13759 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

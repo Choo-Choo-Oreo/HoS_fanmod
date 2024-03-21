@@ -1,0 +1,16 @@
+characters = {
+	ERD_Mikel = {
+		name = "Mikel III de Cartorys" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_mikel
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits={ erdmarg_royal erdmarg_king no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

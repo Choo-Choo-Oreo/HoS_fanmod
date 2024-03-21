@@ -1,0 +1,41 @@
+
+state={
+	id=53
+	name="STATE_53"
+	manpower=932100
+	state_category=city
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			5299 26 
+		}
+		victory_points = {
+			17978 14 
+		}
+		victory_points = {
+			2668 9 
+		}
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			dockyard = 1
+			5299 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2668 3342 3612 4111 5051 5299 6599 8088 9056 17645 17705 17760 17828 17955 17978 18021 18096 18118 18208 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

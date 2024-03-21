@@ -1,0 +1,48 @@
+
+state={
+	id=224
+	name="STATE_224"
+	manpower=7700000
+	state_category=metropolis
+
+	resources={
+		oil = 40
+		aluminium = 40
+		rubber = 40
+		tungsten = 40
+		steel = 40
+		chromium = 40
+	}
+
+	history={
+		owner = FSR
+		add_core_of = FSR
+
+		victory_points = {
+			12601 30 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 10
+			dockyard = 2
+			16969 = {
+				naval_base = 3
+			}
+			5765 = {
+				naval_base = 3
+			}
+
+		}
+
+	}
+
+	provinces={
+		343 1526 1584 2211 2571 3193 3777 3844 4212 4902 4911 5001 5267 5711 5765 6056 6139 6493 6538 7267 7570 7884 7958 8470 8572 8881 8911 9695 10008 10204 10718 10819 11523 11617 11998 12350 12601 15285 15440 15461 15495 15600 15662 15727 15744 15757 15851 15852 15853 15867 15898 15967 16066 16120 16140 16187 16226 16358 16397 16476 16543 16576 16683 16716 16798 16862 16969 16998 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

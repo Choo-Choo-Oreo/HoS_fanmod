@@ -1,0 +1,36 @@
+
+state={
+	id=48
+	name="STATE_48"
+	manpower=2132100
+	state_category=metropolis
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			15458 30 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 8
+			dockyard = 2
+			15458 = {
+				naval_base = 10
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3400 4495 6206 6845 8540 9066 9200 15369 15458 15768 15850 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

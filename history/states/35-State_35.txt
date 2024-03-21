@@ -1,0 +1,49 @@
+
+state={
+	id=35
+	name="STATE_35"
+	manpower=2000000
+	state_category=town
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		buildings = {
+			infrastructure = 2
+			14436 = {
+				naval_base = 2
+
+			}
+			22483 = {
+				naval_base = 2
+
+			}
+			22482 = {
+				naval_base = 2
+
+			}
+			22484 = {
+				naval_base = 2
+
+			}
+			14931 = {
+				naval_base = 2
+
+			}
+			15449 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		756 1033 1114 6864 7528 8271 9254 11188 14045 14170 14186 14354 14436 14931 15449 15578 22482 22483 22484 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

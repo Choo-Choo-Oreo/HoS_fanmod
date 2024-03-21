@@ -1,0 +1,36 @@
+
+state={
+	id=147
+	name="STATE_147"
+	manpower=132100
+	state_category = rural
+
+	resources={
+		chromium=2
+		steel = 1
+		oil = 4
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			3205 6
+		}
+
+		buildings = {
+			infrastructure = 1
+			fuel_silo = 1
+			synthetic_refinery = 1
+		}
+
+	}
+
+	provinces={
+		941 1153 2010 2042 2120 2471 2569 2592 3205 4464 4585 4821 5623 5780 6015 6155 7726 9153 9216 10101 11118 11634 11727 11910 12219 14860 15123 15124 15145 15236 15237 15251 15270 15309 15456 15477 15506 15582 15599 15647 15739 15919 15994 16028 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

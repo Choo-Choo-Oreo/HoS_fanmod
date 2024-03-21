@@ -1,0 +1,34 @@
+
+state={
+	id=44
+	name="STATE_44"
+	manpower=632100
+	state_category = town
+
+	resources={
+		chromium=2
+		steel = 1
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			15583 12
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		2442 2859 3401 5273 5286 5302 5795 6740 6843 7852 9478 9838 9976 11262 11347 11766 12153 12328 15092 15198 15310 15342 15395 15457 15583 15627 15708 15726 15754 15812 15836 15863 15878 15944 15995 16018 16053 16116 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

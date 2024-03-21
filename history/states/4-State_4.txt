@@ -1,0 +1,53 @@
+state={
+	id=4
+	name="STATE_4"
+	manpower=5560000
+	state_category=metropolis
+
+	resources={
+		aluminium = 12
+		steel = 15
+		chromium = 2
+	}
+
+	history={
+		owner = NRD
+		add_core_of = NRD
+
+		victory_points = {
+			12813 30 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 4
+			dockyard = 3
+
+			12813 = {
+				naval_base = 5
+
+			}
+			4000 = {
+				naval_base = 4
+
+			}
+			12783 = {
+				naval_base = 5
+
+			}
+			12860 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		172 196 210 350 379 696 808 1089 1115 1148 1191 1264 1329 1354 1424 1599 1911 2384 3268 3276 3375 3828 3872 4000 4230 4314 4367 5079 5720 5801 5874 6055 6467 7532 7720 7875 7886 8863 9073 9470 9655 10789 11105 12195 12360 12680 12728 12751 12755 12783 12813 12818 12821 12860 12865 
+	}
+
+	buildings_max_level_factor=1.000
+}

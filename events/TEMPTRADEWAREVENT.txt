@@ -1,0 +1,26 @@
+
+add_namespace = tradewar
+
+country_event = {
+	id = tradewar.1
+	title = tradewar.1.t
+	desc = tradewar.1.d
+	picture = GFX_report_event_ast_navy
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 80
+	}
+
+	trigger = {
+		tag = NYB
+	}
+	
+	option = {
+		name = tradewar.1.a
+		hidden_effect = {
+			country_event = { days = 1 id = news.1}
+		}
+	}
+}

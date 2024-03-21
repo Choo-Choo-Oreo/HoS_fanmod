@@ -1,0 +1,47 @@
+
+state={
+	id=252
+	name="STATE_252"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 20
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = FSD
+		add_core_of = FSD
+
+		victory_points = {
+			22380 20 
+		}
+		victory_points = {
+			22413 30 
+		}
+		victory_points = {
+			3542 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+
+		}
+
+	}
+
+	provinces={
+		80 134 417 480 567 576 578 587 643 721 887 1066 1185 1202 1206 1298 1355 1569 1681 1994 2061 2073 2157 2345 2346 2405 2546 2813 3542 3572 3637 3817 3854 3957 4660 4667 5446 5947 5953 6323 6562 6956 7155 7269 8552 9992 10040 10532 11048 11084 12603 22242 22259 22274 22277 22283 22286 22300 22322 22329 22343 22354 22357 22360 22366 22373 22380 22403 22413 22418 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=249
+	name="STATE_249"
+	manpower=952100
+	state_category= large_city
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+		victory_points = {
+			4193 23 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+
+		}
+
+	}
+
+	provinces={
+		1217 3214 4107 4193 8386 10413 10616 10953 11519 21820 21833 21865 21901 21914 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

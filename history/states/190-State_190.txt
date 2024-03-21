@@ -1,0 +1,53 @@
+
+state={
+	id=190
+	name="STATE_190"
+	manpower=30000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = SHN
+		add_core_of = SHN
+
+		victory_points = {
+			7216 20 
+		}
+		victory_points = {
+			5483 30 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			6076 = {
+				naval_base = 6
+
+			}
+			11250 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		272 363 385 456 1203 1364 1716 1902 1942 2127 2378 2483 2614 2940 2944 3014 3317 4709 4960 4974 5255 5483 5857 6076 6640 6666 6951 7216 7490 7560 7618 7836 7857 8125 8406 8694 9260 9384 9477 9561 9752 9774 9955 9996 10192 10487 10698 10956 10977 10980 11250 12062 21797 21818 21830 21831 21837 21839 21844 21856 21858 21868 21878 21885 21897 21900 21903 21920 21950 21982 21992 22021 22026 22039 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

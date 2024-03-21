@@ -1,0 +1,36 @@
+
+state={
+	id=3
+	name="STATE_3"
+	manpower=12000000
+	state_category=metropolis
+
+	resources={
+		oil = 2
+		aluminium = 10
+	}
+
+	history={
+		owner = WHL
+		add_core_of = WHL
+
+		victory_points = {
+			18103 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		8 703 1139 2842 2893 3050 6643 7694 8100 8133 8159 9421 10041 11533 11769 11999 12113 12244 17540 17580 17677 17778 17792 17874 17906 17920 17991 18001 18054 18067 18103 18217 18237 18271 30199 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=140
+	name="STATE_140"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = LSY
+		add_core_of = LSY
+
+		buildings = {
+			infrastructure = 2
+			6903 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+
+	provinces={
+		6903 
+	}
+
+	buildings_max_level_factor=1.000
+}

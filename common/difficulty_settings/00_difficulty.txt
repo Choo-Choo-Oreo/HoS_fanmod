@@ -1,0 +1,50 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "Strengthen Arcasia"
+		modifier = diff_strong_ai_generic
+		countries = { ARC }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen United Contana"
+		modifier = diff_strong_ai_generic
+		countries = { FSR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Rumburg"
+		modifier = diff_strong_ai_generic
+		countries = { RUM }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Lespia"
+		modifier = diff_strong_ai_generic
+		countries = { LSP }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Valgsland"
+		modifier = diff_strong_ai_generic
+		countries = { VLG }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Agnolia"
+		modifier = diff_strong_ai_generic
+		countries = { AGN }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Sordland"
+		modifier = diff_strong_ai_generic
+		countries = { SRD }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "Strengthen Wehlen"
+		modifier = diff_strong_ai_generic
+		countries = { WHL }
+		multiplier = 2.0
+	}
+}

@@ -1,0 +1,139 @@
+﻿add_namespace = rum
+#Tensions#
+country_event = {
+	type = country_event
+	id = rum.1
+	title = rum.t
+	desc = rum.d
+	picture = GFX_report_event_fascist_gathering
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = {
+		name = rum.a
+		add_stability = -0.02
+		custom_effect_tooltip = RUM_chess.tt
+	}
+}
+#QueenMove#
+country_event = {
+	type = country_event
+	id = rum.2
+	title = rum.suspend.t
+	desc = rum.suspend.d
+	picture = GFX_report_event_generic_riot
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = { #Kingdom
+		name = rum.suspend.a
+			add_stability = -0.1
+			custom_effect_tooltip = RUM_kingdom_tt
+			hidden_effect = {
+				add_popularity = {  
+				ideology = liberal
+				popularity = -0.2
+			}
+				add_popularity = {  
+				ideology = paternal_autocrat
+				popularity = 0.05
+			}
+			remove_country_leader_trait = parliament_low
+		}
+	}
+
+	option = { #Republic
+		name = rum.suspend.b
+			add_war_support = -0.1
+			custom_effect_tooltip = RUM_republic_tt
+			set_politics = { 
+			ruling_party = liberal
+			elections_allowed = yes
+			election_frequency = 75
+			}
+			set_cosmetic_tag = RUM_REPUBLIC
+			Remove_ideas = RUM_mic
+			hidden_effect = {
+				add_popularity = {  
+				ideology = authoritarian_democrat
+				popularity = -0.2
+			}
+				add_popularity = {  
+				ideology = liberal
+				popularity = 0.2
+			}
+		}
+	}
+}
+
+#ParliamentMove#
+country_event = {
+	type = country_event
+	id = rum.3
+	title = rum.defundmil.t
+	desc = rum.defundmil.d
+	picture = GFX_report_event_bul_boris_military
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		hour = 1
+	}
+	
+	option = { #Constitutional
+		name = rum.defundmil.a
+			add_stability = 0.1
+			custom_effect_tooltip = RUM_constitution_tt
+			Remove_ideas = RUM_mic
+			set_politics = { 
+			ruling_party = conservative
+			elections_allowed = yes
+			election_frequency = 80
+			}
+			hidden_effect = {
+				add_popularity = {  
+				ideology = conservative
+				popularity = 0.2
+			}
+				add_popularity = {  
+				ideology = authoritarian_democrat
+				popularity = -0.2
+			}
+		}
+	}
+
+	option = { #Coup
+		name = rum.defundmil.b
+			add_war_support = 0.1
+			custom_effect_tooltip = RUM_coup_tt
+			set_politics = { 
+			ruling_party = paternal_autocrat
+			elections_allowed = no
+			election_frequency = 75
+			}
+			hidden_effect = {
+				add_popularity = {  
+				ideology = authoritarian_democrat
+				popularity = -0.2
+			}
+				add_popularity = {  
+				ideology = paternal_autocrat
+				popularity = 0.3
+			}
+		}
+	}
+}

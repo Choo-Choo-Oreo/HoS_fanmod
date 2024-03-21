@@ -1,0 +1,37 @@
+
+state={
+	id=265
+	name="STATE_265"
+	manpower=2000000
+	state_category=town
+
+	history={
+		owner = SHM
+		add_core_of = SHM
+
+		buildings = {
+			infrastructure = 2
+			22543 = {
+				naval_base = 1
+
+			}
+			6402 = {
+				naval_base = 2
+
+			}
+			4636 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4636 6402 22543 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

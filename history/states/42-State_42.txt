@@ -1,0 +1,37 @@
+
+state={
+	id=42
+	name="STATE_42"
+	manpower=42000000
+	state_category=town
+
+	resources={
+		oil = 26
+		steel = 5
+		chromium = 2
+	}
+
+	history={
+		owner = WHL
+		add_core_of = WHL
+
+
+		victory_points = {
+			3452 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1125 1189 2239 2463 3452 4130 4774 4887 5410 5805 6301 7626 7690 8027 8168 9804 9923 10403 10455 10805 11078 11505 11928 12012 12046 12415 12541 18687 18766 18837 18920 18971 18984 19132 19238 19324 19432 19433 19616 19733 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

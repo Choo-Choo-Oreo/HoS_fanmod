@@ -1,0 +1,33 @@
+
+state={
+	id=262
+	name="STATE_262"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = RYR
+		add_core_of = RYR
+
+		buildings = {
+			infrastructure = 2
+			22553 = {
+				naval_base = 2
+
+			}
+			22555 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		22553 22555 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

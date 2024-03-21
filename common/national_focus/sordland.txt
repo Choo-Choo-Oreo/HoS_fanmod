@@ -1,0 +1,2994 @@
+﻿focus_tree = {
+	id = sordland_focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SRD
+		}
+	}
+	
+	default = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	focus = {
+		id = SRD_aftermath_of_tradewar
+		icon = GFX_focus_generic_coastal_fort
+		x = 8
+		y = 0
+		cost = 8
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		available = { has_idea = GEN_tradewar_economy_spirit }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = GEN_tradewar_focus_tt
+			swap_ideas = {
+				remove_idea = GEN_tradewar_economy_spirit
+				add_idea = GEN_tradewar_economy_spirit_2
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+			}
+		}
+###################################### PRIVATISATION ############################################
+	focus = {
+		id = SRD_market_economy_focus
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = SRD_aftermath_of_tradewar }
+		mutually_exclusive = { focus = SRD_mixed_economy_focus focus = SRD_planned_economy_focus }
+		available = {
+			OR = {
+				has_government = social_democratic
+				has_government = liberal
+				has_government = conservative
+				has_government = authoritarian_democrat
+			}
+		}
+		x = -8
+		y = 1
+		relative_position_id = SRD_aftermath_of_tradewar
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = GEN_free_market_tt
+			swap_ideas = {
+				remove_idea = GEN_tradewar_economy_spirit_2
+				add_idea = GEN_privatisation_spirit
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_business_subsidies_focus
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = SRD_market_economy_focus }
+		x = -1
+		y = 1
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -20
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_tax_breaks_focus
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = SRD_market_economy_focus }
+		x = 1
+		y = 1
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.02
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = SRD_relax_regulations_focus
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = SRD_business_subsidies_focus }
+		prerequisite = { focus = SRD_tax_breaks_focus }
+		x = 0
+		y = 2
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_relaxed_regulations
+		}
+	}
+
+	focus = {
+		id = SRD_private_industrial_complex_focus
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = SRD_relax_regulations_focus }
+		available = {
+			has_completed_focus = SRD_initiate_privatisation_focus
+		}
+		x = -1
+		y = 3
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_initiate_privatisation_focus
+		icon = GFX_focus_hol_the_foundations_of_defense
+		prerequisite = { focus = SRD_relax_regulations_focus }
+		prerequisite = { focus = SRD_arcasian_investments_focus }
+		x = 1
+		y = 3
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GEN_privatisation_spirit
+				add_idea = GEN_privatisation_spirit_2
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_competative_markets_focus
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = SRD_initiate_privatisation_focus }
+		mutually_exclusive = { focus = SRD_cooperative_markets_focus }
+		x = 3
+		y = 4
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_competative_economy
+		}
+	}
+
+	focus = {
+		id = SRD_cooperative_markets_focus
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = SRD_initiate_privatisation_focus }
+		prerequisite = { focus = SRD_initiate_privatisation_focus focus = SRD_private_industrial_complex_focus }
+		mutually_exclusive = { focus = SRD_competative_markets_focus }
+		x = 0
+		y = 4
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_cooperative_economy
+		}
+	}
+
+	focus = {
+		id = SRD_recovered_market_economy_focus
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus = SRD_cooperative_markets_focus focus = SRD_competative_markets_focus }
+		x = 1
+		y = 5
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GEN_privatisation_spirit_2
+				add_idea = GEN_privatisation_spirit_3
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_trade_west_focus
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = SRD_market_economy_focus focus = SRD_mixed_economy_focus }
+		available = {
+			NOT = {
+			has_government = revolutionary_socialist
+			has_government = reformist_socialist
+			has_government = paternal_autocrat
+			has_government = reactionary_nationalist
+			}
+		}
+		mutually_exclusive = { focus = SRD_trade_east_focus focus = SRD_trade_nobody_focus }
+		x = 4
+		y = 1
+		relative_position_id = SRD_market_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = free_trade
+			custom_effect_tooltip = GEN_arcasia_tt
+		}
+	}
+
+	focus = {
+		id = SRD_private_education_focus
+		icon = GFX_focus_research2
+		prerequisite = { focus = SRD_trade_west_focus }
+		x = 5
+		y = 2
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = SRD_arcasian_investments_focus
+		icon = GFX_focus_mex_privatisation
+		prerequisite = { focus = SRD_trade_west_focus }
+		prerequisite = { focus = SRD_tax_breaks_focus focus = SRD_trade_west_focus }
+		x = 3
+		y = 2
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = { idea = GEN_arcasian_aid_spirit days = 230 }
+		}
+	}
+
+	focus = {
+		id = SRD_private_infrastracture_project_focus
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = SRD_relax_regulations_focus }
+		prerequisite = { focus = SRD_arcasian_investments_focus }
+		available = {
+			has_completed_focus = SRD_initiate_privatisation_focus
+		}
+		x = 3
+		y = 3
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip = {
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_political_power = 20
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_private_industrial_project_focus
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = SRD_arcasian_investments_focus focus = SRD_fiscal_economic_policy_focus }
+		available = {
+			OR = {
+				has_completed_focus = SRD_initiate_privatisation_focus
+				has_completed_focus = SRD_small_scale_privatisation_focus
+			}
+		}
+
+		x = 5
+		y = 4
+		relative_position_id = SRD_market_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+	completion_reward = {
+			add_political_power = 10
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+###################################### NATIONALISATION ############################################
+	focus = {
+		id = SRD_planned_economy_focus
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SRD_aftermath_of_tradewar }
+		mutually_exclusive = { focus = SRD_mixed_economy_focus focus = SRD_market_economy_focus }
+		available = {
+			OR = {
+				has_government = revolutionary_socialist
+				has_government = reformist_socialist
+				has_government = authoritarian_democrat
+				has_government = paternal_autocrat
+				has_government = reactionary_nationalist
+			}
+		}
+		x = 8
+		y = 1
+		relative_position_id = SRD_aftermath_of_tradewar
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_nationalisation_focus_tt
+			swap_ideas = {
+				remove_idea =GEN_tradewar_economy_spirit_2
+				add_idea = GEN_nationalisation_spirit
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_trade_east_focus
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = SRD_planned_economy_focus focus = SRD_mixed_economy_focus }
+		available = {
+			OR = {
+			has_government = revolutionary_socialist
+			has_government = reformist_socialist
+			}
+		}
+		mutually_exclusive = { focus = SRD_trade_west_focus focus = SRD_trade_nobody_focus }
+		x = -4
+		y = 1
+		relative_position_id = SRD_planned_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = export_focus
+			custom_effect_tooltip = GEN_contana_tt
+		}
+	}
+
+	focus = {
+		id = SRD_peoples_universities_focus
+		icon = GFX_focus_generic_socialist_science
+		prerequisite = { focus = SRD_trade_east_focus }
+		x = -5
+		y = 2
+		relative_position_id = SRD_planned_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = SRD_public_works_focus
+		icon = GFX_focus_SOV_organize_wreckers
+		prerequisite = { focus = SRD_planned_economy_focus }
+		x = 1
+		y = 1
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.03
+			add_manpower = 2784
+			add_political_power = -15
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_tax_increase_focus
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = SRD_planned_economy_focus }
+		x = -1
+		y = 1
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -150
+			add_timed_idea = { idea = GEN_increased_taxes days = 240 }
+		}
+	}
+
+	focus = {
+		id = SRD_state_control_over_economy_focus
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = SRD_public_works_focus }
+		prerequisite = { focus = SRD_tax_increase_focus }
+		x = 0
+		y = 2
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_increase_state_control
+		}
+	}
+
+	focus = {
+		id = SRD_military_industrial_complex_focus
+		icon = GFX_focus_generic_manpower
+		prerequisite = { focus = SRD_state_control_over_economy_focus }
+		available = {
+			has_completed_focus = SRD_initiate_nationalisation_focus
+		}
+		x = 1
+		y = 3
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_initiate_nationalisation_focus
+		icon = GFX_focus_spr_class_war
+		prerequisite = { focus = SRD_state_control_over_economy_focus }
+		x = -1
+		y = 3
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GEN_nationalisation_spirit
+				add_idea = GEN_nationalisation_spirit_2
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_party_controlled_economy_focus
+		icon = GFX_focus_POL_complete_april_constitution
+		prerequisite = { focus = SRD_initiate_nationalisation_focus }
+		mutually_exclusive = { focus = SRD_state_controlled_economy_focus }
+		x = -3
+		y = 4
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_party_economy
+		}
+	}
+
+	focus = {
+		id = SRD_state_controlled_economy_focus
+		icon = GFX_focus_POL_warsaw_main_station
+		prerequisite = { focus = SRD_initiate_nationalisation_focus }
+		prerequisite = { focus = SRD_initiate_nationalisation_focus focus = SRD_military_industrial_complex_focus }
+		mutually_exclusive = { focus = SRD_party_controlled_economy_focus }
+		x = 0
+		y = 4
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GEN_state_economy
+		}
+	}
+
+	focus = {
+		id = SRD_recovered_planned_economy_focus
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = SRD_party_controlled_economy_focus focus = SRD_state_controlled_economy_focus }
+		x = -1
+		y = 5
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GEN_nationalisation_spirit_2
+				add_idea = GEN_nationalisation_spirit_3
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_contanan_investments_focus
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		prerequisite = { focus = SRD_trade_east_focus }
+		prerequisite = { focus = SRD_tax_increase_focus focus = SRD_trade_east_focus }
+		x = -3
+		y = 2
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = { idea = GEN_contanan_aid_spirit days = 230 }
+		}
+	}
+
+	focus = {
+		id = SRD_infrastracture_project_focus
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = SRD_state_control_over_economy_focus }
+		available = {
+			has_completed_focus = SRD_initiate_nationalisation_focus
+		}
+		x = -3
+		y = 3
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_industrial_project_focus
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = SRD_state_control_over_economy_focus focus = SRD_austerity_measures_focus }
+		available = {
+			OR = {
+				has_completed_focus = SRD_initiate_nationalisation_focus
+				has_completed_focus = SRD_cut_welfare_spending_focus
+			}
+		}
+
+		x = -5
+		y = 4
+		relative_position_id = SRD_planned_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -10
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+###################################### MIXED ############################################
+	focus = {
+		id = SRD_mixed_economy_focus
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = SRD_aftermath_of_tradewar }
+		mutually_exclusive = { focus = SRD_market_economy_focus focus = SRD_planned_economy_focus }
+		available = {
+			NOT = { has_government = revolutionary_socialist }
+			NOT = { has_government = reformist_socialist }
+		}
+		x = 0
+		y = 1
+		relative_position_id = SRD_aftermath_of_tradewar
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = GEN_balanced_focus_tt
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = SRD_trade_nobody_focus
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = SRD_mixed_economy_focus focus = SRD_planned_economy_focus }
+		mutually_exclusive = { focus = SRD_trade_west_focus focus = SRD_trade_east_focus }
+		available = {
+			OR = {
+			has_government = authoritarian_democrat
+			has_government = paternal_autocrat
+			has_government = reactionary_nationalist
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = limited_exports
+			custom_effect_tooltip = GEN_alone_tt
+		}
+	}
+
+	focus = {
+		id = SRD_education_focus
+		icon = GFX_focus_research
+		prerequisite = { focus = SRD_trade_nobody_focus }
+		prerequisite = { focus = SRD_trade_nobody_focus focus = SRD_tax_increase_focus }
+		x = 0
+		y = 2
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = SRD_austerity_measures_focus
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = SRD_trade_nobody_focus }
+		mutually_exclusive = { focus = SRD_fiscal_economic_policy_focus}
+		available = {
+			has_completed_focus = SRD_mixed_economy_focus
+		}
+		x = 1
+		y = 3
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.1
+			swap_ideas = {
+				remove_idea = GEN_tradewar_economy_spirit_2
+				add_idea = GEN_mixed_spirit
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_fiscal_economic_policy_focus
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = SRD_trade_west_focus }
+		prerequisite = { focus = SRD_mixed_economy_focus }
+		mutually_exclusive = { focus = SRD_austerity_measures_focus}
+		x = -1
+		y = 3
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = GEN_tradewar_economy_spirit_2
+				add_idea = GEN_mixed_spirit
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_small_scale_privatisation_focus
+		icon = GFX_focus_hol_the_foundations_of_defense
+		prerequisite = { focus = SRD_fiscal_economic_policy_focus }
+		x = -1
+		y = 4
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 25
+			swap_ideas = {
+				remove_idea = GEN_mixed_spirit
+				add_idea = GEN_mixed_spirit_2
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_shared_factory_ownership_focus
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRD_small_scale_privatisation_focus }
+		x = -1
+		y = 5
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 10
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_cut_welfare_spending_focus
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = SRD_austerity_measures_focus }
+		x = 1
+		y = 4
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -25
+			add_stability = -0.02
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_state_autarky_focus
+		icon = GFX_goal_reichsautobahn
+		prerequisite = { focus = SRD_cut_welfare_spending_focus }
+		x = 1
+		y = 5
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GEN_mixed_spirit
+				add_idea = GEN_mixed_spirit_2
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_recovered_mixed_economy_focus
+		icon = GFX_focus_generic_industry_2
+		prerequisite = { focus = SRD_state_autarky_focus focus = SRD_shared_factory_ownership_focus }
+		x = 0
+		y = 6
+		relative_position_id = SRD_mixed_economy_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GEN_mixed_spirit_2
+				add_idea = GEN_mixed_spirit_3
+			}
+		}
+	}
+###################################### MILITARY ############################################
+
+	focus = {
+		id = SRD_general_staff_focus
+		icon = GFX_goal_generic_build_tank
+		x = 43
+		y = 0
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 2
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			navy_experience = 2
+			add_doctrine_cost_reduction = {
+				name = naval_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+			air_experience = 2
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_armed_forces_focus
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = SRD_general_staff_focus }
+		x = -5
+		y = 1
+		relative_position_id = SRD_general_staff_focus
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 10
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_equipment_effort_focus
+		icon = GFX_goal_generic_occupy_start_war
+		prerequisite = { focus = SRD_armed_forces_focus }
+		x = -2
+		y = 1
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_motorization_effort_focus
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = SRD_armed_forces_focus }
+		bypass = { has_tech = motorised_infantry }
+		x = 2
+		y = 1
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 3.0
+				technology = motorised_infantry
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_doctrine_effort_focus
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = SRD_armed_forces_focus }
+		x = 0
+		y = 1
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_equipment_effort_2_focus
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = SRD_equipment_effort_focus }
+		x = -2
+		y = 2
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_mechanization_effort_focus
+		icon = GFX_focus_generic_truck
+		prerequisite = { focus = SRD_motorization_effort_focus }
+		x = 2
+		y = 2
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_doctrine_effort_2_focus
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = SRD_doctrine_effort_focus }
+		x = 0
+		y = 2
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_equipment_effort_3_focus
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = SRD_equipment_effort_2_focus }
+		x = -2
+		y = 3
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_armor_effort_focus
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = SRD_mechanization_effort_focus }
+		x = 2
+		y = 3
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_doctrine_effort_3_focus
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = SRD_doctrine_effort_2_focus }
+		x = 0
+		y = 3
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_special_forces_focus
+		icon = GFX_focus_eng_special_air_service
+		prerequisite = { focus = SRD_equipment_effort_3_focus }
+		prerequisite = { focus = SRD_doctrine_effort_3_focus }
+		prerequisite = { focus = SRD_armor_effort_focus }
+		x = 0
+		y = 4
+		relative_position_id = SRD_armed_forces_focus
+		cost = 8
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_navy_focus
+		icon = GFX_goal_generic_build_navy
+		prerequisite = { focus = SRD_general_staff_focus }
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = SRD_general_staff_focus
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_NAVY_XP }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 10
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}	
+		}
+	}
+
+	focus = {
+		id = SRD_flexible_navy
+		icon = GFX_goal_generic_build_navy
+		prerequisite = { focus = SRD_navy_focus }
+		mutually_exclusive = { focus = SRD_large_navy }
+		x = -1
+		y = 1
+		relative_position_id = SRD_navy_focus
+		cost = 8
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_large_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = SRD_navy_focus }
+		mutually_exclusive = { focus = SRD_flexible_navy }
+		x = 1
+		y = 1
+		relative_position_id = SRD_navy_focus
+		cost = 8
+		
+		search_filters = {   FOCUS_FILTER_RESEARCH }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_submarine_effort
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = SRD_flexible_navy focus = SRD_large_navy }
+		x = -1
+		y = 2
+		relative_position_id = SRD_navy_focus
+		cost = 8
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_cruiser_effort
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = { focus = SRD_large_navy focus = SRD_flexible_navy }
+		x = 1
+		y = 2
+		relative_position_id = SRD_navy_focus
+		cost = 8
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_destroyer_effort
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = SRD_submarine_effort }
+		x = -1
+		y = 3
+		relative_position_id = SRD_navy_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_capital_ships_effort
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = SRD_cruiser_effort }
+		x = 1
+		y = 3
+		relative_position_id = SRD_navy_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_airforce_focus
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { focus = SRD_general_staff_focus }
+		x = 5
+		y = 1
+		relative_position_id = SRD_general_staff_focus
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_AIR_XP }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 10
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = SRD_airforce_focus }
+		mutually_exclusive = { focus = SRD_bomber_focus }
+		x = -1
+		y = 1
+		relative_position_id = SRD_airforce_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_bomber_focus
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = SRD_airforce_focus }
+		mutually_exclusive = { focus = fighter_focus }
+		x = 1
+		y = 1
+		relative_position_id = SRD_airforce_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_aviation_effort_2
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = SRD_bomber_focus focus = SRD_fighter_focus }
+		x = 1
+		y = 2
+		relative_position_id = SRD_airforce_focus
+		cost = 8
+
+		search_filters = {   FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		complete_tooltip = {
+			air_experience = 25
+			if = { limit = { has_country_flag = aviation_effort_2_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name =  air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+		completion_reward = {
+			air_experience = 25
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							NOT = { is_controlled_by = ROOT }
+							NOT = {
+								free_building_slots = {
+									building = air_base
+									size > 1
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_2_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}				
+					ROOT = { set_country_flag = aviation_effort_2_AB }
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name =  air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_CAS_effort
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = SRD_fighter_focus }
+		prerequisite = { focus = SRD_bomber_bonus }
+		x = -1
+		y = 2
+		relative_position_id = SRD_airforce_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_rocket_effort
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = SRD_aviation_effort_2 }
+		prerequisite = { focus = SRD_CAS_effort }
+		x = 0
+		y = 3
+		relative_position_id = SRD_airforce_focus
+		cost = 8
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+	}
+###################################### POLITICAL ############################################
+
+	focus = {
+		id = SRD_elections_focus
+		icon = GFX_focus_SRD_elections
+		x = 26
+		y = 0
+		cost = 8
+
+		available = {
+			date > 1954.1.1
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_temp_tt
+		}
+	}
+
+############################ REFORM ###
+
+	focus = {
+		id = SRD_reform_focus
+		icon = GFX_goal_support_democracy
+		x = -4
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_elections_focus
+
+		prerequisite = { focus = SRD_elections_focus }
+
+		mutually_exclusive = { focus = SRD_dictator_focus focus = SRD_emergency_focus }
+
+		available = {
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.08
+			add_popularity = {  
+				ideology = conservative
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_reform_usp_focus
+		icon = GFX_goal_generic_improve_relations
+		x = -1
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_focus }
+
+		mutually_exclusive = { focus = SRD_emergency_focus focus = SRD_dictator_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_usp_tt
+			add_popularity = {  
+				ideology = conservative
+				popularity = 0.02
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_reform_pfjp_focus
+		icon = GFX_goal_generic_improve_relations
+		x = 1
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_pfjp_tt
+			add_popularity = {  
+				ideology = liberal
+				popularity = 0.02
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_reform_const_focus
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 2
+		cost = 12
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_usp_focus }
+		prerequisite = { focus = SRD_reform_pfjp_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_demconst_tt
+			swap_ideas = {
+				remove_idea = SRD_soll_constitution
+				add_idea = SRD_democratic_constitution
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_reform_mra_focus
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 3
+		cost = 10
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_const_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power	= 200
+			add_stability = 0.07
+		}
+	}
+
+	focus = {
+		id = SRD_reform_zone_focus
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 1
+		y = 4
+		cost = 15
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_mra_focus }
+		prerequisite = { focus = SRD_reconcile_focus }
+
+		mutually_exclusive = { focus = SRD_abolish_zone_focus focus = SRD_maintain_zone_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_zonegood_tt
+			add_stability = 0.06
+			remove_ideas = SRD_bff_threat2
+			hidden_effect = {
+			add_state_core = 50
+			add_state_core = 49
+			add_state_core = 52
+			add_state_core = 45
+			add_state_core = 139
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_reform_democracy_focus
+		icon = GFX_goal_generic_demand_territory
+		x = -1
+		y = 4
+		cost = 8
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_mra_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = SRD_unrest2
+		}
+	}
+
+	focus = {
+		id = SRD_reform_lespia_focus
+		icon = GFX_goal_generic_major_alliance
+		x = 0
+		y = 5
+		cost = 8
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_zone_focus }
+		prerequisite = { focus = SRD_reform_democracy_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power	= 75
+			custom_effect_tooltip = SRD_west_tt
+			add_country_leader_trait = arcasia_friend
+			hidden_effect = {
+			remove_country_leader_trait = no_friend
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_reform_ato_focus
+		icon = GFX_goal_generic_alliance
+		x = 0
+		y = 6
+		cost = 8
+
+		relative_position_id = SRD_reform_focus
+
+		prerequisite = { focus = SRD_reform_lespia_focus }
+
+		mutually_exclusive = { focus = SRD_neutrality_focus focus = SRD_purple_blood_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			ARC = { add_to_faction = SRD }
+		}
+	}
+
+############################## EMERGECY ###
+
+	focus = {
+		id = SRD_emergency_focus
+		icon = GFX_focus_usa_voter_registration_act
+		x = 0
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_elections_focus
+
+		prerequisite = { focus = SRD_elections_focus }
+
+		mutually_exclusive = { focus = SRD_reform_focus focus = SRD_dictator_focus }
+
+		available = {
+			has_idea = SRD_unrest2
+			NOT = {
+			has_government = liberal
+			}
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_anton_emergency_tt
+			add_political_power = -20
+			add_popularity = {  
+				ideology = authoritarian_democrat
+				popularity = 0.02
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_emergency_court_focus
+		icon = GFX_focus_generic_court
+		x = 0
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_emergency_focus
+
+		prerequisite = { focus = SRD_emergency_focus }
+
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = srd.5
+		}
+	}
+
+	focus = {
+		id = SRD_declare_emergency_focus
+		icon = GFX_focus_SWI_dissolve_the_federal_council
+		x = 0
+		y = 2
+		cost = 8
+
+		relative_position_id = SRD_emergency_focus
+
+		prerequisite = { focus = SRD_emergency_court_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = srd.2
+		}
+	}
+
+	focus = {
+		id = SRD_reconcile_focus
+		icon = GFX_goal_generic_major_alliance
+		x = -1
+		y = 3
+		cost = 8
+
+		relative_position_id = SRD_emergency_focus
+
+		prerequisite = { focus = SRD_declare_emergency_focus focus = SRD_reform_const_focus }
+
+		mutually_exclusive = { focus = SRD_oppress_focus }
+
+		available = {
+			NOT = {
+				has_country_flag = harsh_emergency
+			}
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = SRD_oppress_focus
+		icon = GFX_focus_generic_support_the_left_right
+		x = 1
+		y = 3
+		cost = 8
+
+		relative_position_id = SRD_emergency_focus
+
+		prerequisite = { focus = SRD_declare_emergency_focus focus = SRD_dictator_const_focus }
+
+		mutually_exclusive = { focus = SRD_reconcile_focus }
+
+		available = {
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = SRD_maintain_zone_focus
+		icon = GFX_focus_generic_self_management
+		x = 0
+		y = 4
+		cost = 14
+
+		relative_position_id = SRD_emergency_focus
+
+		prerequisite = { focus = SRD_reconcile_focus focus = SRD_oppress_focus }
+
+		mutually_exclusive = { focus = SRD_abolish_zone_focus focus = SRD_reform_zone_focus }
+
+		available = {
+			NOT = {
+			has_government = liberal
+			}
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_military_tt
+			add_timed_idea = { idea = SRD_military_in_bergia days = 250 }
+			swap_ideas = {
+				remove_idea = SRD_bff_threat2
+				add_idea = SRD_bff_threat
+			}
+			hidden_effect = {
+			add_state_core = 50
+			add_state_core = 49
+			add_state_core = 52
+			add_state_core = 45
+			add_state_core = 139
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_legacy_focus
+		icon = GFX_goal_generic_defence
+		x = 0
+		y = 5
+		cost = 8
+
+		relative_position_id = SRD_emergency_focus
+
+		prerequisite = { focus = SRD_maintain_zone_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = SRD_soll_legacy
+			custom_effect_tooltip = SRD_sollgacy_tt
+			hidden_effect = {
+			remove_ideas = SRD_unrest2
+			add_timed_idea = { idea = SRD_unrest3 days = 240 }
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_neutrality_focus
+		icon = GFX_goal_generic_neutrality_focus
+		x = 0
+		y = 6
+		cost = 8
+
+		relative_position_id = SRD_emergency_focus
+
+		prerequisite = { focus = SRD_legacy_focus focus = SRD_reform_lespia_focus focus = SRD_usp_supremacy_focus }
+
+		mutually_exclusive = { focus = SRD_reform_ato_focus focus = SRD_purple_blood_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = neutrality_idea
+		}
+	}
+
+############################################ DICTATOR ####
+
+	focus = {
+		id = SRD_dictator_focus
+		icon = GFX_goal_generic_political_pressure
+		x = 4
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_elections_focus
+
+		prerequisite = { focus = SRD_elections_focus }
+
+		mutually_exclusive = { focus = SRD_reform_focus focus = SRD_emergency_focus }
+
+		available = {
+			NOT = {
+			has_government = liberal
+			}
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.02
+			add_popularity = {  
+				ideology = conservative
+				popularity = -0.05
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_dictator_usp_focus
+		icon = GFX_goal_tripartite_pact
+		x = -1
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_dictator_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_uspdic_tt
+			add_popularity = {  
+				ideology = conservative
+				popularity = -0.08
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_dictator_nfp_focus
+		icon = GFX_goal_tripartite_pact
+		x = 1
+		y = 1
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_dictator_focus }
+
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_nfpdic_tt
+			add_popularity = {  
+				ideology = reactionary_nationalist
+				popularity = 0.08
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_dictator_const_focus
+		icon = GFX_focus_generic_military_mission
+		x = 0
+		y = 2
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_dictator_usp_focus }
+		prerequisite = { focus = SRD_dictator_nfp_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_dictconst_tt
+			swap_ideas = {
+				remove_idea = SRD_soll_constitution
+				add_idea = SRD_dictator_constitution
+			}
+			add_country_leader_trait = antondictator
+			hidden_effect = {
+			remove_country_leader_trait = anton
+			remove_country_leader_trait = no_friend
+			add_country_leader_trait = no_friend
+			set_politics = { 
+			ruling_party = authoritarian_democrat
+			elections_allowed = yes
+			election_frequency = 60
+		}
+			promote_character = SRD_AntonEmergency
+		}
+		}
+	}
+
+	focus = {
+		id = SRD_new_usp_focus
+		icon = GFX_goal_generic_demand_territory
+		x = -1
+		y = 3
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_dictator_const_focus focus = SRD_declare_emergency_focus }
+
+		mutually_exclusive = { focus = SRD_nfp_ally_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = srd.6
+		}
+	}
+
+	focus = {
+		id = SRD_nfp_ally_focus
+		icon = GFX_focus_generic_fascist_propaganda
+		x = 2
+		y = 3
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_dictator_const_focus }
+
+		mutually_exclusive = { focus = SRD_new_usp_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {  
+				ideology = reactionary_nationalist
+				popularity = 0.08
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_abolish_zone_focus
+		icon = GFX_goal_generic_forceful_treaty
+		x = -2
+		y = 4
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_oppress_focus }
+
+		mutually_exclusive = { focus = SRD_maintain_zone_focus focus = SRD_reform_zone_focus}
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_abolish_tt
+			add_timed_idea = { idea = SRD_bff_threat3 days = 180 }
+		hidden_effect = {
+			remove_ideas = SRD_bff_threat2
+			add_state_core = 50
+			add_state_core = 49
+			add_state_core = 52
+			add_state_core = 45
+			add_state_core = 139
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_usp_supremacy_focus
+		icon = GFX_focus_generic_support_the_left_right
+		x = -1
+		y = 5
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_maintain_zone_focus focus = SRD_abolish_zone_focus }
+		prerequisite = { focus = SRD_new_usp_focus }
+		
+		mutually_exclusive = { focus = SRD_luderin_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = SRD_usp_supremacy
+			add_timed_idea = { idea = SRD_usp_supremacy2 days = 80 }
+			custom_effect_tooltip = SRD_sollgacy_tt
+			hidden_effect = {
+			remove_ideas = SRD_unrest2
+			add_timed_idea = { idea = SRD_unrest3 days = 240 }
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_luderin_focus
+		icon = GFX_goal_support_fascism
+		x = 2
+		y = 5
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_abolish_zone_focus }
+		prerequisite = { focus = SRD_nfp_ally_focus }
+
+		mutually_exclusive = { focus = SRD_usp_supremacy_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = SRD_nfp_supremacy
+			add_timed_idea = { idea = SRD_usp_supremacy2 days = 80 }
+			custom_effect_tooltip = SRD_sollgacy_tt
+			hidden_effect = {
+			remove_ideas = SRD_unrest2
+			add_timed_idea = { idea = SRD_unrest3 days = 240 }
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_purple_blood_focus
+		icon = GFX_focus_generic_military_mission
+		x = 1
+		y = 6
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_luderin_focus focus = SRD_legacy_focus focus = SRD_usp_supremacy_focus }
+
+		mutually_exclusive = { focus = SRD_reform_ato_focus focus = SRD_neutrality_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SRD_empire_tt
+			hidden_effect = {
+			set_politics = { 
+			ruling_party = reactionary_nationalist
+			elections_allowed = no
+			election_frequency = 60
+		}
+			promote_character = SRD_AntonDictator
+		}
+		}
+	}
+
+	focus = {
+		id = SRD_invade_focus
+		icon = GFX_goal_generic_military_deal
+		x = 0
+		y = 7
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_purple_blood_focus }
+
+		available = {
+
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = {
+							type = take_state_focus
+							target = AGN
+							expire = 0
+			}
+		}
+	}
+
+	focus = {
+		id = SRD_federation_focus
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 2
+		y = 7
+		cost = 8
+
+		relative_position_id = SRD_dictator_focus
+
+		prerequisite = { focus = SRD_purple_blood_focus }
+
+		available = {
+			has_completed_focus = SRD_invade_focus
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = { 
+			add_political_power = 100
+			set_cosmetic_tag = SRD_GREATER
+			set_capital = {state = 48}
+			add_stability = 0.1
+			hidden_effect = {
+			add_state_core = 254
+			add_state_core = 80
+			add_state_core = 85
+			add_state_core = 69
+			add_state_core = 253
+			add_state_core = 70
+			add_state_core = 66
+			add_state_core = 28
+			add_state_core = 255
+			add_state_core = 91
+			add_state_core = 64
+			add_state_core = 82
+			add_state_core = 30
+			country_event = { days = 1 id = news.2}
+			}
+		}
+	}
+}

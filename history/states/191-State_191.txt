@@ -1,0 +1,49 @@
+
+state={
+	id=191
+	name="STATE_191"
+	manpower=60000000
+	state_category=metropolis
+
+	resources={
+		oil = 10
+		aluminium = 10
+		rubber = 10
+		tungsten = 10
+		steel = 10
+		chromium = 10
+	}
+
+	history={
+		owner = MWY
+		add_core_of = MWY
+
+		victory_points = {
+			96 20 
+		}
+		victory_points = {
+			2913 30 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			4376 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		96 113 208 297 414 952 1253 1366 1440 1489 1839 1982 2248 2783 2913 3154 3810 3935 4003 4376 4601 4884 5499 5813 6172 6488 7762 7880 7883 10284 11435 22402 22409 22410 22422 22425 22432 22438 22447 22459 30246 30249 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

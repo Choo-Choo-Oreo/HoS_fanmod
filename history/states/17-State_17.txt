@@ -1,0 +1,40 @@
+
+state={
+	id=17
+	name="STATE_17"
+	manpower=22000000
+	state_category=city
+
+	history={
+		owner = WHL
+		add_core_of = RIZ
+
+
+		victory_points = {
+			20085 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			20141 = {
+				naval_base = 4
+
+			}
+			19764 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3776 4717 4910 6791 7124 8041 10262 11214 11516 19690 19764 19795 19863 19890 19891 19983 19984 19987 20071 20085 20092 20141 20151 20175 20188 20197 20262 20346 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

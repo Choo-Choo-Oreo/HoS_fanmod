@@ -1,0 +1,29 @@
+
+state={
+	id=61
+	name="STATE_61"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+		buildings = {
+			infrastructure = 2
+			8300 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2446 8300 16512 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=56
+	name="STATE_56"
+ 	manpower=1132100
+	state_category = city
+
+	resources={
+		chromium=1
+		oil = 2
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			5536 30
+		}
+		victory_points = {
+			14375 6
+		}
+		victory_points = {
+			9937 3
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 5
+			fuel_silo = 1
+		}
+
+	}
+
+	provinces={
+		1683 1961 2093 5536 5639 6759 6850 8172 8361 8580 8711 8815 9009 9358 9937 10020 10152 10587 11143 11478 12226 12530 14375 14402 14448 14561 14623 14805 14825 14935 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

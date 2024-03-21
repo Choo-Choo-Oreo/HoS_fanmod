@@ -1,0 +1,47 @@
+
+state={
+	id=117
+	name="STATE_117"
+	manpower=2300000
+	state_category=metropolis
+
+	resources={
+		oil = 9999
+		aluminium = 9999
+		rubber = 9999
+		tungsten = 9999
+		steel = 9999
+		chromium = 9999
+	}
+
+	history={
+		owner = KYT
+		add_core_of = KYT
+
+		victory_points = {
+			781 30 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			21514 = {
+				naval_base = 2
+
+			}
+			781 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	provinces={
+		781 2396 2570 3899 4715 5346 6881 7266 7763 9883 11796 21291 21331 21347 21365 21430 21442 21514 21529 22518 22522 22524 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

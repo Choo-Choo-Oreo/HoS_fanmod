@@ -1,0 +1,38 @@
+
+state={
+	id=328
+	name="STATE_328"
+	manpower=1132100
+	state_category=town
+
+	resources={
+		steel=3
+		chromium=1
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			17207 14 
+		}
+		victory_points = {
+			17597 12 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		3824 4624 5503 6574 7842 8764 9598 9673 10521 10735 11352 12236 17207 17252 17296 17322 17323 17357 17358 17385 17386 17445 17475 17476 17529 17530 17543 17597 17657 17716 17807 17844 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

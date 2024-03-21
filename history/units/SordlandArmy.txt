@@ -1,0 +1,276 @@
+division_template = {
+	name = "Sordish Rifle Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Sordish Horseback Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      	
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Gendarmerie"
+										
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	is_locked = yes
+}
+
+#################################### UNITS ###########################################
+units = {
+##################### Holsord/Lorren/Gruni #####################
+    division= {
+        name = "1st Strongarm Garrison"
+        location = 8351
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.4
+    }
+    division= {
+        name = "2nd Strongarm Garrison"
+        location = 8351
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.4
+    }
+    division= {
+        name = "1st Jen Division"
+        location = 16936
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "3rd Leiren Division"
+        location = 11511
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "4th Benfi Guard"
+        location = 5299
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "2nd Borin Guard"
+        location = 7184
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "6th Morbel Division"
+        location = 16210
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "Conriat Civil Guard"
+        location = 16054
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+    }
+    division= {
+        name = "Morna Special Division"
+        location = 8746
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.3
+    }
+##################### Gelsland/Lachaven #####################
+	division= {
+        name = "3rd Lachaven Division"
+        location = 15458
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "8th Lachaven Division"
+        location = 6206
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "23nd Gelsord Division"
+        location = 15996
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "Anrica Civil Guard"
+        location = 3561
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+    }
+    division= {
+        name = "10th Gelsord Division"
+        location = 15423
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.3
+    }
+##################### Bergia #####################
+    division= {
+        name = "1st Special Zone Unit"
+        location = 17250
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "2nd Special Zone Unit"
+        location = 16263
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "23nd Bergia Division"
+        location = 7413
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "14st Bergia Division"
+        location = 6798
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+##################### Angland #####################
+    division= {
+        name = "1st Arvory Division"
+        location = 11286
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "7th Lenkurg Division"
+        location = 8698
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+    }
+    division= {
+        name = "Laren Civil Guard"
+        location = 4241
+        division_template = "Sordish Horseback Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "2nd Angland Division"
+        location = 1695
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+    }
+    division= {
+        name = "1st Angland Division"
+        location = 1564
+        division_template = "Sordish Horseback Brigade"
+        start_experience_factor = 0.2
+    }
+##################### Nargis #####################
+    division= {
+        name = "Estord Civil Garrison"
+        location = 5536
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "Holbel Civil Guard"
+        location = 9937
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "1st Nargis Division"
+        location = 14905
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.2
+    }
+    division= {
+        name = "2nd Nargis Division"
+        location = 3205
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "3rd Nargis Division"
+        location = 15238
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.2
+    }
+    division= {
+        name = "4th Nargis Division"
+        location = 15583
+        division_template = "Sordish Rifle Brigade"
+        start_experience_factor = 0.1
+    }
+##################### Gendarmerie #####################
+	
+    division= {
+        name = "1st Gendarmerie Division"
+        location = 9155
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "2nd Gendarmerie Division"
+        location = 17207
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "3rd Gendarmerie Division"
+        location = 17827
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "4th Gendarmerie Division"
+        location = 12610
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.3
+    }
+    division= {
+        name = "5th Gendarmerie Division"
+        location = 7619
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.3
+    }
+    division= {
+        name = "6th Gendarmerie Division"
+        location = 16198
+        division_template = "Gendarmerie"
+        start_experience_factor = 0.3
+    }
+
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=258
+	name="STATE_258"
+	provinces={
+		2137 4389 22280 22546 22552 
+	}
+	manpower=203834
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	history={
+		owner = XLN
+		add_core_of = XLN
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 7
+			dockyard = 2
+			2137 = {
+				naval_base = 6
+
+			}
+			22552 = {
+				naval_base = 6
+
+			}
+			22546 = {
+				naval_base = 6
+
+			}
+			22280 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+}

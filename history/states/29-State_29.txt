@@ -1,0 +1,44 @@
+
+state={
+	id=29
+	name="STATE_29"
+	manpower=5000000
+	state_category=large_city
+
+	resources={
+		oil = 3
+	}
+
+	history={
+		owner = RIZ
+		add_core_of = RIZ
+
+		victory_points = {
+			21219 30 
+		}
+		victory_points = {
+			21042 30 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 7
+			dockyard = 1
+			21390 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		482 879 985 1430 3165 3879 4808 5015 5307 5511 6324 7667 7984 8478 8587 9181 10038 10897 11195 12301 12455 20921 20922 21001 21024 21042 21068 21077 21118 21165 21169 21198 21219 21224 21390 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,95 @@
+characters = {
+	RUM_Beatrice = {
+		name = "Beatrice Livingston" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_beatrice
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits={ ambitious_queen parliament_low no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	RUM_BeatricePatAut = {
+		name = "Beatrice Livingston" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_beatrice
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits={ ambitious_queen no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	RUM_BeatriceCons = {
+		name = "Beatrice Livingston" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_beatrice
+			}
+		}
+		country_leader = {
+			ideology = conservative_subtype
+			traits={ ambitious_queen no_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	RUM_Parliament = {
+		name = "Parliament of Rumburg" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_parliament
+			}
+		}
+		country_leader = {
+			ideology = liberal_subtype
+			traits={ parliament_high }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+	RUM_General2 = {
+		name = "Reginald Matthews" 
+		portraits = {
+			army={
+				large=GFX_portrait_rumburg2
+				small=GFX_portrait_rumburg2
+			}
+		}
+		corps_commander={
+				traits={ politically_connected }
+				skill=1
+				attack_skill=1
+				defense_skill=2
+				planning_skill=1
+				logistics_skill=1
+				legacy_id=2000
+		    }
+	}
+	RUM_General1 = {
+		name = "Alistair Houghton" 
+		portraits = {
+			army={
+				large=GFX_portrait_rumburg1
+				small=GFX_portrait_rumburg1
+			}
+		}
+		field_marshal={
+				traits={ old_guard politically_connected }
+				skill=3
+				attack_skill=4
+				defense_skill=4
+				planning_skill=3
+				logistics_skill=2
+				legacy_id=2001
+		    }
+	}
+}

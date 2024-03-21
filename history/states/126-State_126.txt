@@ -1,0 +1,30 @@
+
+state={
+	id=126
+	name="STATE_126"
+	manpower=2000000
+	state_category=rural
+
+	history={
+		owner = RUM
+		add_core_of = RUM
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			8149 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		714 967 1339 1443 1582 1713 2096 2514 2624 2908 3241 3532 3760 4288 4374 4852 5070 5581 6279 7204 8034 8149 8965 12787 12854 12859 12897 12908 12909 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

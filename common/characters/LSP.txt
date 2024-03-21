@@ -1,0 +1,16 @@
+characters = {
+	LSP_Alvarez = {
+		name = "Patricio Alvarez" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_alvarez
+			}
+		}
+		country_leader = {
+			ideology = conservative_subtype
+			traits={ market_reformer alcoholic corrupt arcasia_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

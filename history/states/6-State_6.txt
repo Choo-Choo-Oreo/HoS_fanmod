@@ -1,0 +1,29 @@
+
+state={
+	id=6
+	name="STATE_6"
+	manpower=22000000
+	state_category=city
+
+	history={
+		owner = RUM
+		add_core_of = RUM
+
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		476 666 1811 4170 4514 5999 8033 8128 8342 8629 10144 10665 11070 12493 13387 13420 13467 13472 13529 13542 13632 13713 13758 13781 30145 30148 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

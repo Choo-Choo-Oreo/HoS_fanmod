@@ -1,0 +1,35 @@
+
+state={
+	id=148
+	name="STATE_148"
+	manpower=25000000
+	state_category=city
+
+	resources={
+		steel = 21
+		chromium = 12
+	}
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			10958 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		3364 3762 4500 4582 4901 4957 5163 6209 6315 6473 6649 7523 7612 7735 8286 8310 9422 10493 10939 10958 11061 11215 11394 11679 11880 12311 12413 12676 17618 17698 17699 17723 17802 17813 17866 17983 17984 17985 18009 18077 18090 18191 18226 18227 18244 18245 18276 18300 18341 18356 18449 18609 18668 18796 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

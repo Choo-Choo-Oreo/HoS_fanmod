@@ -1,0 +1,39 @@
+
+state={
+	id=99
+	name="STATE_99"
+	manpower=2324000
+	state_category=town
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+
+		victory_points = {
+			13219 22 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 7
+			99 = {
+				naval_base = 2
+
+			}
+			13219 = {
+				naval_base = 2
+
+			}
+		}
+	}
+
+	provinces={
+		112 327 707 929 1410 2095 2354 3016 3048 3546 4112 4166 5791 5961 6223 6514 6672 6800 7179 7484 9400 9451 9791 9839 10690 11731 13162 13205 13219 13289 13313 13345 13346 13389 13479 13486 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

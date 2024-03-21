@@ -1,0 +1,51 @@
+
+state={
+	id=195
+	name="STATE_195"
+	manpower=23000000
+	state_category=city
+	resources={
+		aluminium = 10
+		tungsten = 10
+	}
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			19923 20 
+		}
+		victory_points = {
+			3133 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 7
+			19545 = {
+				naval_base = 2
+
+			}
+			5368 = {
+				naval_base = 4
+
+			}
+			5950 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		390 3133 3221 3553 4267 4327 4629 4836 4981 5223 5368 5666 5717 5950 6331 6726 7276 7393 7709 7723 9025 10807 11193 11226 11461 11561 11944 11964 12166 12173 12235 12694 19545 19639 19650 19674 19696 19718 19738 19755 19756 19786 19824 19844 19878 19923 19932 19953 19975 20002 20021 20030 20043 20053 20090 20098 20135 20179 20193 20227 20232 20269 20270 20352 20387 20424 20455 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

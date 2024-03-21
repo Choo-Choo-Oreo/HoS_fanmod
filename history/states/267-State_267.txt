@@ -1,0 +1,32 @@
+
+state={
+	id=267
+	name="STATE_267"
+	manpower=1600000
+	state_category=town
+
+	history={
+		owner = FSR
+		add_core_of = FSR
+
+		buildings = {
+			infrastructure = 2
+			7510 = {
+				naval_base = 2
+
+			}
+			15185 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	provinces={
+		4119 7510 8767 8844 9380 11452 15185 15948 15981 16186 16332 16346 16459 16735 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=139
+	name="STATE_139"
+	manpower=932100
+	state_category=town
+
+	resources = {
+		steel = 8
+		oil = 2
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+		add_core_of = BFF
+
+		victory_points = {
+			9155 27 
+		}
+		victory_points = {
+			16668 8 
+		}
+		victory_points = {
+			17250 4 
+		}
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		845 1729 3779 4815 7430 9155 9423 11509 16668 16771 16873 16908 16982 17030 17031 17095 17159 17169 17250 17294 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

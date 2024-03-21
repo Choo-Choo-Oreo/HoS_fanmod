@@ -1,0 +1,46 @@
+
+state={
+	id=10
+	name="STATE_10"
+	manpower=23000000
+	state_category=city
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			19280 20 
+		}
+		victory_points = {
+			20004 20 
+		}
+		victory_points = {
+			18960 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 5
+			19848 = {
+				naval_base = 5
+
+			}
+			19547 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		94 372 394 528 725 1815 3063 3465 3892 5203 5507 5611 5810 6026 6446 6541 6919 7461 7646 7996 8037 9386 9507 9557 9966 10426 10751 10865 10878 10937 11471 11695 12490 18960 19027 19035 19036 19069 19137 19189 19280 19281 19329 19330 19386 19430 19443 19499 19534 19547 19609 19626 19627 19729 19826 19848 19924 19925 19943 20003 20004 20017 20023 20099 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}

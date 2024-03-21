@@ -1,0 +1,36 @@
+
+state={
+	id=266
+	name="STATE_266"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = NLP
+		add_core_of = NLP
+
+		buildings = {
+			infrastructure = 2
+			10762 = {
+				naval_base = 2
+
+			}
+			16886 = {
+				naval_base = 2
+
+			}
+			10015 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	provinces={
+		593 829 3733 4823 7199 10015 10762 16295 16417 16534 16547 16606 16656 16801 16886 16887 16910 16988 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

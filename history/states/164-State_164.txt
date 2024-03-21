@@ -1,0 +1,43 @@
+
+state={
+	id=164
+	name="STATE_164"
+	manpower=12000000
+	state_category=large_city
+
+	resources={
+		aluminium = 10
+	}
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			13849 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			13658 = {
+				naval_base = 2
+
+			}
+			1193 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		213 276 1110 1193 1205 1331 3281 3723 4345 4622 4653 5058 5059 5181 5773 6226 6365 6615 6762 7814 8008 8717 9294 9375 9728 9964 10184 10275 10960 11317 11422 12193 12397 13592 13607 13613 13658 13682 13744 13762 13767 13771 13820 13825 13849 13868 13898 13921 13949 14008 14152 14153 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

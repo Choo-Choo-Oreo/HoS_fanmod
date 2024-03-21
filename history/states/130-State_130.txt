@@ -1,0 +1,51 @@
+
+state={
+	id=130
+	name="STATE_130"
+	manpower=200000
+	state_category=town
+
+	resources={
+		oil = 3
+		rubber = 1
+		steel = 2
+	}
+
+	history={
+		owner = FAI
+		add_core_of = FAI
+
+		victory_points = {
+			21470 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			11156 = {
+				naval_base = 2
+
+			}
+			22525 = {
+				naval_base = 2
+
+			}
+			21592 = {
+				naval_base = 2
+
+			}
+			21320 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		782 2918 3033 3356 3970 7088 8021 9074 9371 11156 21295 21320 21321 21396 21470 21473 21592 21628 21788 22525 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

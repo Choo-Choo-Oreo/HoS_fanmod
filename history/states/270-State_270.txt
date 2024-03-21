@@ -1,0 +1,27 @@
+
+state={
+	id=270
+	name="STATE_270"
+	manpower=832100
+	state_category=town
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		74 517 568 817 1515 1676 1721 2755 2876 4643 5040 5471 6043 6636 6893 7728 7802 7893 8302 9570 9773 11839 21928 21937 21980 22024 22070 22071 22081 22082 22129 30229 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

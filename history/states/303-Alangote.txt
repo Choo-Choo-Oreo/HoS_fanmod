@@ -1,0 +1,18 @@
+
+state={
+	id=303
+	name="STATE_303"
+	provinces={
+		4 496 511 654 812 1158 1404 1502 1786 2052 2300 2344 3272 4051 4208 4749 4876 5123 5849 6392 7332 7549 7633 8110 10099 10534 11278 11569 12780 12825 12843 12888 12918 
+	}
+	manpower=3800000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	history={
+		owner = FSR
+		add_core_of = FSR
+
+	}
+}

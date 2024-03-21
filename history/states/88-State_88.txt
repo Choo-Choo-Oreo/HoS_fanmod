@@ -1,0 +1,39 @@
+
+state={
+	id=88
+	name="STATE_88"
+	manpower=10000000
+	state_category=city
+
+	resources={
+		chromium = 7
+	}
+
+	history={
+		owner = LSP
+		add_core_of = LSP
+
+		victory_points = {
+			3632 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			3632 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		821 1512 2416 2632 3632 3756 4235 4340 10549 11151 11745 11756 18238 18349 18386 18406 18430 18443 18498 18515 18528 18553 18594 18616 18646 18699 18724 18750 18768 18814 18829 18848 18885 18886 18933 18944 18972 18993 19007 19054 19060 19168 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

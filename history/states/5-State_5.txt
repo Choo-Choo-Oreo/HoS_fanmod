@@ -1,0 +1,49 @@
+
+state={
+	id=5
+	name="STATE_5"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = NHK
+		add_core_of = NHK
+
+		buildings = {
+			infrastructure = 2
+			7701 = {
+				naval_base = 2
+
+			}
+			5435 = {
+				naval_base = 2
+
+			}
+			22463 = {
+				naval_base = 2
+
+			}
+			22465 = {
+				naval_base = 2
+
+			}
+			22461 = {
+				naval_base = 2
+
+			}
+			4602 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1214 4602 5435 6361 7701 22461 22463 22465 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

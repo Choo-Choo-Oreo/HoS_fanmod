@@ -1,0 +1,40 @@
+
+state={
+	id=272
+	name="STATE_272"
+	manpower=800000
+	state_category=town
+
+	resources={
+		oil = 3
+		rubber = 1
+		steel = 3
+	}
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+
+		victory_points = {
+			21803 21 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			21803 = {
+				naval_base = 3
+
+			}
+		}
+	}
+
+	provinces={
+		260 1873 2289 2296 2385 2387 2742 2877 3115 3506 3769 4391 5443 5893 5966 6420 6449 7541 9730 9755 9957 10932 11881 12426 21669 21693 21701 21741 21765 21769 21802 21803 21826 21909 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=141
+	name="STATE_141"
+	manpower=708980
+	state_category = town
+
+	resources={
+		aluminium=3
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			8698 20
+		}
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 3
+			8698 ={
+				naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		575 796 1695 3742 4606 7724 8698 9077 11124 12203 14333 14429 14442 14473 14538 14579 14638 14665 14671 14786 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

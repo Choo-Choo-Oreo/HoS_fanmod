@@ -1,0 +1,16 @@
+characters = {
+	VLG_Hegel = {
+		name = "Emmerich Hegel" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_hegel
+			}
+		}
+		country_leader = {
+			ideology = reformist_socialist_subtype
+			traits={ revolutionary_leader worker_lover short_tamper contana_friend }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

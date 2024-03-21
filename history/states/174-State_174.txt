@@ -1,0 +1,40 @@
+
+state={
+	id=174
+	name="STATE_174"
+	manpower=30000000
+	state_category=city
+
+	resources={
+		tungsten = 10
+	}
+
+	history={
+		owner = ARC
+		add_core_of = ARC
+
+		victory_points = {
+			18856 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 7
+			19161 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1924 3448 4034 4357 4913 5104 5930 7411 9175 10758 11265 11551 11607 18446 18561 18607 18684 18719 18745 18757 18832 18856 18905 18958 19046 19078 19161 19187 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

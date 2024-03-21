@@ -1,0 +1,40 @@
+
+state={
+	id=105
+	name="STATE_105"
+	manpower=2660000
+	state_category=city
+
+	resources={
+		aluminium = 1
+		chromium = 2
+	}
+
+	history={
+		owner = VLG
+		add_core_of = VLG
+
+
+		victory_points = {
+			395 30 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 7
+			395 = {
+				naval_base = 6
+
+			}
+		}
+	}
+
+	provinces={
+		395 661 965 1059 3172 3253 4325 4427 5468 5768 6874 7131 9734 9871 11875 12103 13848 13887 13896 13924 13960 14016 14049 14156 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=25
+	name="STATE_25"
+	manpower=22000000
+	state_category=town
+
+	resources={
+		oil = 2
+		aluminium = 3
+		rubber = 1
+	}
+
+	history={
+		owner = WHL
+		add_core_of = WHL
+
+
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		503 936 2735 3007 3148 3196 3411 4494 5334 5600 6216 6366 6561 6734 7712 7761 9024 9146 9918 10404 10457 10946 11088 11111 11208 11514 11543 11547 11668 12158 12509 16769 16820 16838 16891 16954 16966 16967 17057 17085 17086 17094 17193 17194 17203 17444 17515 17637 17729 17825 17859 17905 17990 18000 18041 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

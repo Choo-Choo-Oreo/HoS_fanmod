@@ -1,0 +1,32 @@
+
+state={
+	id=253
+	name="STATE_253"
+	manpower=2200000
+	state_category=city
+
+	resources={
+		steel = 10
+	}
+
+	history={
+		owner = RUM
+		add_core_of = RUM
+		add_core_of = AGN
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		672 3061 5579 7243 13356 13397 13505 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

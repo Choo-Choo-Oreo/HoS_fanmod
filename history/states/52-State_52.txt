@@ -1,0 +1,36 @@
+
+state={
+	id=52
+	name="STATE_52"
+	manpower=1232100
+	state_category=city
+
+	resources = {
+		steel = 8
+	}
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+		add_core_of = BFF
+
+		victory_points = {
+			16352 27 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 8
+
+		}
+
+	}
+
+	provinces={
+		3834 4304 4880 5935 8145 8323 8630 9256 9880 10073 10157 16264 16352 16392 16571 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

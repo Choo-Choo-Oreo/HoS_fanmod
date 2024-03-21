@@ -1,0 +1,33 @@
+
+state={
+	id=113
+	name="STATE_113"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = HIJ
+		add_core_of = HIJ
+
+		buildings = {
+			infrastructure = 2
+			21044 = {
+				naval_base = 2
+
+			}
+			21382 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		21044 21098 21382 21421 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

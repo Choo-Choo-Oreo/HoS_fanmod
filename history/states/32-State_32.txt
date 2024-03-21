@@ -1,0 +1,40 @@
+
+state={
+	id=32
+	name="STATE_32"
+	manpower=22000000
+	state_category=city
+
+	history={
+		owner = RIZ
+		add_core_of = RIZ
+
+		victory_points = {
+			11592 30 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+			10327 = {
+				naval_base = 4
+
+			}
+			8904 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		13 16 447 1727 2147 3606 3855 4266 5026 5314 6604 7250 7725 7866 8895 8904 8995 9108 9335 9511 10327 10408 10906 11592 11604 12205 20072 20242 20243 20332 20333 20372 20391 20392 20421 20422 20433 20480 20481 20523 20532 20653 20658 20743 20758 20764 20785 20792 20798 20799 20821 20854 20866 20920 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=108
+	name="STATE_108"
+	manpower=8000000
+	state_category=city
+
+	resources={
+		oil = 6
+		tungsten = 2
+		steel = 10
+	}
+
+	history={
+		owner = RUM
+		add_core_of = RUM
+		add_core_of = BFF
+
+		victory_points = {
+			11940 20 
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		444 1208 2168 4847 4935 6088 6149 6246 6990 9205 10332 10625 11060 11872 11940 11953 12584 15896 16016 16115 16151 16184 16223 16224 16240 16262 16389 16390 16391 16428 16498 16510 16542 16570 16626 16640 16651 16682 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

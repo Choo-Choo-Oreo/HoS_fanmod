@@ -1,0 +1,40 @@
+
+state={
+	id=36
+	name="STATE_36"
+	manpower=2532100
+	state_category=large_city
+
+	history={
+		owner = SRD
+		add_core_of = SRD
+
+		victory_points = {
+			16054 28 
+		}
+
+		victory_points = {
+			1210 8 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 8
+			dockyard = 1
+			16054 = {
+				naval_base = 8
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		854 1210 4845 5194 9183 11043 15920 15963 15964 16005 16054 16101 16242 16354 16370 16394 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=261
+	name="STATE_261"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = ZAN
+		add_core_of = ZAN
+
+		buildings = {
+			infrastructure = 2
+			22098 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		22098 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

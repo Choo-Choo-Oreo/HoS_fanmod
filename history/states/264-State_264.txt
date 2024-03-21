@@ -1,0 +1,38 @@
+
+state={
+	id=264
+	name="STATE_264"
+	manpower=2000000
+	state_category=town
+
+	history={
+		owner = TAU
+		add_core_of = TAU
+
+		buildings = {
+			infrastructure = 2
+			22542 = {
+				naval_base = 1
+
+			}
+			22540 = {
+				naval_base = 2
+
+			}
+			3341 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3341 5774 22540 22542 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}

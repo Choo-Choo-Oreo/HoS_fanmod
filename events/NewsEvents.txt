@@ -1,0 +1,33 @@
+﻿add_namespace = news
+
+# TEMP TRADE WAR
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_ast_navy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		add_ideas = GEN_tradewar_economy_spirit
+	}
+}
+# SORDEMPIRE
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.c
+	picture = GFX_news_event_german_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.b
+	}
+}

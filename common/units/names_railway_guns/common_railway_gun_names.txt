@@ -1,0 +1,4 @@
+﻿RG_COMMON = { # We need a fallback!
+	type = railway_gun
+	fallback_name = "Railway Gun %d"
+}

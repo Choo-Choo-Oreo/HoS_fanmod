@@ -1,0 +1,42 @@
+state={
+	id=41
+	name="STATE_41"
+	manpower=560000
+	state_category=city
+
+	history={
+		owner = GLM
+		add_core_of = GLM
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			22491 = {
+				naval_base = 2
+
+			}
+			15425 = {
+				naval_base = 4
+
+			}
+			15980 = {
+				naval_base = 5
+
+			}
+			3394 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1196 1204 3259 3394 6653 10368 10875 12160 15425 15551 15587 15661 15700 15839 15980 16020 
+	}
+
+	buildings_max_level_factor=1.000
+}

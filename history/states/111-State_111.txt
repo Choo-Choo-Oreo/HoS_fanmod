@@ -1,0 +1,35 @@
+
+state={
+	id=111
+	name="STATE_111"
+	manpower=200000
+	state_category=town
+
+	history={
+		owner = KYT
+		add_core_of = KYT
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			21059 = {
+				naval_base = 2
+
+			}
+			22515 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		11667 21023 21059 22515 22516 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=70
+	name="STATE_70"
+	manpower=3000000
+	state_category=city
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+
+		victory_points = {
+			953 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		953 3188 6997 9435 12489 13483 13543 13591 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

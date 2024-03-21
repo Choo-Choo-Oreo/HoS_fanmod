@@ -1,0 +1,39 @@
+
+state={
+	id=80
+	name="STATE_80"
+	manpower=4000000
+	state_category=town
+
+	resources={
+		steel = 17
+	}
+
+	history={
+		owner = AGN
+		add_core_of = AGN
+
+		victory_points = {
+			12307 20 
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 1
+			13114 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		591 1983 2626 3289 3459 3629 4141 12307 13114 13265 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

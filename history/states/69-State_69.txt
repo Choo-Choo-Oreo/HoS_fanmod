@@ -1,0 +1,37 @@
+
+state={
+	id=69
+	name="STATE_69"
+	manpower=2200000
+	state_category=city
+
+	resources={
+		steel = 10
+	}
+
+	history={
+		owner = RUM
+		add_core_of = RUM
+		add_core_of = AGN
+
+		victory_points = {
+			3207 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		2642 3207 4269 8249 8617 8823 13407 13473 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

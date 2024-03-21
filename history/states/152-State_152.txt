@@ -1,0 +1,32 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower=50000000
+	state_category=metropolis
+
+	history={
+		owner = NSH
+		add_core_of = NSH
+
+		buildings = {
+			infrastructure = 3
+			11322 = {
+				naval_base = 2
+
+			}
+			22534 = {
+				naval_base = 3
+
+			}
+
+		}
+	}
+
+	provinces={
+		11322 22534 
+	}
+
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
