@@ -1,4 +1,0 @@
-RUM_MARKIAN = {
-	color = rgb { 239 162 19 }
-	color_ui = rgb { 239 162 19 }
-}
