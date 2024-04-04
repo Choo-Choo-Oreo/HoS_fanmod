@@ -9,9 +9,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_tiled_window"
+		name = "GFX_hos_tiled_window"
 		texturefile = "gfx/interface/mainmenubg.dds"
-		size = { x=320 y=1035 }
+		#size = { x=320 y=1035 } # Throws error - SpaceCultist 03/28
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_window.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	spriteType = {

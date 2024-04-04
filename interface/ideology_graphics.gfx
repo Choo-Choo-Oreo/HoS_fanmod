@@ -1,42 +1,42 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_ideology_revolutionary_socialist_group"
+		name = "GFX_ideology_malenyevism_group"
 		texturefile = "gfx/interface/ideologies/revolutionary_socialist_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_reformist_socialist_group"
+		name = "GFX_ideology_divergism_group"
 		texturefile = "gfx/interface/ideologies/reformist_socialist_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_social_democratic_group"
+		name = "GFX_ideology_progressivism_group"
 		texturefile = "gfx/interface/ideologies/social_democratic_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_liberal_group"
+		name = "GFX_ideology_liberalism_group"
 		texturefile = "gfx/interface/ideologies/liberal_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_conservative_group"
+		name = "GFX_ideology_conservativism_group"
 		texturefile = "gfx/interface/ideologies/conservative_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_authoritarian_democrat_group"
+		name = "GFX_ideology_paternalism_group"
 		texturefile = "gfx/interface/ideologies/authoritarian_democrat_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_paternal_autocrat_group"
+		name = "GFX_ideology_despotism_group"
 		texturefile = "gfx/interface/ideologies/paternal_autocrat_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_reactionary_nationalist_group"
+		name = "GFX_ideology_ultrareactionary_group"
 		texturefile = "gfx/interface/ideologies/reactionary_nationalist_group.dds"
 	}
 }

@@ -84,19 +84,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = liberalism
 	last_election = "1955.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	revolutionary_socialist = 18
-	reformist_socialist = 8
-	social_democratic = 20
-	liberal = 15
-	conservative = 7
-	authoritarian_democrat = 10
-	paternal_autocrat = 12
-	reactionary_nationalist = 10
+	malenyevism = 18
+	divergism = 8
+	progressivism = 20
+	liberalism = 15
+	conservatism = 7
+	paternalism = 10
+	despotism = 12
+	ultrareactionary = 10
 }

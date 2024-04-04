@@ -1766,9 +1766,10 @@ FAI = {
 		Mahavirha Mahendra Siddarhtha
 		
 		#Uripami
-		Ethece Wedimaci Nodwye Aqwi Enile Ghecu Pedeghive Ghawghi  Ghenumwe Mweduci
-		Nedecemighe Kocije Divawce Thicequpce Mwejenidye Edunye Udde Wedeme 
-		Ubrighepaci Thawde Ghesye Vadunye Pedgani
+		Ethece Wedimaci Nodwye Aqwi Enile Ghecu Pedeghive Ghawghi
+		Ghenumwe Mweduci Nedecemighe Kocije Divawce Thicequpce 
+		Mwejenidye Edunye Udde Wedeme Ubrighepaci Thawde Ghesye
+		Vadunye Pedgani
 
 		#Devipatsuma
 		Airawanta Anugaya Apigo Aranemi Arjuna Arslan Aryamarg Aryasa Aryaske 
@@ -1789,7 +1790,7 @@ FAI = {
 
 		
 		#Uttadyam & Fachak
-		Achyuta Anibhūnuti Neya Aguni Anila Ketu Pejiva Kaluki  Anubhān 
+		Achyuta Anibhūnuti Neya Aguni Anila Ketu Pejiva Kaluki Anubhān 
 		Manuti Nhesia Kānutikoya Novanuta Chitunagutha Mārkaujoya Anua 
 		Anuduna Āryabhan Bunuasupati Chanuduna Joha Vánua Panujanya
 		Aset Iudimath Nodan Akin Ani Chet Padasriev Chaych Hanum Moduth Nadasthem 
@@ -1849,7 +1850,7 @@ FAI = {
 		#Uttadyam & Fachak
 		Arta Anubhati Anaonī Anunī Pānuvatī Ubhā Jaunī Cābhujā Kamelā Dunā 
 		Mokhī Mākulī Lakuha Muājasā Mātaujī Mātunikus Belā Bunaubhuī Katani 
-		Jānutā Mukabhika Nifu Jani Junesh Nivedha Jītalā
+		Jānutā Mukabhika Nifu Jani Junesh Nivedha Jītalā
 		Adit Anumat Adanin Adranud Podvat Um Kud Sriumuniduash Chamal Dur 
 		Eksiur Mahoch Yaksuesh Mhoshues Motanik Motrich Bakal Bdahmunsiur
 		Chiuten Sriuntodudok Machambik Rif Shuen Shuenishued Navakdah Sriut
@@ -1950,40 +1951,44 @@ FAI = {
 #Yarktralis
 
 YAR = {
-	male = { 
-	Ahui Ahuru Ahuteama Ahuti Ahutu Akuka Akukawa Akukuhianu Akukuka Akuni
-	Amohi  Amone Amongo Amote Ara Arana Aranui Cāhoroi Cāka Cākaukuni Cāmiri 
-	Himiakine Himira Himiria Himohe Himoti Himotu Hohe Hohi Hohia Hohu Hohui Hoki 
-	Huirango Huiriane Joele Kaho Kahoriahu Kahoroi Kahui Kahuma Kahuru Kahute 
-	Kohe Kohepa Kohi Kohiaki Kohu Kohute Koria Koriakiaki Koroi Kupeta Kupetamane 
-	Mangakiangi Mangi Manui Meta Metahuru Metami Metamiria Mihepa Miherehianui 
-	Ngatahori Ngatahuru Ngatamangi Ngatame Ngatia Nihepa Niherea Niherehi Nihi 
-	Paulanuiri Paulaulaui Paulaunu Pauni Paunu Pira Pirana Pirangi Pita Pitahu 
-	Rana Rane Ranu Remi Remira Remirapeta Remirapetama Remuerape Remuere Remuereami 
-	Tāmiri Tāmohuira Tāmote Tāmotu Tāvi Takauoāho Takawa Takia Takine Tama 
-	Taulana Taulango Taulaua Taulauāmiahu Taulaukawa Taulaulaui Tauni Taunu 
-	Temiakiaki Temiana Temira Temuere Temuerehi Tera Teranu Terea Tereamira Terehi 
-	Tikaulane Tikaunu Tikawa Tikea Tikeame Tiko Timi Timira Timiri Timohere 
-	Wāhorianu Wāka Wākea Wāko Wāmi Wāmiaki Wāmiango Wāmirape Wāmiri 
-	Wereamangati
+	male = {
+		names= {
+			Ahui Ahuru Ahuteama Ahuti Ahutu Akuka Akukawa Akukuhianu Akukuka Akuni
+			Amohi  Amone Amongo Amote Ara Arana Aranui Cāhoroi Cāka Cākaukuni Cāmiri 
+			Himiakine Himira Himiria Himohe Himoti Himotu Hohe Hohi Hohia Hohu Hohui Hoki 
+			Huirango Huiriane Joele Kaho Kahoriahu Kahoroi Kahui Kahuma Kahuru Kahute 
+			Kohe Kohepa Kohi Kohiaki Kohu Kohute Koria Koriakiaki Koroi Kupeta Kupetamane 
+			Mangakiangi Mangi Manui Meta Metahuru Metami Metamiria Mihepa Miherehianui 
+			Ngatahori Ngatahuru Ngatamangi Ngatame Ngatia Nihepa Niherea Niherehi Nihi 
+			Paulanuiri Paulaulaui Paulaunu Pauni Paunu Pira Pirana Pirangi Pita Pitahu 
+			Rana Rane Ranu Remi Remira Remirapeta Remirapetama Remuerape Remuere Remuereami 
+			Tāmiri Tāmohuira Tāmote Tāmotu Tāvi Takauoāho Takawa Takia Takine Tama 
+			Taulana Taulango Taulaua Taulauāmiahu Taulaukawa Taulaulaui Tauni Taunu 
+			Temiakiaki Temiana Temira Temuere Temuerehi Tera Teranu Terea Tereamira Terehi 
+			Tikaulane Tikaunu Tikawa Tikea Tikeame Tiko Timi Timira Timiri Timohere 
+			Wāhorianu Wāka Wākea Wāko Wāmi Wāmiaki Wāmiango Wāmirape Wāmiri 
+			Wereamangati
+		}
 	}
 	female = {
-	Akene Akenehina Akenemati Akenematiputi Akenemoa Akeni Aroa Arohaki Arohape 
-	Awho Hanaurie Hanauriha Hane Hanehi Hanehina Hanema Hanemoa Hangi Hangia 
-	Henemoa Hina Hinaurie Hinauriha Hinaurihaki Hinaurihape Hinehi Hinehina 
-	Hiranemoa Hirangi Hirangia Hirangiarana Hire Hirē Iri Irie Iriha Irihaki Kungi 
-	Mahine Mahinemoa Mā Moā Māo Māra Māramata Mārana Mārangiarohina Māre 
-	Marohina Marohinehi Masawā Masawoāre Masawātohi Masawātohina 
-	Merē Mirama Miramati Mirana Miranemoa Mirangi Mire Mirē Nana Nanauri Nanaurie 
-	Ngoāra Ngoārangi Ngoārē Ngāra Ngārama Ngāramata Ngāranauri Ngārē 
-	Ngawātohina Ngawha Ngawhaki Ngawhi Ngawhina Ngawho Nira Nirama Niramata Nirana 
-	Nyre Nyri Nyriha Nyrihape Para Parama Parangi Parangia Parē Paroa Parohaki 
-	Ranema Ranemata Ranemoa Rangia Rangiara Rangiarana Rangiarangi Rangiarē Rati 
-	Roimatiputi Roimatiputiputi Rupeti Rupetu Tā Toā Toārē Tāo Tāra Tārama 
-	Tawāra Tawātohi Tawha Tawhape Tawhi Tawhinemata Tawhinemoa Tawho Tiwha 
-	Toimatiputi Totha Tothaki Tothape Tothapetiputi Totoha Totohaki Totohape Totohi 
-	Woārangi Woārē Wāo Wāra Wāramata Wārangi Wārē Wāto Wātoha Wātohina 
-	Yōtohi Yōtohina Yōtohinauri
+		names = {
+			Akene Akenehina Akenemati Akenematiputi Akenemoa Akeni Aroa Arohaki Arohape 
+			Awho Hanaurie Hanauriha Hane Hanehi Hanehina Hanema Hanemoa Hangi Hangia 
+			Henemoa Hina Hinaurie Hinauriha Hinaurihaki Hinaurihape Hinehi Hinehina 
+			Hiranemoa Hirangi Hirangia Hirangiarana Hire Hirē Iri Irie Iriha Irihaki Kungi 
+			Mahine Mahinemoa Mā Moā Māo Māra Māramata Mārana Mārangiarohina Māre 
+			Marohina Marohinehi Masawā Masawoāre Masawātohi Masawātohina 
+			Merē Mirama Miramati Mirana Miranemoa Mirangi Mire Mirē Nana Nanauri Nanaurie 
+			Ngoāra Ngoārangi Ngoārē Ngāra Ngārama Ngāramata Ngāranauri Ngārē 
+			Ngawātohina Ngawha Ngawhaki Ngawhi Ngawhina Ngawho Nira Nirama Niramata Nirana 
+			Nyre Nyri Nyriha Nyrihape Para Parama Parangi Parangia Parē Paroa Parohaki 
+			Ranema Ranemata Ranemoa Rangia Rangiara Rangiarana Rangiarangi Rangiarē Rati 
+			Roimatiputi Roimatiputiputi Rupeti Rupetu Tā Toā Toārē Tāo Tāra Tārama 
+			Tawāra Tawātohi Tawha Tawhape Tawhi Tawhinemata Tawhinemoa Tawho Tiwha 
+			Toimatiputi Totha Tothaki Tothape Tothapetiputi Totoha Totohaki Totohape Totohi 
+			Woārangi Woārē Wāo Wāra Wāramata Wārangi Wārē Wāto Wātoha Wātohina 
+			Yōtohi Yōtohina Yōtohinauri
+		}
 	}
 	surnames = {
 	Nyranikuroku Ngākeroku Hianutoku Hauroku Cāoku Paperihoku Ariroku Ramoku
@@ -2001,34 +2006,34 @@ YAR = {
 	Cārikutu Retautu Wāranutu Merautu Akimutu Ahehutu Ahemarahutu Rurianutu
 	Ngiputu Joātamasautu Tiamutu Wāratutu
 	}
-	callsign = { }
+	callsigns = { }
 }
 
 
 
-Aban Abbad "Al-Azim" "Al-Aziz" "Al-Baki" "Al-Basir" "Al-Gafur" 
-"Al-Gani" "Al-Hakim" "Al-Hamid" "Al-Hakk" "Al-Yabbar" 
-"Al-Yalil" "Al-Yalik" "Al-Kabir" "Al-Karim" "Al-Yawah" 
-"Al-Mayid" "Al-Malik" "Al-Muti" "Al-Munim" "Al-Nur" 
-"Al-Kadir" "Al-kahir" "Al-Kawi" "Al-Rahim" "Al-Rahman" 
-"Al-Rauf" "Al-Salam" "Al-Wadud" "Al-Wahid" "Al-Wahhab" 
-"Al-Warith" Adi Affan Aflah Afnan Ahmad Aidh Ayannas Ala Ali Amir Amr Akil 
-Asad Asbag Asbat Ashhab Asim Aslam Atarid Atik Atirra Atrad Arshun Arrash Arrub 
-Aziz Bahram Bakr Baly Baki Barakat Bashir Battal Bulkasim Darras Dawud Dimam Dulaf 
-Fadl Faray Farkad Fath Fularh Fulars Galib Ganim Garib Gazi Habib Hafs Hayib Haray 
-Hakam Hamda Hamdin Hamdis Hamdun Hamid Haymad Hamza Hani Harith Harun Hasan Hashim 
-Hassan Hatim Hawar Harkal Harran Hazm Hisham Hiraz Hizam Hubab Hudarda Hunarn 
-Hurarth Husarn Ibrahim Idris Imran Isa Ishak Ismail Irad Yabir Yafar Yahhaf Yahwar 
-Yalaf "Yalaf Yawah" yalhama Yalid Yalil Yalsa Yami Yarir Yattab Yarr Yarrun Yidr 
-yubarr Yuda Yumahir Yuzarr Kathir Karsan Kularb Mabad Mahbub Mahfuz Mahmud Mayluf 
-makki Malik Man Mansur Marwan Maslama Masud Marmun Mirdas Misbah Muawira Mubarak 
-mudrik Mufarriy Muflit Muhallab Muhaymad Muyahid Muyarik Mulahhab Mundhir Musa 
-musab Muslim Mutarrif Nabit Nadar Nafidh Nafis Nasir Nasr Nizar Nudharr Nuh karus 
-kasim katan kars Rashid Razin Sabah Sad Sadan Sadik Safi Safwan Sahl "Saib yatir" 
-Said Sayr Salama Salih Salim Sallama Salmun Saki Sarur Shabib Shabtun Shayara 
-Sharif Shith Shuarb Shuba Shurarh Shurark Sind Siray Sufran Suktan Sularman Tahir 
-Talha Tamim Taymam Tarik Tawd Tartal Tarrib Thabit Tuwars Ubada Ubard 
-"Ubard Yawah" Ubarda Ubardun Ularm Umar Umarra Ukarl Urarb Uthman Wadih Wahb 
-Walid Wasim Waslas Wathima Wazir Rabke Rahre yohn Raish Raylaf Rakub Rakut Rasin 
-rasir Raskar Razid Ruyamir Runus 
-rusr Rusuf Zaban Zafir Zahira Zakarirra Zarb Zarn Zirad Zuharr Zuhr Zurar
+#Aban Abbad "Al-Azim" "Al-Aziz" "Al-Baki" "Al-Basir" "Al-Gafur" 
+#"Al-Gani" "Al-Hakim" "Al-Hamid" "Al-Hakk" "Al-Yabbar" 
+#"Al-Yalil" "Al-Yalik" "Al-Kabir" "Al-Karim" "Al-Yawah" 
+#"Al-Mayid" "Al-Malik" "Al-Muti" "Al-Munim" "Al-Nur" 
+#"Al-Kadir" "Al-kahir" "Al-Kawi" "Al-Rahim" "Al-Rahman" 
+#"Al-Rauf" "Al-Salam" "Al-Wadud" "Al-Wahid" "Al-Wahhab" 
+#"Al-Warith" Adi Affan Aflah Afnan Ahmad Aidh Ayannas Ala Ali Amir Amr Akil 
+#Asad Asbag Asbat Ashhab Asim Aslam Atarid Atik Atirra Atrad Arshun Arrash Arrub 
+#Aziz Bahram Bakr Baly Baki Barakat Bashir Battal Bulkasim Darras Dawud Dimam Dulaf 
+#Fadl Faray Farkad Fath Fularh Fulars Galib Ganim Garib Gazi Habib Hafs Hayib Haray 
+#Hakam Hamda Hamdin Hamdis Hamdun Hamid Haymad Hamza Hani Harith Harun Hasan Hashim 
+#Hassan Hatim Hawar Harkal Harran Hazm Hisham Hiraz Hizam Hubab Hudarda Hunarn 
+#Hurarth Husarn Ibrahim Idris Imran Isa Ishak Ismail Irad Yabir Yafar Yahhaf Yahwar 
+#Yalaf "Yalaf Yawah" yalhama Yalid Yalil Yalsa Yami Yarir Yattab Yarr Yarrun Yidr 
+#yubarr Yuda Yumahir Yuzarr Kathir Karsan Kularb Mabad Mahbub Mahfuz Mahmud Mayluf 
+#makki Malik Man Mansur Marwan Maslama Masud Marmun Mirdas Misbah Muawira Mubarak 
+#mudrik Mufarriy Muflit Muhallab Muhaymad Muyahid Muyarik Mulahhab Mundhir Musa 
+#musab Muslim Mutarrif Nabit Nadar Nafidh Nafis Nasir Nasr Nizar Nudharr Nuh karus 
+#kasim katan kars Rashid Razin Sabah Sad Sadan Sadik Safi Safwan Sahl "Saib yatir" 
+#Said Sayr Salama Salih Salim Sallama Salmun Saki Sarur Shabib Shabtun Shayara 
+#Sharif Shith Shuarb Shuba Shurarh Shurark Sind Siray Sufran Suktan Sularman Tahir 
+#Talha Tamim Taymam Tarik Tawd Tartal Tarrib Thabit Tuwars Ubada Ubard 
+#"Ubard Yawah" Ubarda Ubardun Ularm Umar Umarra Ukarl Urarb Uthman Wadih Wahb 
+#Walid Wasim Waslas Wathima Wazir Rabke Rahre yohn Raish Raylaf Rakub Rakut Rasin 
+#rasir Raskar Razid Ruyamir Runus 
+#rusr Rusuf Zaban Zafir Zahira Zakarirra Zarb Zarn Zirad Zuharr Zuhr Zurar

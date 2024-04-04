@@ -84,19 +84,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternalism
 	last_election = "1954.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	revolutionary_socialist = 0
-	reformist_socialist = 0
-	social_democratic = 0
-	liberal = 0
-	conservative = 0
-	authoritarian_democrat = 100
-	paternal_autocrat = 0
-	reactionary_nationalist = 0
+	malenyevism = 0
+	divergism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	paternalism = 100
+	despotism = 0
+	ultrareactionary = 0
 }

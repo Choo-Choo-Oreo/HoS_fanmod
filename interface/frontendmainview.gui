@@ -98,7 +98,7 @@ guiTypes = {
 				
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window"
+			quadTextureSprite ="GFX_hos_tiled_window"
 		}
 		
 		ButtonType = {
@@ -189,7 +189,7 @@ guiTypes = {
 				
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window"
+			quadTextureSprite ="GFX_hos_tiled_window"
 		}
 			
 		ButtonType = {
@@ -235,7 +235,7 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 20	
 			Orientation = CENTER
-			Origo = center
+			#Origo = center # throws error SpaceCultist
 		}
 		
 		ButtonType = {

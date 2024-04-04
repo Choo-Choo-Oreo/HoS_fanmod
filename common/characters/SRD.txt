@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservative_subtype
+			ideology = liberalism_subtype
 			traits={ ewald head_of_gasom arcasia_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -22,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberal_subtype
+			ideology = progressivism_subtype
 			traits={ anton ricter arcasia_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -37,7 +37,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservative_subtype
+			ideology = conservatism_subtype
 			traits={ anton no_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -52,7 +52,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = reactionary_nationalist_subtype
+			ideology = ultrareactionary_subtype
 			traits={ purple_blooded_nationalist allignment_nationalist }
 			expire = "1950.1.1.1"
 			id = -1
@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = revolutionary_socialist_subtype
+			ideology = malenyevism_subtype
 			traits={ contana_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -82,7 +82,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = reformist_socialist_subtype
+			ideology = divergism_subtype
 			traits={ contana_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -97,7 +97,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_democratic_subtype
+			ideology = autonomism_subtype
 			traits={ no_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -112,7 +112,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = liberalism_subtype
 			traits={ no_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -127,7 +127,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = authoritarian_democrat_subtype
+            ideology = liberalism_subtype
             traits={ anton no_friend }
             expire = "1950.1.1.1"
             id = -1
@@ -142,7 +142,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = reactionary_nationalist_subtype
+            ideology = liberalism_subtype
             traits={ antondictator no_friend }
             expire = "1950.1.1.1"
             id = -1

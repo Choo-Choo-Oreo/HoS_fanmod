@@ -5,21 +5,21 @@ OOB = "general_1953_army"
 recruit_character = AGN_Hoorten
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = conservatism
 	last_election = "1954.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	revolutionary_socialist = 7
-	reformist_socialist = 3
-	social_democratic = 13
-	liberal = 27
-	conservative = 20
-	authoritarian_democrat = 11
-	paternal_autocrat = 17
-	reactionary_nationalist = 2
+	malenyevism = 7
+	divergism = 3
+	progressivism = 13
+	liberalism = 27
+	conservatism = 20
+	paternalism = 11
+	despotism = 17
+	ultrareactionary = 2
 }
 
 set_research_slots = 3

@@ -7,21 +7,21 @@ OOB = "general_1953_army"
 recruit_character = VLG_Hegel
 
 set_politics = {
-	ruling_party = reformist_socialist
+	ruling_party = divergism
 	last_election = "1954.9.15"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	revolutionary_socialist = 34
-	reformist_socialist = 45
-	social_democratic = 12
-	liberal = 6
-	conservative = 0
-	authoritarian_democrat = 3
-	paternal_autocrat = 0
-	reactionary_nationalist = 0
+	malenyevism = 34
+	divergism = 45
+	progressivism = 12
+	liberalism = 6
+	conservatism = 0
+	paternalism = 3
+	despotism = 0
+	ultrareactionary = 0
 }
 
 if = {

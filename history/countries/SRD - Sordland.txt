@@ -17,7 +17,7 @@ recruit_character = SRD_AntonEmergency
 recruit_character = SRD_AntonDictator
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = conservatism
 	last_election = "1949.11.15"
 	election_frequency = 48
 	elections_allowed = yes
@@ -36,14 +36,14 @@ set_research_slots = 4
 set_convoys = 1832
 
 set_popularities = {
-	revolutionary_socialist = 8
-	reformist_socialist = 9
-	social_democratic = 12
-	liberal = 15
-	conservative = 19
-	authoritarian_democrat = 23
-	paternal_autocrat = 3
-	reactionary_nationalist = 11
+	malenyevism = 8
+	divergism = 9
+	progressivism = 12
+	liberalism = 15
+	conservatism = 19
+	paternalism = 23
+	despotism = 3
+	ultrareactionary = 11
 }
 
 if = {
