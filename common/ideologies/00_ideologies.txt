@@ -12,7 +12,7 @@ ideologies = {
 			"FACTION_NAME_MALENYVIST_3"
 		}
 
-		color = { 116 14 51 }
+		color = { 116 14 45 }
 
 		rules = {
 			can_force_government = yes
@@ -38,7 +38,7 @@ ideologies = {
 		types = {
 			valgsoc = {
 				can_be_randomly_selected = no
-				color = { 254 0 0 }
+				color = { 219 53 65 }
 			}
 			divergism_subtype = {
 				can_be_randomly_selected = yes
@@ -332,7 +332,7 @@ ideologies = {
 			"FACTION_NAME_ULTRAREACTIONARY_3"
 		}
 
-		color = { 94 31 88 }
+		color = { 75 31 88 }
 
 		rules = {
 			can_force_government = yes
