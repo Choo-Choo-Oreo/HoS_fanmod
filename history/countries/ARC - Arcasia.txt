@@ -5,21 +5,21 @@ OOB = "general_1953_army"
 recruit_character = ARC_Dwight
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = liberalism
 	last_election = "1954.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	revolutionary_socialist = 0
-	reformist_socialist = 0
-	social_democratic = 0
-	liberal = 50
-	conservative = 50
-	authoritarian_democrat = 0
-	paternal_autocrat = 0
-	reactionary_nationalist = 0
+	malenyevism = 0
+	divergism = 0
+	progressivism = 0
+	liberalism = 50
+	conservatism = 50
+	paternalism = 0
+	despotism = 0
+	ultrareactionary = 0
 }
 
 if = {

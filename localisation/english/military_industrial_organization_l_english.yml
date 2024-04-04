@@ -1452,7 +1452,7 @@ generic_mio_trait_naval_all_purpose_defense_systems: "All-Purpose Defense System
 #######################################
 generic_general_aircraft_organization: "General Aircraft Manufacturer"
 generic_mio_initial_trait_general_aircraft_designer: "General Aircraft Designer"
-generic_mio_trait_conservative_designs: "Conservative Designs"
+generic_mio_trait_conservatism_designs: "Conservative Designs"
 generic_mio_trait_fighter_aircraft_specialists: "Fighter Aircraft Specialists"
 generic_mio_trait_high_speed_design: "High-Speed Design"
 generic_mio_trait_agility_wing_design: "Agility Wing Design"

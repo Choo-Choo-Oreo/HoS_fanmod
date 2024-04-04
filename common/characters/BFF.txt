@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = revolutionary_socialist_subtype
+			ideology = malenyevism_subtype
 			traits={ no_friend }
 			expire = "1950.1.1.1"
 			id = -1

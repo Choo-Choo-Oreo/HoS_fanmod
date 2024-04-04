@@ -13,7 +13,7 @@ set_research_slots = 4
 set_convoys = 2375
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternalism
 	last_election = "1954.9.15"
 	election_frequency = 36
 	elections_allowed = no
@@ -28,14 +28,14 @@ add_ideas = {
 }
 
 set_popularities = {
-	revolutionary_socialist = 1
-	reformist_socialist = 4
-	social_democratic = 7
-	liberal = 12
-	conservative = 20
-	authoritarian_democrat = 41
-	paternal_autocrat = 3
-	reactionary_nationalist = 12
+	malenyevism = 1
+	divergism = 4
+	progressivism = 7
+	liberalism = 12
+	conservatism = 20
+	paternalism = 41
+	despotism = 3
+	ultrareactionary = 12
 }
 
 # Starting tech - Abkhazia Clone #

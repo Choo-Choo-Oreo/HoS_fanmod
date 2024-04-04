@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democrat_subtype
+			ideology = paternalism_subtype
 			traits={ ambitious_queen parliament_low no_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -21,7 +21,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = despotism_subtype
 			traits={ ambitious_queen no_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -35,7 +35,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservative_subtype
+			ideology = conservatism_subtype
 			traits={ ambitious_queen no_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -49,7 +49,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberal_subtype
+			ideology = liberalism_subtype
 			traits={ parliament_high }
 			expire = "1950.1.1.1"
 			id = -1

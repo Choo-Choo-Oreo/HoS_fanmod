@@ -85,19 +85,19 @@ if = {
 
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = despotism
 	last_election = "1954.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	revolutionary_socialist = 0
-	reformist_socialist = 0
-	social_democratic = 0
-	liberal = 0
-	conservative = 0
-	authoritarian_democrat = 0
-	paternal_autocrat = 100
-	reactionary_nationalist = 0
+	malenyevism = 0
+	divergism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	paternalism = 0
+	despotism = 100
+	ultrareactionary = 0
 }

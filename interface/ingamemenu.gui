@@ -24,7 +24,7 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 			Orientation = center
-			Origo = center	
+			Origo = lower_left
 		}
 		
 		buttonType = {
@@ -71,7 +71,7 @@ guiTypes = {
 			orientation = upper_right
 			alwaysTransparent = yes
 			Orientation = center
-			Origo = center
+			#Origo = center # throws error SpaceCultist
 		}
 		
 		buttonType = {

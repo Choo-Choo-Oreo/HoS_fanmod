@@ -86,19 +86,19 @@ if = {
 recruit_character = ERD_Mikel
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternalism
 	last_election = "1949.4.24"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	revolutionary_socialist = 3
-	reformist_socialist = 5
-	social_democratic = 21
-	liberal = 24
-	conservative = 27
-	authoritarian_democrat = 7
-	paternal_autocrat = 9
-	reactionary_nationalist = 4
+	malenyevism = 3
+	divergism = 5
+	progressivism = 21
+	liberalism = 24
+	conservatism = 27
+	paternalism = 7
+	despotism = 9
+	ultrareactionary = 4
 }

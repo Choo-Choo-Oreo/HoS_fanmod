@@ -87,19 +87,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = revolutionary_socialist
+	ruling_party = malenyevism
 	last_election = "1954.9.15"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	revolutionary_socialist = 30
-	reformist_socialist = 22
-	social_democratic = 12
-	liberal = 7
-	conservative = 4
-	authoritarian_democrat = 10
-	paternal_autocrat = 8
-	reactionary_nationalist = 7
+	malenyevism = 30
+	divergism = 22
+	progressivism = 12
+	liberalism = 7
+	conservatism = 4
+	paternalism = 10
+	despotism = 8
+	ultrareactionary = 7
 }
