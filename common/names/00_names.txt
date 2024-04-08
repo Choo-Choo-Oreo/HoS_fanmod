@@ -1766,9 +1766,10 @@ FAI = {
 		Mahavirha Mahendra Siddarhtha
 		
 		#Uripami
-		Ethece Wedimaci Nodwye Aqwi Enile Ghecu Pedeghive Ghawghi  Ghenumwe Mweduci
-		Nedecemighe Kocije Divawce Thicequpce Mwejenidye Edunye Udde Wedeme 
-		Ubrighepaci Thawde Ghesye Vadunye Pedgani
+		Ethece Wedimaci Nodwye Aqwi Enile Ghecu Pedeghive Ghawghi
+		Ghenumwe Mweduci Nedecemighe Kocije Divawce Thicequpce 
+		Mwejenidye Edunye Udde Wedeme Ubrighepaci Thawde Ghesye
+		Vadunye Pedgani
 
 		#Devipatsuma
 		Airawanta Anugaya Apigo Aranemi Arjuna Arslan Aryamarg Aryasa Aryaske 
@@ -1789,7 +1790,7 @@ FAI = {
 
 		
 		#Uttadyam & Fachak
-		Achyuta Anibhūnuti Neya Aguni Anila Ketu Pejiva Kaluki  Anubhān 
+		Achyuta Anibhūnuti Neya Aguni Anila Ketu Pejiva Kaluki Anubhān 
 		Manuti Nhesia Kānutikoya Novanuta Chitunagutha Mārkaujoya Anua 
 		Anuduna Āryabhan Bunuasupati Chanuduna Joha Vánua Panujanya
 		Aset Iudimath Nodan Akin Ani Chet Padasriev Chaych Hanum Moduth Nadasthem 
@@ -1849,7 +1850,7 @@ FAI = {
 		#Uttadyam & Fachak
 		Arta Anubhati Anaonī Anunī Pānuvatī Ubhā Jaunī Cābhujā Kamelā Dunā 
 		Mokhī Mākulī Lakuha Muājasā Mātaujī Mātunikus Belā Bunaubhuī Katani 
-		Jānutā Mukabhika Nifu Jani Junesh Nivedha Jītalā
+		Jānutā Mukabhika Nifu Jani Junesh Nivedha Jītalā
 		Adit Anumat Adanin Adranud Podvat Um Kud Sriumuniduash Chamal Dur 
 		Eksiur Mahoch Yaksuesh Mhoshues Motanik Motrich Bakal Bdahmunsiur
 		Chiuten Sriuntodudok Machambik Rif Shuen Shuenishued Navakdah Sriut
@@ -2005,7 +2006,7 @@ YAR = {
 	Cārikutu Retautu Wāranutu Merautu Akimutu Ahehutu Ahemarahutu Rurianutu
 	Ngiputu Joātamasautu Tiamutu Wāratutu
 	}
-	callsign = { }
+	callsigns = { }
 }
 
 

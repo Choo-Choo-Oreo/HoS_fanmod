@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = reformist_socialist_subtype
+			ideology = valgsoc
 			traits={ revolutionary_leader worker_lover short_tamper contana_friend }
 			expire = "1950.1.1.1"
 			id = -1
