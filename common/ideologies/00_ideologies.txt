@@ -51,7 +51,7 @@ ideologies = {
 			"FACTION_NAME_DIVERGIST_3"
 		}
 
-		color = { 219 53 65 }
+		color = { 255 53 65 }
 
 		rules = {
 			can_force_government = no
@@ -86,7 +86,7 @@ ideologies = {
 			"FACTION_NAME_AUTONOMIST_3"
 		}
 
-		color = { 222 130 93 }
+		color = { 239 143 187 }
 
 		rules = {
 			can_force_government = no
@@ -121,7 +121,7 @@ ideologies = {
 			"FACTION_NAME_PROGRESSIVE_3"
 		}
 
-		color = { 225 111 38 }
+		color = { 225 111 0 }
 
 		rules = {
 			can_force_government = no
@@ -251,7 +251,7 @@ ideologies = {
 
 	paternalism = {
 		types = {
-			paternalism_subtype = {
+			semi_constitutional_monarchy = {
 				can_be_randomly_selected = yes
 			}
 		}

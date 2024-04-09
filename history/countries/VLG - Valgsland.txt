@@ -14,8 +14,9 @@ set_politics = {
 }
 
 set_popularities = {
-	malenyevism = 34
+	malenyevism = 25
 	divergism = 45
+	autonomism = 9
 	progressivism = 12
 	liberalism = 6
 	conservatism = 0
