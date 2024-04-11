@@ -1,0 +1,35 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"GFX_portrait_operative_unknown"
+		}
+		female = {
+			"GFX_portrait_operative_unknown"
+		}
+	}
+
+	male = {
+		gfx/leaders/generics/generic_1_1
+		gfx/leaders/generics/generic_1_2
+		gfx/leaders/generics/generic_1_3
+		gfx/leaders/generics/generic_1_4
+		gfx/leaders/generics/generic_1_5
+	}
+	female = {
+		"GFX_portrait_unknown_female"
+	}
+}
