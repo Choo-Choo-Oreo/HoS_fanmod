@@ -3,27 +3,27 @@ spriteTypes = {
 	# Generics
 	spriteType = {
 		name = "GFX_portrait_generic_1_1"
-		texturefile = "gfx/leaders/generics/generic_1_1"
+		texturefile = "gfx/leaders/generics/generic_1_1.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_portrait_generic_1_2"
-		texturefile = "gfx/leaders/generics/generic_1_2"
+		texturefile = "gfx/leaders/generics/generic_1_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_generic_1_3"
-		texturefile = "gfx/leaders/generics/generic_1_3"
+		texturefile = "gfx/leaders/generics/generic_1_3.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_portrait_generic_1_4"
-		texturefile = "gfx/leaders/generics/generic_1_4"
+		texturefile = "gfx/leaders/generics/generic_1_4.dds"
 	}
 
 	spriteType = {
 		name = "GFX_portrait_generic_1_5"
-		texturefile = "gfx/leaders/generics/generic_1_5"
+		texturefile = "gfx/leaders/generics/generic_1_5.dds"
 	}
 
 
