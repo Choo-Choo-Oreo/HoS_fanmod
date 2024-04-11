@@ -1,5 +1,32 @@
 spriteTypes = {
 
+	# Generics
+	spriteType = {
+		name = "GFX_portrait_generic_1_1"
+		texturefile = "gfx/leaders/generics/generic_1_1"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_generic_1_2"
+		texturefile = "gfx/leaders/generics/generic_1_2"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_generic_1_3"
+		texturefile = "gfx/leaders/generics/generic_1_3"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_generic_1_4"
+		texturefile = "gfx/leaders/generics/generic_1_4"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_generic_1_5"
+		texturefile = "gfx/leaders/generics/generic_1_5"
+	}
+
+
 	#SRD
 	spriteType = {
 		name = "GFX_portrait_alphonso"
