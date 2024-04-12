@@ -20,7 +20,7 @@ default = {
 		callsigns = { }
 	}
 	female = {
-		names = { "Julie" "Anna"  Wilma Felisia Bea}
+		names = { Julie Anna  Wilma Felisia Bea}
 		surnames = { }
 		callsigns = { "Queen Of The Sky" "The Red Princess" }
 	}
@@ -261,7 +261,7 @@ RUM = {
 	
 }
 
-FRC = {
+FSR = {
 	male = {
 		names = { 
 			#Kontanian
@@ -544,11 +544,11 @@ FRC = {
 ARC = {
 	male = {
 		names = {  
-			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
 			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
-			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+			 Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
 			
 			Aaron Adélard Aimé Alain Alban Albert Alcide Aldéric Alexandre Alexis 
 			Amable Amaury Ambroise Anaclet Anatole André Anselme Aristide Armand 
@@ -588,29 +588,29 @@ ARC = {
 		Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant 
 		Bonaventure 
 		
-		Abigny Adressyntrac Agnay Agne Agnors Agny Aguy Aine Ainvirk Aire Aisophamais 
-		Ançoniqueu Archers Argentaulêmes Arien Arpen Athile Atludonne Atoirobice
-		Aulletteaux Auloins Aulême Aume Aune Aurnatlan Aurt Auventlaux Avelené 
-		Bour Bourenelle Boussière Brandette Brangenne Brienne Brient Brier Brieux 
-		Bucierrence Buse Bèglenc Béan Bélons Béradrestigne Bétine Cacort 
-		Chaurt Chaury Chel Chellence Chelon Chely Chencoubs Ches Chriartissieu 
-		Cluche Clémentiette Clérans Colarie Coliers Colle Colmaire Comienrinin 
-		Denatine Denne Dentanne Dette Deuilly Dieuvry Dillette Dine Domine Dompie 
-		Emlier Emlin Emman Emmar Enne Erreux Esnier Ette Euil Fandrette Flakoureille 
-		Garlys Garmorren Garne Garomintry Garre Gart Garthe Gaétalancenon Genelle 
-		Grade Graffite Gray Gréli Guilbines Gérène Halmarcen Hampes Haudes Haze 
-		Jeaudiévray Jeaudomangine Jeauline Jeaulnax Jeaursain Jeaux Jocharguaire 
-		Juse Jusonte Jéroury Jérômes Kerrène Kouves Laen Laet Lagnay Lain 
-		Léanges Madosichâteu Madoullontre Mais Male Malvaini Mance Mandranch Mangen 
-		Maritz Marlerre Marnon Mart Martianue Maschâloux Mastigny Mastin Mastère 
-		Mérosennine Mézientais Nadelin Nadier Nain Naras Nardesnif Navalérès Naximas 
-		Nose Noît Nîmene Occis Odeux Oistrat Olou Orandy Orgy Ornallen Orval 
-		Pyrochamblas Pyrélienorand Péry Queilde Queluiret Quenangle Quenisabi Quif 
-		Rochenteaul Rochers Rochy Rocten Rodigny Rois Rolane Roleux Roline Rolles 
-		Siontigne Sourt Sters Stines Suzan Suzanis Sébas Tadelle Talexan Talon 
-		Thiret This Thisac Thistianne Thoult Thugerames Tois Toison Tontiargo Torn 
-		Villes Villet Villette Vine Vitaucins Vélèse Véné Vériguerre 
-		Épes Éphaux Éphie Épie Épigne Éves Évie
+		"de Abigny" Adressyntrac Agnay Agne Agnors Agny Aguy Aine Ainvirk Aire Aisophamais 
+		"de Ançoniqueu" Archers Argentaulêmes Arien Arpen Athile Atludonne Atoirobice
+		"de Aulletteaux" Auloins Aulême Aume Aune Aurnatlan Aurt Auventlaux Avelené 
+		"de Bour" Bourenelle Boussière Brandette Brangenne Brienne Brient Brier Brieux 
+		"de Bucierrence" Buse Bèglenc Béan Bélons Béradrestigne Bétine Cacort 
+		"de Chaurt" Chaury Chel Chellence Chelon Chely Chencoubs Ches Chriartissieu 
+		"de Cluche" Clémentiette Clérans Colarie Coliers Colle Colmaire Comienrinin 
+		"de Denatine" Denne Dentanne Dette Deuilly Dieuvry Dillette Dine Domine Dompie 
+		"de Emlier" Emlin Emman Emmar Enne Erreux Esnier Ette Euil Fandrette Flakoureille 
+		"de Garlys" Garmorren Garne Garomintry Garre Gart Garthe Gaétalancenon Genelle 
+		"de Grade" Graffite Gray Gréli Guilbines Gérène Halmarcen Hampes Haudes Haze 
+		"de Jeaudiévray" Jeaudomangine Jeauline Jeaulnax Jeaursain Jeaux Jocharguaire 
+		"de Juse" Jusonte Jéroury Jérômes Kerrène Kouves Laen Laet Lagnay Lain 
+		"de Léanges" Madosichâteu Madoullontre Mais Male Malvaini Mance Mandranch Mangen 
+		"de Maritz" Marlerre Marnon Mart Martianue Maschâloux Mastigny Mastin Mastère 
+		"de Mérosennine" Mézientais Nadelin Nadier Nain Naras Nardesnif Navalérès Naximas 
+		"de Nose" Noît Nîmene Occis Odeux Oistrat Olou Orandy Orgy Ornallen Orval 
+		"de Pyrochamblas" Pyrélienorand Péry Queilde Queluiret Quenangle Quenisabi Quif 
+		"de Rochenteaul" Rochers Rochy Rocten Rodigny Rois Rolane Roleux Roline Rolles 
+		"de Siontigne" Sourt Sters Stines Suzan Suzanis Sébas Tadelle Talexan Talon 
+		"de Thiret" This Thisac Thistianne Thoult Thugerames Tois Toison Tontiargo Torn 
+		"de Villes" Villet Villette Vine Vitaucins Vélèse Véné Vériguerre 
+		"de Épes" Éphaux Éphie Épie Épigne Éves Évie
 
 	}
 	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
@@ -645,14 +645,14 @@ LSP = {
 	surnames = {
 		Acton Albriscio Badogle Baldissera Baratierez Bava-Beccaris Cadorna Cagni Canevaro Capella
 		Cavilla Cesquerinez Caldinez Cusanez Dezca "de Robilant" "de Perla"
-		Emo Fantez Fara Filomarine Jaribaldez Jardino Govonez "De la Libera" Marbetez 
-		Menabrea Orengue Pallavicino Pecorez Jiraldez Pello Peruquetez Planellez Porro
-		Presbitero Ramorino Ricottes Mannani Sazci Saletto Sanna Solare Vaccare Cupelle
+		Emo Fantez Fara Filomarine Jaribaldez Jardino Govonez "de la Libera" Marbetez 
+		Menabrea Orengue Pallavicine Pecorez Jiraldez Pello Peruquetez Planellez Porro
+		Presquitero Ramorino Ricottes Mannani Sazci Saletto Sanna Solare Vaccare Cupelle
 		
-		Calasanza Adrianez "De Arcas" Agea Roigue Bruguero Albero "Del Omse" Tecedor 
+		Calasanza Adrianez "De Arcas" Agea Roigue Bruguero Albero "del Omse" Tecedor 
 		Amalrique Marquet Acorella Romero Vilareguetes Alos Egea Marcesco Baldovinos
 		Centelles Segarra Gironella Canelles Boizo Batista Roldan Latorre Abellan
-		"De La Caballeria" Amerique Samper Morer Cebrian Murillo Massa Almunia
+		"de la Cavalleria" Amerique Samper Morer Cebrian Murillo Massane Almunia
 	 }
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso Robur Gino Giri }
 }
@@ -735,8 +735,6 @@ SRD = {
 	surnames = {
 	Abund Alfer Amanter Bron Crona Fais Freker Grecer Greiser Leinke Manger 
 	Ferruter Perigrin Servater
-	Marcia Meye Morgna Nerder Niel Norsord Renan Schar Stahler Suheil Suno Toiren 
-	Tory Tusk Vectern Walda Walt Wolkner Zizek 
 	Agner Antera Atwoll Borin Cavendir Eskel Girder Halgener Ilsin Jener Leliac 
 	Morrain Oldeburger Porzar Rivoli Selmeci Vale Verholen 
 	Azarec Laware Hondaldar Lewecand Mangodi Koneli Folkondi Laeborcar Bodalcea 
@@ -874,7 +872,7 @@ RIZ = {
 }
 
 #G'aleroi
-GAL = {
+GLI = {
 	male = {
 		names = {
 		Oilan Oindra Alasdoir Amloix Ong'oix Artoir Batan Valtoir Coilan Calum Cunnag
@@ -949,7 +947,7 @@ HIJ = {
 }
 
 #Lasomby
-LSM = {
+LSY = {
 	male = {
 		names = {
 		Aeron Aon Ales Alan Aneirin Arsmail Brocmoul Bryctan Cadan Cadoc Caratouc 
@@ -1145,7 +1143,7 @@ SMM = {
 	callsigns = { }
 }
 #Kalrad - change the tag!!
-KLR = {
+KRL = {
 	male = {
 		names = {
 		Adi Aletzandru Alin Ancel Antonu Atanase Cautaulin Codrin Codrutz Costache
@@ -1262,7 +1260,7 @@ ERD = {
 ###############################################################
 
 #Kyrute
-KYR = {
+KYT = {
 	male = {
 		names = {
 			Achim Adelbert Albrecht Alois Andreas Aribert Arndt Arnulf Aurick 
@@ -1492,7 +1490,7 @@ WHL = {
 ###############################################################
 
 #Adania
-ADN = {
+ADA = {
 	male = {
 		names = {
 		Obin Opfin Abrom Yarnos Ansels Atanaz Bodfin Bebert Bernod Betmes Chals 
@@ -1588,7 +1586,7 @@ NRD = {
 }
 
 #Ostioke
-OST = {
+OTK = {
 	male = {
 		names = {
 		Antias Aris Arsion Baigust Boian Vazen Valdust Valguz Vandol Vastan Vediaz
@@ -1604,13 +1602,13 @@ OST = {
 	}
 	female = {
 		names = {
-		Ange Alguza Arguma Astnaza Baigusta Vazava Valdusta Vandola Vastanio Vezava
-		Velmata Vestkana Vidiova Vitava Viona Virineio Zekel Inzanio Iniuva Istarta 
-		Kastargo Kastusta Kaniova Kevganio Kirdiova Kemelte Kuliosta Liiona Ladava 
-		Laimar Lamzur Likstanio Mazanio Naiona Nuio Narusta Nalkuma Piioda Paksioltio
-		Parava Selema Siiona Sola Syrneza Seneza Setmela Siumerge Tala Tastana Telena
-		Teiona Tikstana Tiriona Tundal Utiosta Stevgine Stipanio Steimarina Eiziural
-		Eidiolina Eliuva Eriona Ergana Ergela Ermeza Iomziur
+		Ange Alguzai Argumai Astnazai Baigustai Vazavai Valdustai Vandolai Vastanio Vezava
+		Velmatai Vestkanai Vidiovai Vitavai Vionai Virineio Zekel Inzanio Iniuvai Istartai 
+		Kastargo Kastustai Kaniovai Kevganio Kirdiovai Kemelte Kuliostai Liionai Ladavai 
+		Laimar Lamzur Likstanio Mazanio Naionai Nuio Narustai Nalkumai Piiodai Paksioltio
+		Paravai Selemai Siionai Solai Syrnezai Senezai Setmelai Siumerge Talai Tastanai Telena
+		Teionai Tikstanai Tirionai Tundal Utiostai Stevgine Stipanio Steimarinai Eiziural
+		Eidiolinai Eliuvai Erionai Erganai Ergelai Ermezai Iomziur
 		}
 	}
 	surnames = {

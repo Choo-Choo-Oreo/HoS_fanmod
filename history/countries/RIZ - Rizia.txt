@@ -87,7 +87,7 @@ if = {
 
 set_politics = {
 	ruling_party = paternalism
-	last_election = "1949.06.15"
+	last_election = "1949.1.15"
 	election_frequency = 60
 	elections_allowed = yes
 }

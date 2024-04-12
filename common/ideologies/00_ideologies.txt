@@ -254,6 +254,9 @@ ideologies = {
 			semi_constitutional_monarchy = {
 				can_be_randomly_selected = yes
 			}
+			paternalism_subtype = {
+				can_be_randomly_selected = yes
+			}
 		}
 
 		dynamic_faction_names = {

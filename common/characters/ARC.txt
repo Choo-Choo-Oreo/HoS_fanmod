@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism_subtype
+			ideology = minarchism_subtype
 			traits={ free_market_advocate ato_founder arc_intervention arcasia_friend }
 			expire = "1950.1.1.1"
 			id = -1

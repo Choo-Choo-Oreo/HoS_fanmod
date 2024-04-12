@@ -87,19 +87,21 @@ if = {
 recruit_character = WHL_Smolak
 
 set_politics = {
-	ruling_party = paternalism
-	last_election = "1954.9.15"
-	election_frequency = 36
+	ruling_party = despotism
+	last_election = "1948.9.15"
+	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	malenyevism = 0
+	malenyevism = 30
 	divergism = 0
+	autonomism = 0
 	progressivism = 0
 	liberalism = 0
+	minarchism = 0
 	conservatism = 0
-	paternalism = 100
-	despotism = 0
+	paternalism = 20
+	despotism = 50
 	ultrareactionary = 0
 }
