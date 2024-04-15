@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = paternalism_subtype
+			ideology = semi_constitutional_monarchy
 			traits={ erdmarg_royal erdmarg_king no_friend }
 			expire = "1950.1.1.1"
 			id = -1

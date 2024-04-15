@@ -1,9 +1,19 @@
 ideologies = {
 	malenyevism = {
 		types = {
+		
 			malenyevism_subtype = {
 				can_be_randomly_selected = yes
 			}
+			
+			orthodox_malenyevism = {
+				can_be_randomly_selected = no
+			}
+			
+			reformed_malenyevism = {
+				can_be_randomly_selected = no
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -36,13 +46,13 @@ ideologies = {
 
 	divergism = {
 		types = {
-			valgsoc = {
-				can_be_randomly_selected = no
-				color = { 219 53 65 }
-			}
 			divergism_subtype = {
 				can_be_randomly_selected = yes
 			}
+			valgslandian_socialism = {
+				can_be_randomly_selected = no
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -75,8 +85,17 @@ ideologies = {
 
 	autonomism = {
 		types = {
+		
 			autonomism_subtype = {
 				can_be_randomly_selected = yes
+			}
+			
+			anarchism = {
+				can_be_randomly_selected = no
+			}
+			
+			democratic_socialism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -113,6 +132,10 @@ ideologies = {
 			progressivism_subtype = {
 				can_be_randomly_selected = yes
 			}
+			
+			social_democracy = {
+				can_be_randomly_selected = no
+			}						
 		}
 
 		dynamic_faction_names ={
@@ -148,6 +171,15 @@ ideologies = {
 			liberalism_subtype = {
 				can_be_randomly_selected = yes
 			}
+			
+			market_liberalism = {
+				can_be_randomly_selected = no
+			}
+			
+			social_liberalism = {
+				can_be_randomly_selected = no
+			}
+			
 		}
 
 		dynamic_faction_names = {
@@ -180,10 +212,15 @@ ideologies = {
 
 	minarchism = {
 		types = {
-			# arcasian_capitalism?
+
 			minarchism_subtype = {
 				can_be_randomly_selected = yes
 			}
+			
+			arcasian_capitalism = {
+				can_be_randomly_selected = no
+			}
+			
 		}
 
 		dynamic_faction_names = {
@@ -219,6 +256,16 @@ ideologies = {
 			conservatism_subtype = {
 				can_be_randomly_selected = yes
 			}
+			
+			liberal_conservatism = {
+				can_be_randomly_selected = no
+			}
+			
+			social_conservatism = {
+				can_be_randomly_selected = no
+			}
+			
+			}
 		}
 
 		dynamic_faction_names = {
@@ -251,11 +298,17 @@ ideologies = {
 
 	paternalism = {
 		types = {
-			semi_constitutional_monarchy = {
-				can_be_randomly_selected = yes
-			}
 			paternalism_subtype = {
 				can_be_randomly_selected = yes
+			}
+			semi_constitutional_monarchy = {
+				can_be_randomly_selected = no
+			}
+			sollism = {
+				can_be_randomly_selected = no
+			}
+			progressive_sollism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -292,6 +345,15 @@ ideologies = {
 			despotism_subtype = {
 				can_be_randomly_selected = yes
 			}
+			absolute_monarchy = {
+				can_be_randomly_selected = no
+			}
+			military_dictatorship = {
+				can_be_randomly_selected = no
+			}
+			strong_hand_nationalism = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -326,6 +388,14 @@ ideologies = {
 		types = {
 			ultrareactionary_subtype = {
 				can_be_randomly_selected = yes
+			}
+			
+			nationalist_monarchy = {
+				can_be_randomly_selected = no
+			}
+			
+			radical_nationalism = {
+				can_be_randomly_selected = no
 			}
 		}
 

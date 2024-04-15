@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=semi_constitutional_monarchy
+			ideology = semi_constitutional_monarchy
 			traits = { inexperienced_monarch }
 			expire="1965.1.1.1"
 			id=-1

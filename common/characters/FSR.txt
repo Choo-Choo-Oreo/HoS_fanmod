@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = malenyevism_subtype
+			ideology = orthodox_malenyevism
 			traits={ father_of_malenyevism revolutionary_leader malenyevist_internationalist contana_friend }
 			expire = "1950.1.1.1"
 			id = -1

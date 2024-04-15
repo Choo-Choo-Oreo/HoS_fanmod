@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism_subtype
+			ideology = liberal_conservatism
 			traits={ ewald head_of_gasom arcasia_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -22,8 +22,8 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = progressivism_subtype
-			traits={ anton ricter arcasia_friend }
+			ideology = social_liberalism
+			traits={ ricter arcasia_friend }
 			expire = "1950.1.1.1"
 			id = -1
 		}
@@ -37,7 +37,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism_subtype
+			ideology = progressive_sollism
 			traits={ anton no_friend }
 			expire = "1950.1.1.1"
 			id = -1
@@ -52,7 +52,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = ultrareactionary_subtype
+			ideology = strong_hand_nationalism
 			traits={ purple_blooded_nationalist allignment_nationalist }
 			expire = "1950.1.1.1"
 			id = -1

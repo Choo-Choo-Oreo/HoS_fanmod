@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism_subtype
+			ideology = liberal_conservatism
 			traits={ market_reformer alcoholic corrupt arcasia_friend }
 			expire = "1950.1.1.1"
 			id = -1

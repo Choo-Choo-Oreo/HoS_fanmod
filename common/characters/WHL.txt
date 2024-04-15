@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism_subtype
+			ideology = strong_hand_nationalism
 			traits={ democratic_dictator wehlens_big_daddy contana_friend }
 			expire = "1955.1.1"
 			id = -1
