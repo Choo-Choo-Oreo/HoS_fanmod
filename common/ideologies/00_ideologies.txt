@@ -266,11 +266,10 @@ ideologies = {
 			}
 			
 			}
-		}
+		
 
 		dynamic_faction_names = {
 			"FACTION_NAME_CONSERVATIVE_1"
-			"FACTION_NAME_CONSERVATIVE_2"
 			"FACTION_NAME_CONSERVATIVE_3"
 		}
 
