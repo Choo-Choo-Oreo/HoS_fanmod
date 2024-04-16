@@ -1146,41 +1146,41 @@ SMM = {
 KRL = {
 	male = {
 		names = {
-		Adi Aletzandru Alin Ancel Antonu Atanase Cautaulin Codrin Codrutz Costache
-		Costicauu Daunutz Dezideru Dorin Dragotz Dumitru Emanoil Eusebu Flaviu 
-		Cenadie Citzu Aralamb Oratzu Iancu Ionutz Lazaur Luca Mircea Miticao Nelu
-		Nicutzor Ovidu Petricau Petrutz Radu Raretz Rauzvan Sandru Sergo Sorin 
-		Timotei Valeru Viorel Dionisie Decebal Costin Aurel Albert
+		Adi Aletzandru Alin Ansel Antonu Atanase Kautaulin Kodrin Kodrutz Kostache
+		Kostikau Daunutz Dezideru Dorin Dragotz Dumitru Emanoil Eusebu Flaviu 
+		Senadie Sitzu Aralamb Oratzu Ianku Ionutz Lazaur Luka Mirsea Mitikao Nelu
+		Nikutzor Ovidu Petrikau Petrutz Radu Raretz Rauzvan Sandru Sergo Sorin 
+		Timotei Valeru Viorel Dionisie Desebal Kostin Aurel Albert
 		}
 	}
 	female = {
 		names = {
-		Adina Amalia Anamaria Ancutza Andra Anitzoara Aurica Braundutza Casandra
-		Cautaulina Cetzara Constantza Cosmina Daciana Denisa Doina Eliza Estera
+		Adina Amalia Anamaria Ankutza Andra Anitzoara Aurika Braundutza kasandra
+		kautaulina setzara konstantza kosmina Dasiana Denisa Doina Eliza Estera
 		Eugenia Gabi Gavrila Georgiana Iasmina Ileana Iolanda Ionela Irina Lavinia
-		Lenutza Ligia Liliana Loredana Lorenna Luminitza Manuela Maritzica Miela
-		Minodora Miruna Noemia Raluca Rodica Rozalia Sorina Steliana Vera Viorela
+		Lenutza Ligia Liliana Loredana Lorenna Luminitza Manuela Maritzika Miela
+		Minodora Miruna Noemia Raluka Rodika Rozalia Sorina Steliana Vera Viorela
 		}
 	}
 	surnames = {
-		Aradincu Arasi Arde Arcictu Argu Avries Azu Bacou Bailu Bale Baru Beraud 
-		Biau Beurgeorin Bi Bianies Bises Bistani Bocsantcu Bolaramu 
-		Boli Botosu Botosisu Brantu Bradino Braunti Bras Brasan Bredgir Cal Calceu 
-		Caloiestcu Cault Camacauresi Camureu Camurestz Caro Caralasno Caras 
-		Caravni Carges Caz Cerat Chitcu Clunes Clunestani Codlatcu 
-		Codure Con Constu Contu Contz Cascaso Critu Damo Dambo 
-		Damurges Darlaiulceu Darmani Des Destzeu Dol Doldaslui Drafag Fago 
-		Ercudoare Umonstcu Unedintcu Ialai Ialceu Iaso Ilfasanzi 
-		Ilfodu Intani Isanedo Liusno Lelo Lugo Mag Macitu Maru Marad 
-		Marasi Marcitantcu Medoarintz Met Milinu Moliasi Moli Mure Murescao 
-		Murestz Murfatz  Nuceamb Ocnestu Orabu Paneavodle 
-		Sarco Sacaure Salutcu Santu Satatzo Sebestrietz Severo Sibisaco 
-		Sibiurnes Sibiuscu Sibo Slomitanceu Somani Spritz Spritao Stei 
-		Sauceu Susi Susnu Taro Tarad Taraitcu Tarailatei Tarasno Tasaulanteu 
+		Aradinku Arasi Arde Arsiktu Argu Avries Azu Bakou Bailu Bale Baru Beraud 
+		Biau Beurgeorin Bi Bianies Bises Bistani Boksantku Bolaramu 
+		Boli Botosu Botosisu Brantu Bradino Braunti Bras Brasan Bredgir Kal Kalseu 
+		kaloiestku Kault Kamakauresi Kamureu Kamurestz Karo Karalasno Karas 
+		karavni Karges Kaz Serat chitku Klunes Klunestani Kodlatku 
+		kodure Kon Konstu Kontu Kontz Kaskaso Kritu Damo Dambo 
+		Damurges Darlaiulseu Darmani Des Destzeu Dol Doldaslui Drafag Fago 
+		Erkudoare Umonstku Unedintku Ialai Ialseu Iaso Ilfasanzi 
+		Ilfodu Intani Isanedo Liusno Lelo Lugo Mag Masitu Maru Marad 
+		Marasi Marsitantku Medoarintz Met Milinu Moliasi Moli Mure Mureskao 
+		Murestz Murfatz  Nuseamb Oknestu Orabu Paneavodle 
+		Sarko Sakaure Salutku Santu Satatzo Sebestrietz Severo Sibisako 
+		Sibiurnes Sibiusku Sibo Slomitanseu Somani Spritz Spritao Stei 
+		Sauseu Susi Susnu Taro Tarad Taraitku Tarailatei Tarasno Tasaulanteu 
 		Taslui Tasseverino Taud Tei Teleori Telo Tzitanad Tzimle 
 		Tzatano Topes Tului Tureav Turesteleni Tuso Ungo Urbaiate 
-		Valaoro Valaramt Valenticotu Valurau Vaulu Vanedoarges Vasitcu 
-		Vedoarad Viceu Vodau Varaulo Almeni Zaro Zimniceuro
+		Valaoro Valaramt Valentikotu Valurau Vaulu Vanedoarges Vasitku 
+		Vedoarad Viseu Vodau Varaulo Almeni Zaro Zimniseuro
 	}
 	callsigns = { }
 }
