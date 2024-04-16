@@ -8,23 +8,23 @@
  malenyevism_desc:0 "Socialist Government"
  
     malenyevism_subtype:0 "Malenyevism"
-    malenyevism_subtype_desc:0 "Descriptions are WIP"  
+    malenyevism_subtype_desc:0 "Malenyevism / Descriptions are WIP"  
  
     orthodox_malenyevism:0 "Orthodox Malenyevism"
-    orthodox_malenyevism_desc:0 "Descriptions are WIP" 
+    orthodox_malenyevism_desc:0 "Orthodox Malenyevism / Descriptions are WIP" 
  
     reformed_malenyevism:0 "Reformed Malenyevism"
-    reformed_malenyevism_desc:0 "Descriptions are WIP" 
+    reformed_malenyevism_desc:0 "Reformed Malenyevism / Descriptions are WIP" 
  
  divergism:0 "Divergism"
  divergism_noun:0 "Divergist"
  divergism_desc:0 "Socialist Government"
  
      divergism_subtype:0 "Divergism"
-     divergism_subtype_desc:0 "Descriptions are WIP"
+     divergism_subtype_desc:0 "Divergism / Descriptions are WIP"
      
      valgslandian_socialism:0 "Valgslandian Socialism"
-     valgslandian_socialism_desc:0 "Descriptions are WIP" 
+     valgslandian_socialism_desc:0 "Valgslandian Socialism / Descriptions are WIP" 
      
      #subtype:0 " "
      #subtype_desc:0 "Descriptions are WIP" 
@@ -34,23 +34,23 @@
  autonomism_desc:0 "Socialist Government"
  
      autonomism_subtype:0 "Autonomism"
-     autonomism_subtype_desc:0 "Descriptions are WIP" 
+     autonomism_subtype_desc:0 "Autonomism / Descriptions are WIP" 
      
      anarchism:0 "Anarchism"
-     anarchism_desc:0 "Descriptions are WIP" 
+     anarchism_desc:0 "Anarchism / Descriptions are WIP" 
      
      democratic_socialism:0 "Democratic Socialism"
-     democratic_socialism_desc:0 "Descriptions are WIP" 
+     democratic_socialism_desc:0 "Democratic Socialism / Descriptions are WIP" 
  
  progressivism:0 "Progressivism"
  progressivism_noun:0 "Progressive"
  progressivism_desc:0 "Progressive Government"
  
      progressivism_subtype:0 "Progressivism"
-     progressivism_subtype_desc:0 "Descriptions are WIP" 
+     progressivism_subtype_desc:0 "Progressivism / Descriptions are WIP" 
      
      social_democracy:0 "Social Democracy"
-     social_democracy_desc:0 "Descriptions are WIP" 
+     social_democracy_desc:0 "Social Democracy / Descriptions are WIP" 
      
      #subtype:0 " "
      #subtype_desc:0 "Descriptions are WIP" 
@@ -60,23 +60,23 @@
  liberalism_desc:0 "Liberal Government"
  
      liberalism_subtype:0 "Liberalism"
-     liberalism_subtype_desc:0 "Descriptions are WIP" 
+     liberalism_subtype_desc:0 "Liberalism / Descriptions are WIP" 
      
      market_liberalism:0 "Market Liberalism"
-     market_liberalism_desc:0 "Descriptions are WIP" 
+     market_liberalism_desc:0 "Market Liberalism / Descriptions are WIP" 
      
      social_liberalism:0 "Social Liberalism"
-     social_liberalism_desc:0 "Descriptions are WIP" 
+     social_liberalism_desc:0 "Social Liberalism / Descriptions are WIP" 
  
  minarchism:0 "Minarchism"
  minarchism_noun:0 "Minarchist"
  minarchism_desc:0 "Minarchist Government"
 
      minarchism_subtype:0 "Minarchism"
-     minarchism_subtype_desc:0 "Descriptions are WIP" 
+     minarchism_subtype_desc:0 "Minarchism / Descriptions are WIP" 
      
      arcasian_capitalism:0 "Arcasian Capitalism"
-     arcasian_capitalism_desc:0 "Descriptions are WIP" 
+     arcasian_capitalism_desc:0 "Arcasian Capitalism / Descriptions are WIP" 
      
      #subtype:0 " "
      #subtype_desc:0 "Descriptions are WIP" 
@@ -86,58 +86,58 @@
  conservatism_desc:0 "Conservative Government"
  
      conservatism_subtype:0 "Conservatism"
-     conservatism_subtype_desc:0 "Descriptions are WIP" 
+     conservatism_subtype_desc:0 "Conservatism / Descriptions are WIP" 
      
-     liberal_conservatism:0 "Liberal conservatism"
-     liberal_conservatism_desc:0 "Descriptions are WIP" 
+     liberal_conservatism:0 "Liberal Conservatism"
+     liberal_conservatism_desc:0 "Liberal Conservatism / Descriptions are WIP" 
      
      social_conservatism:0 "Social Conservatism"
-     social_conservatism_desc:0 "Descriptions are WIP" 
+     social_conservatism_desc:0 "Social Conservatism / Descriptions are WIP" 
  
  paternalism:0 "Paternalism"
  paternalism_noun:0 "Paternalist"
  paternalism_desc:0 "Paternalist Government"
  
      paternalism_subtype:0 "Paternalism"
-     paternalism_subtype_desc:0 "Descriptions are WIP" 
+     paternalism_subtype_desc:0 "Paternalism / Descriptions are WIP" 
      
-     semi_constitutional_monarchy:0 "Semi-constitutional Monarchy"
-     semi_constitutional_monarchy_desc:0 "Descriptions are WIP" 
+     semi_constitutional_monarchy:0 "Semi-Constitutional Monarchy"
+     semi_constitutional_monarchy_desc:0 "Semi-Constitutional Monarchy / Descriptions are WIP" 
      
      sollism:0 "Sollism"
-     sollism_desc:0 "Descriptions are WIP" 
+     sollism_desc:0 "Sollism / Descriptions are WIP" 
      
      progressive_sollism:0 "Progressive Sollism"
-     progressive_sollism_desc:0 "Descriptions are WIP" 
+     progressive_sollism_desc:0 "Progressive Sollism / Descriptions are WIP" 
  
  despotism:0 "Despotism"
  despotism_noun:0 "Despotic"
  despotism_desc:0 "Despotic Regime"
  
      despotism_subtype:0 "Despotism"
-     despotism_subtype_desc:0 "Descriptions are WIP" 
+     despotism_subtype_desc:0 "Despotism / Descriptions are WIP" 
      
-     absolute_monarchy:0 "Absolute"
-     absolute_monarchy_desc:0 "Descriptions are WIP" 
+     absolute_monarchy:0 "Absolute Monarchy"
+     absolute_monarchy_desc:0 "Absolute Monarchy / Descriptions are WIP" 
      
      military_dictatorship:0 "Military Dictatorship"
-     military_dictatorship_desc:0 "Descriptions are WIP" 
+     military_dictatorship_desc:0 "Military Dictatorship / Descriptions are WIP" 
      
      strong_hand_nationalism:0 "Strong Hand Nationalism"
-     strong_hand_nationalism_desc:0 "Descriptions are WIP" 
+     strong_hand_nationalism_desc:0 "Strong Hand Nationalism / Descriptions are WIP" 
 
  ultrareactionary:0 "Ultrareactionary"
  ultrareactionary_noun:0 "Ultrareactionary"
  ultrareactionary_desc:0 "Ultrareactionary Regime"
  
      ultrareactionary_subtype:0 "Reactionary"
-     ultrareactionary_subtype_desc:0 "Descriptions are WIP"
+     ultrareactionary_subtype_desc:0 "Reactionary / Descriptions are WIP"
      
      nationalist_monarchy:0 "Nationalist Monarchy"
-     nationalist_monarchy_desc:0 "Descriptions are WIP" 
+     nationalist_monarchy_desc:0 "Nationalist Monarchy / Descriptions are WIP" 
      
      radical_nationalism:0 "Radical Nationalism"
-     radical_nationalism_desc:0 "Descriptions are WIP" 
+     radical_nationalism_desc:0 "Radical Nationalism / Descriptions are WIP" 
  
 ##########################################################################
  # TAG_malenyevism_party:0 ""
