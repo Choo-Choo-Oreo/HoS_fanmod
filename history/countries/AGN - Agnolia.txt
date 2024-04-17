@@ -2,23 +2,25 @@
 
 OOB = "general_1953_army"
 
-recruit_character = AGN_Hoorten
+recruit_character = AGN_MaartinVanHoorten
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1954.9.15"
-	election_frequency = 36
+	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	malenyevism = 7
+	malenyevism = 2
 	divergism = 3
-	progressivism = 13
-	liberalism = 27
-	conservatism = 20
-	paternalism = 11
-	despotism = 17
+	autonomism = 4
+	progressivism = 22
+	liberalism = 31
+	minarchism = 6
+	conservatism = 13
+	paternalism = 8
+	despotism = 9
 	ultrareactionary = 2
 }
 
