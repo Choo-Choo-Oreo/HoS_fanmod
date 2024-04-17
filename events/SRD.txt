@@ -22,6 +22,11 @@ country_event = {
 		name = srd.election.a
 			custom_effect_tooltip = SRD_election_tt
 		hidden_effect = {
+			set_politics = {
+			ruling_party = paternalism
+			elections_allowed = yes
+			}
+		
 			complete_national_focus = SRD_elections_focus
 			promote_character = SRD_Anton
 			retire_character = SRD_Alphy
@@ -34,11 +39,11 @@ country_event = {
 			add_timed_idea = { idea = SRD_confusion days = 150 }
 		hidden_effect = {
 			set_politics = { 
-			ruling_party = liberal
+			ruling_party = liberalism
 			elections_allowed = yes
 			}
 				add_popularity = {  
-				ideology = liberal
+				ideology = liberalism
 				popularity = 0.1
 			}
 			complete_national_focus = SRD_elections_focus

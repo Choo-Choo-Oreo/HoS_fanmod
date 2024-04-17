@@ -1189,13 +1189,13 @@ KRL = {
 AGD = {
 	male = {
 		names = {
-		Abrosio Agat Alberto Alexandro Alonso Alvaro Amado Amaro Andreo Anricae 
-		Antono Arnuo Augostinio Bastiam Belcior Bernaldin Braes Caleb Cessar Clodio
+		Abrosio Agat Albirto Alexandro Alonso Alvaro Amado Amaro Andrio Anricae 
+		Antono Arnuo Augostinio Bastiam Belcior Bernaldin Braes Caleb Cissar Clodio
 		Dario Davit Dimian Dinis Dioguo Eduart Elfaes Fabio Franco Garbo Gascaro 
 		Gasparo Gregoro Gustao Iliermo Ino Ioan Ionaes Iraldo Iulio Iurdo Lasaro 
-		Lauro Lionel Loi Luco Marcael Marcal Marco Marcuo Margot Marlo Mart Martim
+		Lauro Lionel Loi Luco Marcael Marcal Marco Marcuno Margot Marlo Mart Martim
 		Mataes Mikael Nikolaes Nuno Pacco Pantalio Pascoal Rafael Raluco Ricaes 
-		Rodrice Rui Sanio Sansaen Severo Stasio Tadaes Teodor Tiago Timo Tores 
+		Rodrice Rui Sanio Sansaen Sivero Stasio Tadaes Teodor Tiago Timo Tores 
 		Trisuo Valero Vascuo Vicentae Victor Virisem
 		}
 	}
@@ -1207,7 +1207,7 @@ AGD = {
 		}
 	}
 	surnames = {
-	Asa Astro Balasin Bandera Barceano Bartu Bodo Botaes Brevarte Busa Capatana 
+	Asa Astiro Balasin Bandira Barceano Bartu Bodo Botaes Brevarte Busa Capatana 
 	Caplo Cotu Crasin Dinisin Espara Gascarin Genaro Lemonarte Luparte Migarin 
 	Obuaro Polaes Reveneco Rumu Rurdu Slipa Sordu Sova Stonkarte Torpu Turcea Vașo
 	Vicaro Voluarte Vulgarin Tesparin Ligma Cessarin Erdu Tacano Urgu Uralo Vula
