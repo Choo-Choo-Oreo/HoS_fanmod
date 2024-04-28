@@ -132,4 +132,10 @@ spriteTypes = {
 		name = "GFX_portrait_reynard"
 		texturefile = "gfx/leaders/MTY/ReynardIX.dds"
 	}
+	
+	#KRL
+	spriteType = {
+		name = "GFX_portrait_AritzBaleraru_pat"
+		texturefile = "gfx/leaders/KRL/AritzBaleraru_pat.dds"
+	}
 }

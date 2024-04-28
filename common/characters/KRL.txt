@@ -1,0 +1,16 @@
+characters = {
+	KRL_AritzBaleraru_pat = {
+		name = "Aritz Baleraru" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AritzBaleraru_pat
+			}
+		}
+		country_leader = {
+			ideology = paternalism_subtype
+			traits={ popular_leader }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1146,41 +1146,68 @@ SMM = {
 KRL = {
 	male = {
 		names = {
-		Adi Aletzandru Alin Ansel Antonu Atanase Kautaulin Kodrin Kodrutz Kostaste
-		Kostikau Daunutz Dezideru Dorin Dragotz Dumitru Emanoil Eusebu Flaviu 
-		Senadie Sitzu Aralamb Oratzu Ianku Ionutz Lazaur Luka Mirsea Mitikao Nelu
-		Nikutzor Ovidu Petrikau Petrutz Radu Raretz Rauzvan Sandru Sergo Sorin 
-		Timotei Valeru Viorel Dionisie Desebal Kostin Aurel Albert
+		#Kalrad proper
+		Adi Alechandru Alin Ansel Antonu Atanase Kautaulin Kodrin Kodruch Kothathe
+		Kothikau Daunuch Decideru Dorin Dragoch Dumitru Emanoil Eusebu Flabiu 
+		Senadie Sichu Aralamb Orachu Ianku Ionuch Lacaur Luka Mirsea Mitikao Nelu
+		Nikuchor Obidu Petrikau Petruch Radu Rarech Raucban Sandru Sergo Sorin 
+		Timotei Baleru Biorel Dionisie Desebal Kothin Aurel Albert
+		
+		#Irlesis
+		Abunduis Adod Egid Alpol Ambil Batuis Beniguis Bonetuis Kalestin Kitean 
+		Kalithulis Charlegal Klaruis Kreces Dunat Duras Pelicis Permin Pruskus Igat 
+		Iakobis Librechis Nacar Pachur Pichin Sebartul Bitor Bital
+		
+		#Belsk
+		Aymalis Aytor Ayura Hametz Ander Andonis Argis Eder Arkaitz Hasier Bakar
+		Baledin Bennat Bikendis Bittor Edort Edur Egusk Ekaytz Hendika Ineskam Herlantz
+		Ramun Stebes Fermintz Gaiskam Ganitz Garailes Goizeder Izeis Koldobis Mitzel 
+		Oyhan Patzis Petris Peyo Oroytz Tzabis Tzantis Tzimun Tzigor
 		}
 	}
 	female = {
 		names = {
-		Adina Amalia Anamaria Ankutza Andra Anitzoara Aurika Braundutza kasandra
-		Kautaulina Setzara Konstantza Kosmina Dasiana Denisa Doina Eliza Estera
-		Eugenia Gabi Gavrila Georgiana Iasmina Ileana Iolanda Ionela Irina Lavinia
-		Lenutza Ligia Liliana Loredana Lorenna Luminitza Manuela Maritzika Miela
-		Minodora Miruna Noemia Raluka Rodika Rozalia Sorina Steliana Vera Viorela
+		Adina Amalia Anamaria Ankucha Andra Anichoara Aurika Braunducha Kasandra
+		Kautaulina Sechara Konthancha Kosmina Dasiana Denisa Doina Elica Ethera
+		Eugenia Gabi Gabrila Gorgiana Iasmina Ileana Iolanda Ionela Irina Labinia
+		Lenucha Ligia Liliana Loredana Lorenna Luminicha Manuela Marichika Miela
+		Minodora Miruna Noemia Raluka Rodika Rocalia Sorina Theliana Bera Biorela
 		}
 	}
 	surnames = {
-		Aradinku Arasi Arde Arsiktu Argu Avries Azu Bakou Bailu Bale Baru Beraud 
-		Biau Beurgeorin Bi Bianies Bises Bistani Boksantku Bolaramu 
+		Aradinku Arasi Arde Arsiktu Argu Abries Acu Bakou Bailu Bale Baru Beraud 
+		Biau Beurgeorin Bi Bianies Bises Bithani Boksantku Bolaramu 
 		Boli Botosu Botosisu Brantu Bradino Braunti Bras Brasan Bredgir Kal Kalseu 
-		Kaloiestku Kault Kamakauresi Kamureu Kamurestz Karo Karalasno Karas 
-		Karavni Karges Kaz Serat Stitku Klunes Klunestani Kodlatku 
-		Kodure Kon Konstu Kontu Kontz Kaskaso Kritu Damo Dambo 
-		Damurges Darlaiulseu Darmani Des Destzeu Dol Doldaslui Drafag Fago 
-		Erkudoare Umonstku Unedintku Ialai Ialseu Iaso Ilfasanzi 
+		Kaloiethku Kault Kamakauresi Kamureu Kamuresch Karo Karalasno Karas 
+		Karabni Karges Kac Serat Thitku Klunes Klunethani Kodlatku 
+		Kodure Kon Konthu Kontu Konch Kaskaso Kritu Damo Dambo 
+		Damurges Darlaiulseu Darmani Des Descheu Dol Doldaslui Drafag Fago 
+		Erkudoare Umonthku Unedintku Ialai Ialseu Iaso Ilfasanci 
 		Ilfodu Intani Isanedo Liusno Lelo Lugo Mag Masitu Maru Marad 
-		Marasi Marsitantku Medoarintz Met Milinu Moliasi Moli Mure Mureskao 
-		Murestz Murfatz  Nuseamb Oknestu Orabu Paneavodle 
-		Sarko Sakaure Salutku Santu Satatzo Sebestrietz Severo Sibisako 
-		Sibiurnes Sibiusku Sibo Slomitanseu Somani Spritz Spritao Stei 
+		Marasi Marsitantku Medoarinch Met Milinu Moliasi Moli Mure Mureskao 
+		Muresch Murfach  Nuseamb Oknethu Orabu Paneabodle 
+		Sarko Sakaure Salutku Santu Satacho Sebethriech Sebero Sibisako 
+		Sibiurnes Sibiusku Sibo Slomitanseu Somani Sprich Spritao Thei 
 		Sauseu Susi Susnu Taro Tarad Taraitku Tarailatei Tarasno Tasaulanteu 
-		Taslui Tasseverino Taud Tei Teleori Telo Tzitanad Tzimle 
-		Tzatano Topes Tului Tureav Turesteleni Tuso Ungo Urbaiate 
-		Valaoro Valaramt Valentikotu Valurau Vaulu Vanedoarges Vasitku 
-		Vedoarad Viseu Vodau Varaulo Almeni Zaro Zimniseuro
+		Taslui Tasseberino Taud Tei Teleori Telo Chitanad Chimle 
+		Chatano Topes Tului Tureab Turetheleni Tuso Ungo Urbaiate 
+		Balaoro Balaramt Balentikotu Balurau Baulu Banedoarges Basitku 
+		Bedoarad Biseu Bodau Baraulo Almeni Caro Cimniseuro
+		
+		#Irlesis
+		Nucratis Druc Flac Ipolnis Oliar Pachomis Aplinis Mutis Pothius Atarus
+		Silla Frug Aspeth Acom Vestin Sisin Manlis Klaskis Lipedis Brodim Udothis
+		Polli Kapras Dosili Petarkulis Gethas Berlul Rogat Margis Kranithes Bitalin
+		Kacilis Paskent Lavin Pateis Lobin Sisen Gregoris Marlul Tremorin Festilis
+		Afer Skleris Sosmuis Rethis
+		
+		#Belsk
+		Areasis Bedan Amikes Kerres Biaga Unirask Mecanas Aritzanis Iberdusk Zibocais
+		Andabias Itannosk Ipete Guyarles Metza Ketzaralis Eriokiesa Hartas Bedals
+		Harane Luedorals Annatzian Honduaris Ibertz Duyota Lurritz Ekinas Sotzasis
+		Kirunsk Tubresk Apatzinda Ledarea Frantra Apnalis Minalotis Loyas Bagasis
+		Barnepnis Hutesk Terneko Berron Kandobartz Annudora Arril Filde Kibutask Kiyar
+		Hiktis Kefonilis
 	}
 	callsigns = { }
 }
@@ -1214,6 +1241,32 @@ AGD = {
 	
 	"du Grutac" "du Marech" "du Rufael" "du Madrael" "du Turka" "du Argka" 
 	"du Laruc" "du Astruc" "du Mruc" "du Velech" "du Ermech" "du Igvael"
+	}
+	callsigns = { }
+}
+
+#Free Cities
+FRC = {
+	male = {
+		names = {
+		Agaph Ardal Besar Diadumen Dorothes Dosithes Elether Erasm Elog Galat
+		Gerasme Macare Nektare Pantelmon Prokope Prosdokim Sophron Spirid Stilan
+		Theonost Therapon
+		}
+	}
+	female = {
+		names = {
+		Mirtala Lisandrea Chirseia Euridisa Kiniska
+		}
+	}
+	surnames = {
+	Katalam Phili Topoxoro Epeko Dakrolivo Proch Psakaras Stagmaprox Stalagmo
+	Katakten Enadeion Katadiken Dakripipt Airephon Exenarin Karara Karima Mosaka
+	Azapes Kitos Lagan Kiari Kitha Kokona Datra Tetia Tikos Mainti Akallo Nara
+	Timanai Matrassa Palelos Valin Zas Falos Kroseda Misa Kaleranos Dialis 
+	Thasaros Langonos Sethiosi Oia Lianara Faelos Poneis Sei Koiphos Sona Tiama
+	Kalagamasa Stia Asmach Mazo Dona Magas Sias Aimona Kis Ronthelos Dono
+	Pos Chiripois Pontianou Fosos Gosasberos Loridatros Roi Foserisi
 	}
 	callsigns = { }
 }

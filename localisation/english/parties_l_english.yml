@@ -346,6 +346,27 @@
   ARC_despotism_party_long:0 "Corporate Interests"
   ARC_ultrareactionary_party:0 "Knights of The Mountain"
   ARC_ultrareactionary_party_long:0 "Knights of The Mountain"
- 
+ #########################################################################
+  KRL_malenyevism_party:0 "RPK"
+  KRL_malenyevism_party_long:0 "Red Party of Kalrad"
+  KRL_divergism_party:0 "Left Alternative"
+  KRL_divergism_party_long:0 "Left Alternative"
+  KRL_autonomism_party:0 "Left Alternative"
+  KRL_autonomism_party_long:0 "Left Alternative"
+  KRL_progressivism_party:0 "Citizens' Platform"
+  KRL_progressivism_party_long:0 "Citizens' Platform"
+  KRL_liberalism_party:0 "PNF"
+  KRL_liberalism_party_long:0 "Party for New Federation"
+  KRL_minarchism_party:0 "PNF"
+  KRL_minarchism_party_long:0 "Party for New Federation"
+  KRL_conservatism_party:0 "PRP"
+  KRL_conservatism_party_long:0 "Patriotic Republican Party - Liberal"
+  KRL_paternalism_party:0 "PRP"
+  KRL_paternalism_party_long:0 "Patriotic Republican Party - Loyalists"
+  KRL_despotism_party:0 "Military Clique"
+  KRL_despotism_party_long:0 "Military Clique"
+  KRL_ultrareactionary_party:0 "Independence Front"
+  KRL_ultrareactionary_party_long:0 "Independence Front"
+
  
 
