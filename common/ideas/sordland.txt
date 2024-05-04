@@ -255,5 +255,89 @@ ideas = {
 				reactionary_nationalist_drift = 0.01
 			}
 		}
+		SRD_business_bail_out = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_neutrality_drift_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+		
+		SRD_prioritize_consumer_sector = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_neutrality_drift_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+		
+		SRD_trade_with_grace = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_neutrality_drift_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+
+		SRD_ato_investment = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_neutrality_drift_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+		
+		SRD_innovation_from_west = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_neutrality_drift_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+
+		SRD_for_nurs_sake = {
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_neutrality_drift_bonus
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+
 	}
 }
