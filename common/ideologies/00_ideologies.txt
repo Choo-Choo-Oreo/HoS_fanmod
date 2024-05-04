@@ -61,7 +61,7 @@ ideologies = {
 			"FACTION_NAME_DIVERGIST_3"
 		}
 
-		color = { 255 53 65 }
+		color = { 190 0 0 }
 
 		rules = {
 			can_force_government = no
