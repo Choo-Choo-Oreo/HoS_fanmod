@@ -84,19 +84,21 @@ if = {
 }
 
 set_politics = {
-	ruling_party = paternalism
-	last_election = "1954.9.15"
-	election_frequency = 36
+	ruling_party = liberalism
+	last_election = "1949.2.15"
+	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	malenyevism = 0
-	divergism = 0
-	progressivism = 0
-	liberalism = 0
-	conservatism = 0
-	paternalism = 100
-	despotism = 0
-	ultrareactionary = 0
+	malenyevism = 1
+	divergism = 2
+	autonomism = 5
+	progressivism = 7
+	liberalism = 28
+	minarchism = 23
+	conservatism = 18
+	paternalism = 6
+	despotism = 5
+	ultrareactionary = 3
 }
