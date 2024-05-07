@@ -24,4 +24,7 @@ state={
 
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+
+	## Added by SpaceCultist while error fixing
+	state_category = large_city ## Rumburg Capital State
 }

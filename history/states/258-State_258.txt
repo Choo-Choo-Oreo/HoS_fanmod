@@ -39,4 +39,7 @@ state={
 		}
 
 	}
+
+	## Added by SpaceCultist while error fixing
+	state_category = small_island
 }
