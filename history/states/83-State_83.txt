@@ -24,7 +24,7 @@ state={
 
 	}
 	provinces={
-		11764 12217 18877 19184 22504 22505 22506 
+		11764 12217 18877 19184 22504 22505 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
