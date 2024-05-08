@@ -19,9 +19,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 22516;22515;sea;26179;-1;-1;-1;-1;;Kyrute-Seven
 11270;22508;sea;25382;-1;-1;-1;-1;;Lespia-One
 20490;22512;sea;26005;-1;-1;-1;-1;;Lespia-Two
-22506;11764;sea;26556;-1;-1;-1;-1;;Lespia-Three
-19184;22505;sea;24203;-1;-1;-1;-1;;Lespia-Four
-22505;22504;sea;28736;-1;-1;-1;-1;;Lespia-Five
+19184;22505;sea;24203;-1;-1;-1;-1;;Lespia-Three
+22505;22504;sea;28736;-1;-1;-1;-1;;Lespia-Four
 452;2137;sea;26406;-1;-1;-1;-1;;Xelina-One
 2953;22462;sea;28172;-1;-1;-1;-1;;Valgos-One
 16512;16590;sea;28562;-1;-1;-1;-1;;Valgos-Two
@@ -40,7 +39,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2192;20679;sea;27690;-1;-1;-1;-1;;Sonsamia-One
 19229;19317;sea;26526;-1;-1;-1;-1;;Sonsamia-Two
 17829;12442;sea;28649;-1;-1;-1;-1;;Sonsamia-Three
-22521;22523;sea;25565;-1;-1;-1;-1;;Hijana-One
+22521;9919;sea;25565;-1;-1;-1;-1;;Hijana-One
 9919;22520;sea;27501;-1;-1;-1;-1;;Hijana-Two
 22520;22519;sea;29055;-1;-1;-1;-1;;Hijana-Three
 9361;9026;sea;26880;-1;-1;-1;-1;;Zaerland-One
