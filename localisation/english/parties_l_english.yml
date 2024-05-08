@@ -367,6 +367,27 @@
   KRL_despotism_party_long:0 "Military Clique"
   KRL_ultrareactionary_party:0 "Independence Front"
   KRL_ultrareactionary_party_long:0 "Independence Front"
+ #########################################################################
+  MRL_malenyevism_party:0 "SDPMP"
+  MRL_malenyevism_party_long:0 "Socialist Democratic Party of Morellan People"
+  MRL_divergism_party:0 "Unified Front"
+  MRL_divergism_party_long:0 "Morellan Unified Front - Proleteras"
+  MRL_autonomism_party:0 "Unified Front"
+  MRL_autonomism_party_long:0 "Morellan Unified Front - Partita Ala"
+  MRL_progressivism_party:0 "Unified Front"
+  MRL_progressivism_party_long:0 "Morellan Unified Front / Liberallas"
+  MRL_liberalism_party:0 "New Morella"
+  MRL_liberalism_party_long:0 "New Morella"
+  MRL_minarchism_party:0 "New Morella"
+  MRL_minarchism_party_long:0 "New Morella"
+  MRL_conservatism_party:0 "APP"
+  MRL_conservatism_party_long:0 "Agrarian People’s Party"
+  MRL_paternalism_party:0 "APP"
+  MRL_paternalism_party_long:0 "Agrarian People’s Party"
+  MRL_despotism_party:0 "MNDRC"
+  MRL_despotism_party_long:0 "Morellan National Democratic Right Bloc"
+  MRL_ultrareactionary_party:0 "MNDRC"
+  MRL_ultrareactionary_party_long:0 "Morellan National Democratic Right Bloc"
 
  
 
