@@ -144,7 +144,7 @@ ideologies = {
 			"FACTION_NAME_PROGRESSIVE_3"
 		}
 
-		color = { 225 71 0 }
+		color = { 222 97 39 }
 
 		rules = {
 			can_force_government = no
@@ -188,7 +188,7 @@ ideologies = {
 			"FACTION_NAME_LIBERALISM_3"
 		}
 
-		color = { 220 200 76 }
+		color = { 255 200 75 }
 
 		rules = {
 			can_force_government = yes
