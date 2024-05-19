@@ -22,7 +22,7 @@ ideologies = {
 			"FACTION_NAME_MALENYVIST_3"
 		}
 
-		color = { 116 14 45 }
+		color = { 111 36 40 }
 
 		rules = {
 			can_force_government = yes
@@ -61,7 +61,7 @@ ideologies = {
 			"FACTION_NAME_DIVERGIST_3"
 		}
 
-		color = { 180 50 80 }
+		color = { 178 45 40 }
 
 		rules = {
 			can_force_government = no
@@ -105,7 +105,7 @@ ideologies = {
 			"FACTION_NAME_AUTONOMIST_3"
 		}
 
-		color = { 215 116 128 }
+		color = { 240 149 107 }
 
 		rules = {
 			can_force_government = no
@@ -144,7 +144,7 @@ ideologies = {
 			"FACTION_NAME_PROGRESSIVE_3"
 		}
 
-		color = { 222 97 39 }
+		color = { 210 81 111 }
 
 		rules = {
 			can_force_government = no
@@ -229,7 +229,7 @@ ideologies = {
 			"FACTION_NAME_MINARCHIST_3"
 		}
 
-		color = { 106 193 151 }
+		color = { 76 163 121 }
 
 		rules = {
 			can_force_government = yes
