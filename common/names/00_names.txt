@@ -43,7 +43,7 @@ default = {
 }
  
 ###############################################################
-# The Majors
+# Major Powers
 ###############################################################
 RUM = {
 	male = {
@@ -1275,6 +1275,78 @@ FRC = {
 # North Merkopa
 ###############################################################
 
+#Adania
+ADA = {
+	male = {
+		names = {
+		Obin Opfin Abrom Yarnos Ansels Atanaz Bodfin Bebert Bernod Betmes Chals 
+		Chues Chinkin Clemint Dinips Dyochob Dyospord Dyerlaps Dyils Dyor Dyurod
+		Doford Elus Estens Foyin Hobets Rihuers Hurpet Huebert Huiyom Hustin Izok
+		Linod Loufis Mokraf Medod Mimils Modeps Muchyin Natols Pirs Rafol Soveu 
+		Servo Sinforyin Statch Tibo Tutur Vinchant Fiyom Yopol Zavi Zir
+		}
+	}
+	female = {
+		names = {
+		Adile Aili Ameley Bobi Barbori Betrips Chorlote Delina Dyanete Dyelike 
+		Dyetros Dyozefi Dorotey Elinni Erneldi Fifene Fraziy Huduli Lalyi Lolote
+		Lofips Luchey Mohriti Morteni Moti Madyen Mardyo Meranchi Neneps Poldine 
+		Ronike Roza Sedoniy Tetene Toreni Trinete Virniy Fodros Iyale Yoniy Zabel
+		Zeliy
+		}
+	}
+	surnames = {
+	Alare Anchel Apselino Arkenops Azas Bafin Balesden Barber Barbet Bater Bebos 
+	Befochamp Belanher Belye Bepson Bertilon Besnard Bodofin Boher Bolanher Bolne
+	Bopsonade Borhunon Borseler Botin Boye Brunet Chapele Chapis Chastan Chote Chove
+	Dalapak Dambose Demaret Dembele Derokles Dokort Dordike Dosnefo Duchemin Duklops
+	Dupus Durand Dutot Dyudef Edord Emanelyi Feret Goter Hafet Hemerye Henet Herin
+	Hilbert Hillops Kalvet Karbonef Kint Klar Kochet Korbis Kormer Krever Lacrops
+	Lafose Landri Laropse Levremont Liblank Livod Lop Lorens Lorent Loze Lukroy 
+	Manodos Maras Markand Matreps Mazet Michops Milhod Motchon Nicholer Oyuste 
+	Parmenter Pasker Perat Perlot Plofe Polan Ponch Ponkare Popsin Racheplin Randyan
+	Rapach Reno Rochet Roder Rofanet Ropselot Ropse Sanpere Silverops Soner Tevenet
+	Tochard Valoton Vaser Vatelet Viyorops Voyefos Yakemod Yaket Yardin Yenin Yokkod
+	}
+	callsigns = { }	
+}
+
+
+#Nahrburk
+
+NHK = {
+	male = {
+		names = {
+		Agrivulf Alarax Amalarax Ariarik Asila Audavark Azalfuns Azanagst Azanarax
+		Azavuf Badua Berimunt Krozirax Krozisin Efarax Ehrmanagst Ehrmanar Flaxizes
+		Friderik Frizunas Gerunk Getika Gomresindo Gume Hazufuns Hidifuns Hisarna
+		Humha Ibba Inna Ivrik Ivzarik Modares Ranamers Retemeris Rudesint Salla
+		Valamir Vingurik Vulfila Zidrek Ziudamers Ziudrax  Zrasarik Zraustila
+		
+		Gotfra Alen Kuzbert Nazaniel Edmont Henra Samuel Lavrense Bartram Humfra
+		Timoza Rahf Emanuel Vinkent Rovlant Isak Zakara Barzoloma Ieroma Asmunz
+		}
+	}
+	female = {
+		names = {
+		Adosinda Alauds Amalabehrga Amalasvinza Kizila Egilona Ehlasabez Erelifa
+		Gehlavera Gehlesvinza Geloira Hildivara Liuvigotos Livdesinda Mazlasenza
+		Senzigda Vuftrudea Zivdegunda
+		}
+	}
+	surnames = {
+	"ram Tille" "ram Gohf" "zehm Ollox" "zehm Hestin" "ram Argak" "ram Karvenek"
+	"ram Lekam" "ram Omnes" "zehm Letexier" "ram Kehlibott" "zehm Forbor" 
+	"zehm Bridson" "ram Korrin" "ram Bodag" "zehm Breden" "ram Kermode" "ram Tatlok"
+	
+	Abla Adoint Exarik Amalessist Ammisihderka Ansi Argasa Asbadus Beridak Bessist
+	Bordat Kixist Knihda Eberikifrika Ermerivuhf Fredamadest Frogozar Gehs Gelinarik
+	Getas Goint Gunula Herikiza Hilaba Hunda Ibbaduka Irmudermut Leoddars Naust 
+	Odosinzil Rekkibist Rekkitik Reminiok Rikitauluin Sigisunt Ulrikz Valaba 
+	Vetermarika Vulzardares Vamerma Vinilasuin
+	}
+}
+
 ERD = {
 	male = {
 		names = {
@@ -1536,47 +1608,72 @@ WHL = {
 		callsigns = { }
 	}
 	
-	
 
 ###############################################################
-# North Merkopa
+# North Xina
 ###############################################################
 
-#Adania
-ADA = {
+#Qinal
+QIN = {
 	male = {
 		names = {
-		Obin Opfin Abrom Yarnos Ansels Atanaz Bodfin Bebert Bernod Betmes Chals 
-		Chues Chinkin Clemint Dinips Dyochob Dyospord Dyerlaps Dyils Dyor Dyurod
-		Doford Elus Estens Foyin Hobets Rihuers Hurpet Huebert Huiyom Hustin Izok
-		Linod Loufis Mokraf Medod Mimils Modeps Muchyin Natols Pirs Rafol Soveu 
-		Servo Sinforyin Statch Tibo Tutur Vinchant Fiyom Yopol Zavi Zir
+		Alparslan Altan Anil Arda Afaz Afdin Barix Berat Berq Bukra Bulut Chakri
+		Cheliq Koxqun Demir Dufgu Egmen Emre Eren Erqin Gursel Haqan Hafri Ilqin
+		Qara Qivanch Qoraf Metin Oqan Onur Xan Semih Xener Serhat Taner Tugaf Ukur
+		Utqu Famach Fikit Filmaz
 		}
 	}
 	female = {
 		names = {
-		Adile Aili Ameley Bobi Barbori Betrips Chorlote Delina Dyanete Dyelike 
-		Dyetros Dyozefi Dorotey Elinni Erneldi Fifene Fraziy Huduli Lalyi Lolote
-		Lofips Luchey Mohriti Morteni Moti Madyen Mardyo Meranchi Neneps Poldine 
-		Ronike Roza Sedoniy Tetene Toreni Trinete Virniy Fodros Iyale Yoniy Zabel
-		Zeliy
+		Ada Asli Asman Afsun Baxaq Belma Beste Bilge Buklem Chakla Kanan Kemre 
+		Chikdem Damla Derin Eke Elvan Evren Eflul Fidan Hulfa Ipeq Masal Narin Azge
+		Pinar Serpil Xule Umut Fexim Fildiz
 		}
 	}
 	surnames = {
-	Alare Anchel Apselino Arkenops Azas Bafin Balesden Barber Barbet Bater Bebos 
-	Befochamp Belanher Belye Bepson Bertilon Besnard Bodofin Boher Bolanher Bolne
-	Bopsonade Borhunon Borseler Botin Boye Brunet Chapele Chapis Chastan Chote Chove
-	Dalapak Dambose Demaret Dembele Derokles Dokort Dordike Dosnefo Duchemin Duklops
-	Dupus Durand Dutot Dyudef Edord Emanelyi Feret Goter Hafet Hemerye Henet Herin
-	Hilbert Hillops Kalvet Karbonef Kint Klar Kochet Korbis Kormer Krever Lacrops
-	Lafose Landri Laropse Levremont Liblank Livod Lop Lorens Lorent Loze Lukroy 
-	Manodos Maras Markand Matreps Mazet Michops Milhod Motchon Nicholer Oyuste 
-	Parmenter Pasker Perat Perlot Plofe Polan Ponch Ponkare Popsin Racheplin Randyan
-	Rapach Reno Rochet Roder Rofanet Ropselot Ropse Sanpere Silverops Soner Tevenet
-	Tochard Valoton Vaser Vatelet Viyorops Voyefos Yakemod Yaket Yardin Yenin Yokkod
+		Soum Ngaga Moruk Fachro Nomra Famang Horu Mouri Fach Fada Ifki Kafbe Kuxo 
+		Arma Houx Hirga Hatno Gamou Furta Fux Tok Ichin Sog Ngaito Maton Fufon Mib 
+		Moch Ifamar Baba Xuxem Sak Honim Kus Suf Chif Karch Kog Fude Sago Ichix Ise
+		Chixo Ietad Hotat
+		
+		Azixub Buequ Garuz Gerkaza Gizixo Hasav Hason Hirughanfux Hirungax Hiskao
+		Kauza Khoxt Kouax Ngabzuam Ngub Ornub Ornutu Pehnux Qinoza Qutuza Rbinoza
+		Renoza Rezaiza Rutriza Skenbux Skenh Skenkab Xuqori
+		
+		Chikit Koxqu Ilqivan Asmach Beligil Baxan Erener Fidagil Hulul Adaneri 
+		Erqivan Qivan Asmaz Emren Asliq Gursla Alpar Xulfa Qorat Bara 
 	}
-	callsigns = { }	
 }
+
+#Neqis
+NEQ = {
+	male = {
+		names = {
+		Blon Buesai Fuam Fuequ Gerkaus Gexub Herxab Hiskab Houablar Hsabxao Hsav
+		Hsuxueb Hsub Kauvax Kou Kuamzax Kubtu Nhsuan Penka Riamtub Soncuev Tueblum
+		Vanfux Vanhnub Xum Xuqou Zebtria
+		}
+	}
+	female = {
+		names = { 
+		Boamalu Cua Gaoxer Gerdex Hlauvia Hnub Iason Kabzuan Kalue Maituab Naosue
+		Nhiaxu Nhsuab Nkaux Npaimboa Pa Tonmos Xiantux Xovsue
+		}
+	}
+	surnames = {
+		Agasas Atzu Binhbux Bot Bousk Bux Chenh Denoza Drux Eqazx Gizixi Gruxu 
+		Gumaxat Harqo Hass Haxt Hez Hirae Huax Huxa Ikimix Inqo Iqahra Kanxa Kex
+		Khittiz Khixorb Khos Khoxtoh Kixa Kukxa Nukae Ornux Orughax Qrihx Qrutri
+		Rbiknox Renro Rhezsax Rhuxo Rutkhan Skenra Soxruz Tqorix Tritzzix Ukaokhi
+		Ukiru Uxaz Xazk Zixur
+	}
+}
+
+#Xelina
+
+#Narashima
+
+#Fenncao
 
 ###############################################################
 # Contana & Polaris
@@ -1718,6 +1815,22 @@ NLP = {
 ###############################################################
 # West Rika
 ###############################################################
+
+#Zaerland
+ZRL = {
+	male = {
+		names = {
+		}
+	}
+	
+	female = {
+		names = {
+		}
+	}
+	
+	surnames = {
+	}
+}
 
 #Zanza
 ZAN = {
@@ -2076,15 +2189,15 @@ YAR = {
 #Hassan Hatim Hawar Harkal Harran Hazm Hisham Hiraz Hizam Hubab Hudarda Hunarn 
 #Hurarth Husarn Ibrahim Idris Imran Isa Ishak Ismail Irad Yabir Yafar Yahhaf Yahwar 
 #Yalaf "Yalaf Yawah" yalhama Yalid Yalil Yalsa Yami Yarir Yattab Yarr Yarrun Yidr 
-#yubarr Yuda Yumahir Yuzarr Kathir Karsan Kularb Mabad Mahbub Mahfuz Mahmud Mayluf 
-#makki Malik Man Mansur Marwan Maslama Masud Marmun Mirdas Misbah Muawira Mubarak 
-#mudrik Mufarriy Muflit Muhallab Muhaymad Muyahid Muyarik Mulahhab Mundhir Musa 
-#musab Muslim Mutarrif Nabit Nadar Nafidh Nafis Nasir Nasr Nizar Nudharr Nuh karus 
-#kasim katan kars Rashid Razin Sabah Sad Sadan Sadik Safi Safwan Sahl "Saib yatir" 
+#Yubarr Yuda Yumahir Yuzarr Kathir Karsan Kularb Mabad Mahbub Mahfuz Mahmud Mayluf 
+#Makki Malik Man Mansur Marwan Maslama Masud Marmun Mirdas Misbah Muawira Mubarak 
+#Mudrik Mufarriy Muflit Muhallab Muhaymad Muyahid Muyarik Mulahhab Mundhir Musa 
+#Musab Muslim Mutarrif Nabit Nadar Nafidh Nafis Nasir Nasr Nizar Nudharr Nuh karus 
+#Kasim katan kars Rashid Razin Sabah Sad Sadan Sadik Safi Safwan Sahl "Saib yatir" 
 #Said Sayr Salama Salih Salim Sallama Salmun Saki Sarur Shabib Shabtun Shayara 
 #Sharif Shith Shuarb Shuba Shurarh Shurark Sind Siray Sufran Suktan Sularman Tahir 
 #Talha Tamim Taymam Tarik Tawd Tartal Tarrib Thabit Tuwars Ubada Ubard 
 #"Ubard Yawah" Ubarda Ubardun Ularm Umar Umarra Ukarl Urarb Uthman Wadih Wahb 
-#Walid Wasim Waslas Wathima Wazir Rabke Rahre yohn Raish Raylaf Rakub Rakut Rasin 
-#rasir Raskar Razid Ruyamir Runus 
-#rusr Rusuf Zaban Zafir Zahira Zakarirra Zarb Zarn Zirad Zuharr Zuhr Zurar
+#Walid Wasim Waslas Wathima Wazir Rabke Rahre Yohn Raish Raylaf Rakub Rakut Rasin 
+#Rasir Raskar Razid Ruyamir Runus 
+#Rusr Rusuf Zaban Zafir Zahira Zakarirra Zarb Zarn Zirad Zuharr Zuhr Zurar
