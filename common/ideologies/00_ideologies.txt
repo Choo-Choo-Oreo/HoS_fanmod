@@ -265,9 +265,8 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			
-			}
+		}
 		
-
 		dynamic_faction_names = {
 			"FACTION_NAME_CONSERVATIVE_1"
 			"FACTION_NAME_CONSERVATIVE_3"

@@ -12,7 +12,7 @@
 	default = no
 
 	initial_show_position = {
-		focus = industrial_effort
+		focus = RUM_aftermath_of_tradewar #industrial_effort (does not exist, swapped with this one)
 	}
 
 	focus = {
@@ -39,20 +39,25 @@
 				uses = 1
 				category = industry
 			}
-			}
 		}
+	}
 ###################################### PRIVATISATION ############################################
 	focus = {
 		id = RUM_market_economy_focus
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = RUM_aftermath_of_tradewar }
-		mutually_exclusive = { focus = RUM_mixed_economy_focus focus = RUM_planned_economy_focus }
+		prerequisite = { 
+			focus = RUM_aftermath_of_tradewar
+		}
+		mutually_exclusive = { 
+			focus = RUM_mixed_economy_focus 
+			focus = RUM_planned_economy_focus
+		}
 		available = {
 			OR = {
-				has_government = social_democratic
-				has_government = liberal
-				has_government = conservative
-				has_government = authoritarian_democrat
+				has_government = liberal_conservatism
+				has_government = market_liberalism
+				has_government = social_conservatism
+				has_government = paternalism_subtype
 			}
 		}
 		x = -8
@@ -76,10 +81,16 @@
 	focus = {
 		id = RUM_business_subsidies_focus
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RUM_market_economy_focus }
+
+		prerequisite = { 
+			focus = RUM_market_economy_focus 
+		}
+
 		x = -1
 		y = 1
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -124,9 +135,14 @@
 	focus = {
 		id = RUM_tax_breaks_focus
 		icon = GFX_goal_generic_intelligence_exchange
-		prerequisite = { focus = RUM_market_economy_focus }
+
+		prerequisite = { 
+			focus = RUM_market_economy_focus 
+		}
+
 		x = 1
 		y = 1
+
 		relative_position_id = RUM_market_economy_focus
 		cost = 10
 
@@ -147,7 +163,9 @@
 		prerequisite = { focus = RUM_tax_breaks_focus }
 		x = 0
 		y = 2
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -162,13 +180,20 @@
 	focus = {
 		id = RUM_private_industrial_complex_focus
 		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = RUM_relax_regulations_focus }
+
+		prerequisite = { 
+			focus = RUM_relax_regulations_focus 
+		}
+
 		available = {
 			has_completed_focus = RUM_initiate_privatisation_focus
 		}
+
 		x = -1
 		y = 3
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -217,7 +242,9 @@
 		prerequisite = { focus = RUM_arcasian_investments_focus }
 		x = 1
 		y = 3
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -235,11 +262,20 @@
 	focus = {
 		id = RUM_competative_markets_focus
 		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = RUM_initiate_privatisation_focus }
-		mutually_exclusive = { focus = RUM_cooperative_markets_focus }
+
+		prerequisite = { 
+			focus = RUM_initiate_privatisation_focus 
+		}
+
+		mutually_exclusive = { 
+			focus = RUM_cooperative_markets_focus 
+		}
+
 		x = 3
 		y = 4
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -256,10 +292,15 @@
 		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { focus = RUM_initiate_privatisation_focus }
 		prerequisite = { focus = RUM_initiate_privatisation_focus focus = RUM_private_industrial_complex_focus }
-		mutually_exclusive = { focus = RUM_competative_markets_focus }
+		mutually_exclusive = { 
+			focus = RUM_competative_markets_focus 
+		}
+
 		x = 0
 		y = 4
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -274,10 +315,17 @@
 	focus = {
 		id = RUM_recovered_market_economy_focus
 		icon = GFX_focus_generic_the_giant_wakes
-		prerequisite = { focus = RUM_cooperative_markets_focus focus = RUM_competative_markets_focus }
+
+		prerequisite = { 
+			focus = RUM_cooperative_markets_focus 
+			focus = RUM_competative_markets_focus
+		}
+
 		x = 1
 		y = 5
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -295,19 +343,31 @@
 	focus = {
 		id = RUM_trade_west_focus
 		icon = GFX_goal_support_democracy
-		prerequisite = { focus = RUM_market_economy_focus focus = RUM_mixed_economy_focus }
+
+		prerequisite = {
+			focus = RUM_market_economy_focus 
+			focus = RUM_mixed_economy_focus
+		}
+
 		available = {
 			NOT = {
-			has_government = revolutionary_socialist
-			has_government = reformist_socialist
-			has_government = paternal_autocrat
-			has_government = reactionary_nationalist
+				has_government = orthodox_malenyevism #revolutionary_socialist (could be different)
+				has_government = democratic_socialism #reformist_socialist (not sure, probably should be in malenyev or divergism)
+				has_government = paternalism_subtype #paternalism_autocrat
+				has_government = radical_nationalism #reactionary_nationalist (?)
 			}
 		}
-		mutually_exclusive = { focus = RUM_trade_east_focus focus = RUM_trade_nobody_focus }
+
+		mutually_exclusive = { 
+			focus = RUM_trade_east_focus 
+			focus = RUM_trade_nobody_focus
+		}
+
 		x = 4
 		y = 1
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 8
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -323,10 +383,16 @@
 	focus = {
 		id = RUM_private_education_focus
 		icon = GFX_focus_research2
-		prerequisite = { focus = RUM_trade_west_focus }
+
+		prerequisite = { 
+			focus = RUM_trade_west_focus 
+		}
+
 		x = 5
 		y = 2
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -345,7 +411,9 @@
 		prerequisite = { focus = RUM_tax_breaks_focus focus = RUM_trade_west_focus }
 		x = 3
 		y = 2
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -365,9 +433,12 @@
 		available = {
 			has_completed_focus = RUM_initiate_privatisation_focus
 		}
+
 		x = 3
 		y = 3
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -375,13 +446,16 @@
 		available_if_capitulated = yes
 
 		bypass = {
-			custom_trigger_tooltip = {
+			hidden_trigger = {
 				all_owned_state = {			
 					free_building_slots = {
 						building = infrastructure
 						size < 1
 					}
 				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = RUM_private_infrastracture_project_bypass_tt
 			}
 		}
 
@@ -447,7 +521,12 @@
 	focus = {
 		id = RUM_private_industrial_project_focus
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RUM_arcasian_investments_focus focus = RUM_fiscal_economic_policy_focus }
+
+		prerequisite = { 
+			focus = RUM_arcasian_investments_focus 
+			focus = RUM_fiscal_economic_policy_focus 
+		}
+
 		available = {
 			OR = {
 				has_completed_focus = RUM_initiate_privatisation_focus
@@ -457,14 +536,16 @@
 
 		x = 5
 		y = 4
+
 		relative_position_id = RUM_market_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		
 		available_if_capitulated = yes
 
-	completion_reward = {
+		completion_reward = {
 			add_political_power = 10
 			random_owned_controlled_state = {
 				limit = {
@@ -502,20 +583,31 @@
 	focus = {
 		id = RUM_planned_economy_focus
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = RUM_aftermath_of_tradewar }
-		mutually_exclusive = { focus = RUM_mixed_economy_focus focus = RUM_market_economy_focus }
+
+		prerequisite = { 
+			focus = RUM_aftermath_of_tradewar
+		}
+
+		mutually_exclusive = { 
+			focus = RUM_mixed_economy_focus 
+			focus = RUM_market_economy_focus
+		}
+
 		available = {
 			OR = {
-				has_government = revolutionary_socialist
-				has_government = reformist_socialist
-				has_government = authoritarian_democrat
-				has_government = paternal_autocrat
-				has_government = reactionary_nationalist
+				has_government = paternalism_subtype #authoritarian_democrat (probably closest one)
+				has_government = orthodox_malenyevism #revolutionary_socialist (could be different)
+				has_government = democratic_socialism #reformist_socialist (not sure, probably should be in malenyev or divergism)
+				has_government = despotism_subtype #paternalism_autocrat
+				has_government = radical_nationalism #reactionary_nationalist (?)
 			}
 		}
+
 		x = 8
 		y = 1
+
 		relative_position_id = RUM_aftermath_of_tradewar
+
 		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -525,7 +617,7 @@
 		completion_reward = {
 			custom_effect_tooltip = SRD_nationalisation_focus_tt
 			swap_ideas = {
-				remove_idea =GEN_tradewar_economy_spirit_2
+				remove_idea = GEN_tradewar_economy_spirit_2
 				add_idea = GEN_nationalisation_spirit
 			}
 		}
@@ -534,17 +626,28 @@
 	focus = {
 		id = RUM_trade_east_focus
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = RUM_planned_economy_focus focus = RUM_mixed_economy_focus }
+
+		prerequisite = {
+			focus = RUM_planned_economy_focus
+			focus = RUM_mixed_economy_focus
+		}
+
 		available = {
 			OR = {
-			has_government = revolutionary_socialist
-			has_government = reformist_socialist
+				has_government = orthodox_malenyevism #revolutionary_socialist (could be different)
+				has_government = democratic_socialism #reformist_socialist (not sure, probably should be in malenyev or divergism)
 			}
 		}
-		mutually_exclusive = { focus = RUM_trade_west_focus focus = RUM_trade_nobody_focus }
+		mutually_exclusive = {
+			focus = RUM_trade_west_focus
+			focus = RUM_trade_nobody_focus
+		}
+
 		x = -4
 		y = 1
+
 		relative_position_id = RUM_planned_economy_focus
+
 		cost = 8
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -560,10 +663,16 @@
 	focus = {
 		id = RUM_peoples_universities_focus
 		icon = GFX_focus_generic_socialist_science
-		prerequisite = { focus = RUM_trade_east_focus }
+
+		prerequisite = { 
+			focus = RUM_trade_east_focus
+		}
+
 		x = -5
 		y = 2
+
 		relative_position_id = RUM_planned_economy_focus
+
 		cost = 8
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -578,10 +687,16 @@
 	focus = {
 		id = RUM_public_works_focus
 		icon = GFX_focus_SOV_organize_wreckers
-		prerequisite = { focus = RUM_planned_economy_focus }
+
+		prerequisite = { 
+			focus = RUM_planned_economy_focus 
+		}
+
 		x = 1
 		y = 1
+
 		relative_position_id = RUM_planned_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -628,10 +743,16 @@
 	focus = {
 		id = RUM_tax_increase_focus
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = RUM_planned_economy_focus }
+
+		prerequisite = { 
+			focus = RUM_planned_economy_focus
+		}
+
 		x = -1
 		y = 1
+
 		relative_position_id = RUM_planned_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -651,7 +772,9 @@
 		prerequisite = { focus = RUM_tax_increase_focus }
 		x = 0
 		y = 2
+
 		relative_position_id = RUM_planned_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -776,7 +899,10 @@
 	focus = {
 		id = RUM_recovered_planned_economy_focus
 		icon = GFX_focus_generic_tank_production
-		prerequisite = { focus = RUM_party_controlled_economy_focus focus = RUM_state_controlled_economy_focus }
+		prerequisite = { 
+			focus = RUM_party_controlled_economy_focus 
+			focus = RUM_state_controlled_economy_focus 
+		}
 		x = -1
 		y = 5
 		relative_position_id = RUM_planned_economy_focus
@@ -890,7 +1016,12 @@
 	focus = {
 		id = RUM_industrial_project_focus
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = RUM_state_control_over_economy_focus focus = RUM_austerity_measures_focus }
+
+		prerequisite = { 
+			focus = RUM_state_control_over_economy_focus 
+			focus = RUM_austerity_measures_focus
+		}
+
 		available = {
 			OR = {
 				has_completed_focus = RUM_initiate_nationalisation_focus
@@ -900,7 +1031,9 @@
 
 		x = -5
 		y = 4
+
 		relative_position_id = RUM_planned_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -941,19 +1074,33 @@
 			}
 		}
 	}
+
 ###################################### MIXED ############################################
 	focus = {
 		id = RUM_mixed_economy_focus
 		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = RUM_aftermath_of_tradewar }
-		mutually_exclusive = { focus = RUM_market_economy_focus focus = RUM_planned_economy_focus }
-		available = {
-			NOT = { has_government = revolutionary_socialist }
-			NOT = { has_government = reformist_socialist }
+
+		prerequisite = { 
+			focus = RUM_aftermath_of_tradewar 
 		}
+
+		mutually_exclusive = { 
+			focus = RUM_market_economy_focus 
+			focus = RUM_planned_economy_focus 
+		}
+
+		available = {
+			NOT = { 
+				has_government = orthodox_malenyevism #revolutionary_socialist (could be different)
+				has_government = democratic_socialism #reformist_socialist (not sure, probably should be in malenyev or divergism)
+			}
+		}
+
 		x = 0
 		y = 1
+
 		relative_position_id = RUM_aftermath_of_tradewar
+
 		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -969,18 +1116,24 @@
 	focus = {
 		id = RUM_trade_nobody_focus
 		icon = GFX_goal_generic_fortify_city
+
 		prerequisite = { focus = RUM_mixed_economy_focus focus = RUM_planned_economy_focus }
+
 		mutually_exclusive = { focus = RUM_trade_west_focus focus = RUM_trade_east_focus }
+
 		available = {
 			OR = {
-			has_government = authoritarian_democrat
-			has_government = paternal_autocrat
-			has_government = reactionary_nationalist
+				has_government = despotism_subtype #authoritarian_democrat (prob the closest one)
+				has_government = paternalism_subtype #paternalism_autocrat
+				has_government = radical_nationalism #reactionary_nationalist (?)
 			}
 		}
+
 		x = 0
 		y = 1
+
 		relative_position_id = RUM_mixed_economy_focus
+
 		cost = 8
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1000,7 +1153,9 @@
 		prerequisite = { focus = RUM_trade_nobody_focus focus = RUM_tax_increase_focus }
 		x = 0
 		y = 2
+
 		relative_position_id = RUM_mixed_economy_focus
+
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1015,14 +1170,24 @@
 	focus = {
 		id = RUM_austerity_measures_focus
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = RUM_trade_nobody_focus }
-		mutually_exclusive = { focus = RUM_fiscal_economic_policy_focus}
+
+		prerequisite = { 
+			focus = RUM_trade_nobody_focus
+		}
+
+		mutually_exclusive = { 
+			focus = RUM_fiscal_economic_policy_focus
+		}
+
 		available = {
 			has_completed_focus = RUM_mixed_economy_focus
 		}
+
 		x = 1
 		y = 3
+
 		relative_position_id = RUM_mixed_economy_focus
+
 		cost = 8
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -1882,7 +2047,9 @@
 	focus = {
 		id = RUM_airforce_focus
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = RUM_general_staff_focus }
+		prerequisite = { 
+			focus = RUM_general_staff_focus 
+		}
 		x = 5
 		y = 1
 		relative_position_id = RUM_general_staff_focus
@@ -1951,8 +2118,12 @@
 	focus = {
 		id = RUM_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = RUM_airforce_focus }
-		mutually_exclusive = { focus = RUM_bomber_focus }
+		prerequisite = { 
+			focus = RUM_airforce_focus 
+		}
+		mutually_exclusive = { 
+			focus = RUM_bomber_focus 
+		}
 		x = -1
 		y = 1
 		relative_position_id = RUM_airforce_focus
@@ -2001,13 +2172,16 @@
 	focus = {
 		id = RUM_aviation_effort_2
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = RUM_bomber_focus focus = RUM_fighter_focus }
+		prerequisite = { 
+			focus = RUM_bomber_focus 
+			focus = RUM_fighter_focus
+		}
 		x = 1
 		y = 2
 		relative_position_id = RUM_airforce_focus
 		cost = 8
 
-		search_filters = {   FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
 
@@ -2094,10 +2268,11 @@
 		prerequisite = { focus = RUM_bomber_bonus }
 		x = -1
 		y = 2
+
 		relative_position_id = RUM_airforce_focus
 		cost = 8
 
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
 
@@ -2186,123 +2361,131 @@
 
 		completion_reward = {
 			205 = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 			18 = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 			205 = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 			18 = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 		}
@@ -2315,7 +2498,9 @@
 		y = 1
 		cost = 8
 
-		prerequisite = { focus = RUM_queen_focus }
+		prerequisite = { 
+			focus = RUM_queen_focus
+		}
 
 		relative_position_id = RUM_queen_focus
 		
@@ -2359,7 +2544,11 @@
 
 		prerequisite = { focus = RUM_suspend_focus }
 
-		mutually_exclusive = { focus = RUM_coup_focus focus = RUM_republic_focus focus = RUM_const_focus }
+		mutually_exclusive = { 
+			focus = RUM_coup_focus
+			focus = RUM_republic_focus
+			focus = RUM_const_focus
+		}
 
 		relative_position_id = RUM_queen_focus
 		
@@ -2373,17 +2562,26 @@
 	focus = {
 		id = RUM_coup_focus
 		icon = GFX_focus_generic_military_dictatorship
+
 		x = 1
 		y = 3
+
 		cost = 2
 
 		available = {
-			has_government = paternal_autocrat
+			has_government = military_dictatorship
 		}
 
-		prerequisite = { focus = RUM_suspend_focus focus = RUM_defund_focus }
+		prerequisite = { 
+			focus = RUM_suspend_focus 
+			focus = RUM_defund_focus
+		}
 
-		mutually_exclusive = { focus = RUM_kingdom_focus focus = RUM_republic_focus focus = RUM_const_focus }
+		mutually_exclusive = { 
+			focus = RUM_kingdom_focus
+			focus = RUM_republic_focus
+			focus = RUM_const_focus
+		}
 
 		relative_position_id = RUM_queen_focus
 		
@@ -2397,8 +2595,10 @@
 	focus = {
 		id = RUM_parliament_focus
 		icon = GFX_focus_ETH_re-convene_the_parliament
+
 		x = 28
 		y = 0
+
 		cost = 8
 
 		available = {
@@ -2426,7 +2626,9 @@
 		y = 1
 		cost = 8
 
-		prerequisite = { focus = RUM_parliament_focus }
+		prerequisite = { 
+			focus = RUM_parliament_focus
+		}
 
 		relative_position_id = RUM_parliament_focus
 		
@@ -2434,123 +2636,131 @@
 
 		completion_reward = {
 			134 = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 			118 = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = infrastructure
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 			134 = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 			118 = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
+						}
+						OR = {
+							is_in_home_area = yes
+							NOT = {
+								owner = {
+									any_owned_state = {
+										free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+										is_in_home_area = yes
 									}
-									is_in_home_area = yes
 								}
 							}
 						}
 					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
 				}
 			}
 		}
@@ -2577,8 +2787,10 @@
 	focus = {
 		id = RUM_defund_focus
 		icon = GFX_goal_generic_forceful_treaty
+
 		x = 0
 		y = 2
+
 		cost = 8
 
 		prerequisite = { focus = RUM_develop_focus }
@@ -2602,12 +2814,19 @@
 		cost = 2
 
 		available = {
-			has_government = liberal
+			has_government = liberal_conservatism
 		}
 
-		prerequisite = { focus = RUM_suspend_focus focus = RUM_defund_focus }
+		prerequisite = { 
+			focus = RUM_suspend_focus
+			focus = RUM_defund_focus
+		}
 
-		mutually_exclusive = { focus = RUM_kingdom_focus focus = RUM_coup_focus focus = RUM_const_focus }
+		mutually_exclusive = { 
+			focus = RUM_kingdom_focus 
+			focus = RUM_coup_focus
+			focus = RUM_const_focus
+		}
 
 		relative_position_id = RUM_parliament_focus
 		
@@ -2626,12 +2845,18 @@
 		cost = 2
 
 		available = {
-			has_government = conservative
+			has_government = semi_constitutional_monarchy
 		}
 
-		prerequisite = { focus = RUM_defund_focus }
+		prerequisite = {
+			focus = RUM_defund_focus
+		}
 
-		mutually_exclusive = { focus = RUM_kingdom_focus focus = RUM_coup_focus focus = RUM_republic_focus }
+		mutually_exclusive = { 
+			focus = RUM_kingdom_focus 
+			focus = RUM_coup_focus 
+			focus = RUM_republic_focus
+		}
 
 		relative_position_id = RUM_parliament_focus
 		
@@ -2645,13 +2870,21 @@
 	focus = {
 		id = RUM_election_focus
 		icon = GFX_goal_support_democracy
+
 		x = 0
 		y = 4
+
 		cost = 8
 
-		prerequisite = { focus = RUM_const_focus focus = RUM_republic_focus }
+		prerequisite = {
+			focus = RUM_const_focus
+			focus = RUM_republic_focus
+		}
 
-		mutually_exclusive = { focus = RUM_status_focus focus = RUM_empire_focus }
+		mutually_exclusive = {
+			focus = RUM_status_focus
+			focus = RUM_empire_focus
+		}
 
 		relative_position_id = RUM_parliament_focus
 		
@@ -2670,7 +2903,9 @@
 		y = 1
 		cost = 8
 
-		prerequisite = { focus = RUM_election_focus }
+		prerequisite = { 
+			focus = RUM_election_focus
+		}
 
 		relative_position_id = RUM_election_focus
 		
@@ -2688,9 +2923,14 @@
 		y = 1
 		cost = 8
 
-		prerequisite = { focus = RUM_democracy_focus }
+		prerequisite = { 
+			focus = RUM_democracy_focus
+		}
 
-		mutually_exclusive = { focus = RUM_new_focus focus = RUM_markian_focus }
+		mutually_exclusive = { 
+			focus = RUM_new_focus
+			focus = RUM_markian_focus
+		}
 
 		relative_position_id = RUM_democracy_focus
 		
@@ -2709,7 +2949,10 @@
 		y = 2
 		cost = 8
 
-		prerequisite = { focus = RUM_democracy_focus focus = RUM_new_focus }
+		prerequisite = {
+			focus = RUM_democracy_focus
+			focus = RUM_new_focus
+		}
 
 		relative_position_id = RUM_democracy_focus
 		
@@ -2734,9 +2977,16 @@
 			}
 		}
 
-		prerequisite = { focus = RUM_coup_focus focus = RUM_republic_focus focus = RUM_kingdom_focus }
+		prerequisite = { 
+			focus = RUM_coup_focus
+			focus = RUM_republic_focus 
+			focus = RUM_kingdom_focus
+		}
 
-		mutually_exclusive = { focus = RUM_election_focus focus = RUM_empire_focus }
+		mutually_exclusive = { 
+			focus = RUM_election_focus 
+			focus = RUM_empire_focus
+		}
 
 		relative_position_id = RUM_parliament_focus
 		
@@ -2773,9 +3023,15 @@
 		y = 2
 		cost = 8
 
-		prerequisite = { focus = RUM_semi_focus focus = RUM_democracy_focus }
+		prerequisite = {
+			focus = RUM_semi_focus 
+			focus = RUM_democracy_focus
+		}
 
-		mutually_exclusive = { focus = RUM_ato_focus focus = RUM_markian_focus }
+		mutually_exclusive = {
+			focus = RUM_ato_focus 
+			focus = RUM_markian_focus
+		}
 
 		relative_position_id = RUM_status_focus
 		
@@ -2793,21 +3049,27 @@
 		y = 4
 		cost = 8
 
-		prerequisite = { focus = RUM_kingdom_focus focus = RUM_coup_focus }
+		prerequisite = { 
+			focus = RUM_kingdom_focus
+			focus = RUM_coup_focus
+		}
 
-		mutually_exclusive = { focus = RUM_election_focus focus = RUM_status_focus }
+		mutually_exclusive = {
+			focus = RUM_election_focus
+			focus = RUM_status_focus
+		}
 
 		relative_position_id = RUM_queen_focus
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-				add_popularity = {  
-				ideology = authoritarian_democrat
+			add_popularity = {  
+				ideology = despotism
 				popularity = 0.05
 			}
-				add_popularity = {  
-				ideology = paternal_autocrat
+			add_popularity = {  
+				ideology = paternalism
 				popularity = 0.1
 			}
 		}
@@ -2841,9 +3103,14 @@
 		y = 2
 		cost = 8
 
-		prerequisite = { focus = RUM_imperial_focus }
+		prerequisite = {
+			focus = RUM_imperial_focus
+		}
 
-		mutually_exclusive = { focus = RUM_ato_focus focus = RUM_new_focus }
+		mutually_exclusive = {
+			focus = RUM_ato_focus
+			focus = RUM_new_focus
+		}
 
 		relative_position_id = RUM_empire_focus
 		
@@ -2861,7 +3128,10 @@
 		y = 3
 		cost = 8
 
-		prerequisite = { focus = RUM_new_focus focus = RUM_markian_focus }
+		prerequisite = {
+			focus = RUM_new_focus
+			focus = RUM_markian_focus
+		}
 
 		relative_position_id = RUM_empire_focus
 		
@@ -2897,12 +3167,17 @@
 							target = BOS
 							expire = 0
 			}
-			annex = BOS
+			ROOT = {
+				annex_country = {
+					target = BOS
+				}
+			}
+			
 		}
 	}
 
 	focus = {
-		id = RUM_hagemony_focus
+		id = RUM_hegemony_focus
 		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 2
@@ -2916,7 +3191,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			create_faction = "Thornsbourgh Accord"
+			create_faction = RUM_hegemony_faction
 		}
 	}
 
@@ -2935,7 +3210,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			create_faction = "Imperial Sphere"
+			create_faction = RUM_new_empire_faction
 		}
 	}
 }
