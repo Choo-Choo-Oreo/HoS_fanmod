@@ -291,7 +291,7 @@
 		id = RUM_cooperative_markets_focus
 		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { focus = RUM_initiate_privatisation_focus }
-		prerequisite = { focus = RUM_initiate_privatisation_focus focus = RUM_private_industrial_complex_focus }
+		prerequisite = { focus = RUM_private_industrial_complex_focus }
 		mutually_exclusive = { 
 			focus = RUM_competative_markets_focus 
 		}
@@ -924,7 +924,7 @@
 		id = RUM_contanan_investments_focus
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = { focus = RUM_trade_east_focus }
-		prerequisite = { focus = RUM_tax_increase_focus focus = RUM_trade_east_focus }
+		prerequisite = { focus = RUM_tax_increase_focus }
 		x = -3
 		y = 2
 		relative_position_id = RUM_planned_economy_focus
@@ -1149,8 +1149,11 @@
 	focus = {
 		id = RUM_education_focus
 		icon = GFX_focus_research
-		prerequisite = { focus = RUM_trade_nobody_focus }
-		prerequisite = { focus = RUM_trade_nobody_focus focus = RUM_tax_increase_focus }
+
+		prerequisite = { 
+			focus = RUM_trade_nobody_focus #focus = RUM_tax_increase_focus  was removed because it does not makes sense to allow player to go middle and ask him for a focus he will not be able to do
+		}
+
 		x = 0
 		y = 2
 
@@ -2265,7 +2268,7 @@
 		id = RUM_CAS_effort
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = RUM_fighter_focus }
-		prerequisite = { focus = RUM_bomber_bonus }
+		prerequisite = { focus = RUM_bomber_focus }
 		x = -1
 		y = 2
 
@@ -2539,10 +2542,12 @@
 		cost = 2
 
 		available = {
-			has_government = authoritarian_democrat
+			has_government = absolute_monarchy
 		}
 
-		prerequisite = { focus = RUM_suspend_focus }
+		prerequisite = { 
+			focus = RUM_suspend_focus
+		}
 
 		mutually_exclusive = { 
 			focus = RUM_coup_focus
@@ -3082,7 +3087,9 @@
 		y = 1
 		cost = 8
 
-		prerequisite = { focus = RUM_empire_focus }
+		prerequisite = { 
+			focus = RUM_empire_focus
+		}
 
 		relative_position_id = RUM_empire_focus
 		
