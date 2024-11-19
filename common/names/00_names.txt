@@ -45,9 +45,12 @@ default = {
 ###############################################################
 # Major Powers
 ###############################################################
+
+#Rumburg
 RUM = {
 	male = {
-		names = {Albert Lexander Alfred Archibald Arthur Bernard Charles Colbert
+		names = {
+			Albert Lexander Alfred Archibald Arthur Bernard Charles Colbert
 			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
 			Geoffrey George Graham Henrey Herbert Oratio Hubert Hugh Ian
 			James Jeremy John Leopold Lester Martin Nigel Oswald Max
@@ -66,6 +69,9 @@ RUM = {
 			Lance Leopold Ludger Menfrey Miles Elderick Ortwin Ottone Philbert 
 			Radbode Renbrand Reynard Rayner Reynolf Rambert Sigbert Theodore 
 			Detleave Valery Waldemare Walter Wendale Wigbert Wolfgang 
+			
+			Felix Jenson Leigh Callum Siward Tedric Wulse Wicing Odbert Lefwin Hervy
+			Diggorie Aslack Giles Josce Aleric Barnabie Turbert Ivo Merewin
 		  }
 	}
 	female = {
@@ -83,9 +89,15 @@ RUM = {
 			Eylmer Catherine Lettice Deborah Grisell Methaye Thomasine Charitie Susan 
 			Bethia Josian Wynnefride Myrna Elline Sybil Constance Jane Julianne 
 			Margerie Fortune Edony Patience Amphyllis Lucy Philippa
+			
+			Perrie Elsie Quinn Lena Pippa Evie Kacey Lola Willa Fern Paige Aila
+			Maud Olivia Joan Stanilde Godithe Emeline Helewis Whyburgh Loveday Mabel
+			Sebergea Thorrence Marjorie Werthive Petronelle Alfleta Joyce Lina Enota
+			Hapinesse
 		}
 	}
-	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+	surnames = { 	
+			Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
 			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
 			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
 			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -98,6 +110,17 @@ RUM = {
 			Key Buryngtone Glover Nysell Nyllis Palmer Charlies Donnet Brudernell 
 			Gavell Lacey Rickhill Desford Wellins Purseglove Gyll Dencourt Plymmyswoode
 			Calew Locke Shakeshaft Becket Kinge Thicknesse 
+			
+			Alfraye Burgh Eglisfield Ludsthorp Cood Wolden Mamond Cryppies Nethertom Suliard
+			Doneham Bolklay Fowler Salter Crisley Oster Ackeman Bloodwill Breuse Shordith 
+			Easton Fabian Uppener Ladington Garleston Malyns Shostler Waldaleigh Borell
+			Cherman Slidfill Ront Daughberton Bracknox Byllyng Wadrew Broughwich 
+			Spetyll Larrington Asgerby Wexcombe Folmer Gubberd Twarby Roweclyff
+			Wayth Purles Boldwin Mortymer Garell Edgarson Hunchens Lacy Colman 
+			Frillek Berwyck Carie Robbins Blokewell Peevington Wutthon Frilleck 
+			Fentayne Kemp Reeves Fleat Naceham Casebear Gerard Hortens Estbull Rudwall
+			Bratstone Fixe-Lewies Walker Forlone Grovehurst Bewlie Osyll Tilghman Moughter
+			Polton Lambers Perkie Swanson Brinn Wallie Brassy Epswyrth Mollins Ludderle
 		}
 	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
 	
@@ -260,49 +283,61 @@ RUM = {
 	}
 	
 }
-
+#United Contana
 FSR = {
 	male = {
 		names = { 
 			#Kontanian
-			Leon Aleksi Andri Boris Dmitri Feodor Gennadi 
-			Georgi Grigory Ingor Ilia Artur Ivan Kirill Konstantin Lavr Leonid 
-			Gvidon Michail Miloslav Akmil Bogen Kliment Fomas Lyubon Vasil Naum 
-			Yakob Mark Osip Peotr Arkip Pavil Holeg Nafanail Daniil Nikolai Nikita
-			Saltyk Safon Svirid Shurik Noy Semeon Sergi Valery Vladimir Vladislav 
-			Akim Aksel Anastasi Anatoli Feodosi Isay  
-			Kosma Lavrent Lazar Makar Mestoslav 
-			Sidor Tikhon Timofey Vsevolod Yakov Yefim Zinovi
+			Akmil Artur Berza Bezui Bogen Bratonek Buyak Daniil Dobromysl Dobrovit
+			Domajir Drajen Drobyn Georgi Goloven Gritzin Gvidon Holeg Hripan Hvomax
+			Ignatz Igrets Ingor Izosim Karp Kasyan Kliment Knyaz Kondrax Kosnila
+			Leon Luten Lyubon Lyudoslav Mark Miloslav Moislav Nafanail Naum Negosem
+			Nekras Nesluh Netseluy Nezebud Nikita Nikolai Osip Ostap Pavil Peotr 
+			Pesek Radoneg Sahvon Saltyk Sbyslav Sebyslav Shurik Snovid Solimir Svirid
+			Umek Vasil Veltzek Venek Voloden Xekar Xilon Yakob Jaden
+			
 			#Byelocontanan
-			Lieva Astap Giorgi Milaslav Nevadar Tisavlad Bazhay Kliment Dobryn 
-			Fama Lubo Vasik Naum Iakov Mark Akiyan Asip Alesi Pal Olig Igar Nafanya 
-			Danila Nikola Nikosha Sviried Savastyan Yaramir Ilizar Vintsesalv Sriten 
-			Zdravka Matei Viselin Boyka Blagun Tishamir Svitan
+			Acha Aliesy Alyka Antsyp Astap Asyp Bagrien Baraslav Bazhai Belyslav
+			Dabryn Danyla Dynka Fama Galub Garian Giorgy Grajymyr Hranymyr Iakav
+			Iura Jelka Jenyslav Kalyniek Klymient Krumiaka Kulotka Lieva Luba 
+			Luchezar Lyzhka Mark Mylaslav Nafania Naum Nievadar Nykosha Olyg Pal
+			Svyried Tsvetsyn Tsysavlad Valfarmei Vasyk Vavula Vielka Ygar Yguchka
+			Ylka Yskar Yvka Zuika
+			
 			#Kyovian
-			Livon Ostap Zhorga Artur Miloslaw Akomir Balamud Kliment Gudim Zirobud 
-			Foma Naum Yako Mark Okean Osip Petro Pawil Inyor Nafanailo Danilo Nikola 
-			Mikito Velimir Taras Sobislav Boyan Dobroslaw Wavrinets Radimir Chtibor Zbinek 
-			Blazhen Shemon Dragoslaw Yaroslaw Yaromir Dalibor Silvestr Alesh Borzik
+			Akomir Balamud Boyan Danilo Drazhay Dubrowko Dushon Foma Gavel Gudim 
+			Imrik Inyor Kliment Krasimir Kwetoslaw Lepold Livon Lyudwik Matiy Mikito
+			Milodrig Miloslaw Mladon Nafanailo Naum Nikola Nyneslaw Ogonyak Okeyan
+			Osip Oskar Ostap Pawil Pitro Prerad Ranok Rostko Samuilo Sobislav Taras
+			Velimir Viktimash Vlado Welibor Wesilo Wetrislaw Yako Yarislaw Zhorga
+			Zrobud Zub Zwinkomir
+			
 			#Kaidu
-			Maanu Toave Arnuo Velio Risti Peteri Niime Limbir Iiso Urmi Reeva Ruoni
-			Ortik Kormi Alari Muanu Riho Muode Timmo Suolo Alpi Ileriim Mauri Viili
-			Sima Uli Sviire
+			Aarna Aikar Alari Arnuo Arvau Atti Erkka Iiso Ileriim Ilmar Indraak Iulo
+			Kaaliu Koita Kormi Limbie Maanu Mauri Meelsi Mihkaal Muanu Muode Niime
+			Ortik Paavu Peteri Priet Raigo Reeva Riho Risti Ruoni Sima Suolo Sviire
+			Taaneli Taarmi Taaveti Tiit Timmo Toave Toivi Tuano Uli Urmi Urmma Veeko
+			Vaalio Velio Viili Viliar Yuuri
+			
 			#Yurzestani
 			Iraklii Surab Levan Nodari Gokha Gevi Mammuk Laso Zazo Shota Aftantil 
 			Nikko Gila Tamas Salva Timuras Guruam Makvala Vosa Tornike Beka Amiran 
 			Artul Pavul Lando
+			
 			#Kishkyolian
 			Vilmosh Ignach Dyoso Zakari Illes Shabols Dyordi Imre Baltazar Bodok Zikmond 
 			Andor Zhombor Gerdo Kalmash Armin Mate Oshkar Elek Shilart Ishtavan Barna Matya 
 			Boldishar Adoryan Akos Alayosh Almosh Antal Aron Arpat Balash Bela Benche 
 			Bendegus Bertok Batond Bulchu Chaba Chanad Chondor Dezho Ede Elemer Ervin
 			Fridyes Gaspars Derdely Dyecha Dyozo Unor
+			
 			#Chimaltenango
 			Acano Angaro Hare Chimanardo Tinatzin Zahen Atzina Mahuimo Adjona Guangu Angatl 
 			Tecarama Achuanari Adafarar Sacaro Guara Canal Bicuaro Chimarcomo Zahana 
 			Amasinaya Anguatzice Ayozenuri Coangahor Huhtztico Tentz Tlantl Nocianepeno 
 			Acoanename Marat Tachaen Fatenepa Gosmamon Betequeji Apalcharoga Cijin
 			Icoconalotl Lococachin Tlcheco Chotlinococe Chaji Tltec Chihac Ixochi
+			
 			#Quinaultan
 			Ananquari Tintili Arita Tilosco Asca Quilal Coma Chisi Quic Quman Quichi 
 			Tori Parico Tila Anqura Atopaca Yacaso Caquar Huiscan Mapaca Atoso Tiso 
@@ -313,11 +348,13 @@ FSR = {
 			Paco Palca Palco Panqui Paro Pasca Pauca Poma Quilla Quilo Quisque Quiza 
 			Raso Ruma Sahi Sura Taipa Tanqui Tica Tico Tinta Tinto Titi Toca Topa 
 			Tuco Uran Vari Vilca Yaric Yuscan Zopu
+			
 			#Auzatl
 			Zatliquic Innalco Coatllocae Tepe Ilihuahua Chua Noyauh Tlalmachte Tlanmizli 
 			Tenmi Lochitl Tezci Chimalpoc Coyotli Ahiutzi Matlali Necatli Coatli 
 			Quetzal Momotzl Xiucatl Humaque Tzocicatin Yatlo Tonali Tanatiu Yolotl 
 			Yolotzin Cipatli Cuauhtemoc Ehecatl Itzcoatl
+			
 			#Zolatec
 			Cacyumcan Cotuja Ahna Zacham Conaki Mocanzalam Bakan Nachanec Caam Kukumcaam 
 			Cache Arancan Cochaam Kancal Bakumatze Yazum Cocaib Nacaazum Chacal Chacanache 
@@ -347,46 +384,68 @@ FSR = {
 	female = {
 		names = {
 			#Kontanian
-			Afanasiya Lydia Lyudmila Sofia Svetlana Yelena
-			Iva Georga Gvidona Miloslava Akmila Bogena Tereza Vera Lada Lyubona
-			Vasilesa Natella Alisa Agripina Pavlina Malenya Marpa Magda Ekaterina 
-			Zelya
+			Agripina Akmila Alisa Belda Bogena Buyana Tzermina Tzudeka Tzudina 
+			Derjimira Dirteka Domoslava Drajenya Drozdyna Katerina Georga Goluza
+			Gvidona Hvalisa Igala Iva Knizya Klopuxa Korostoka Kosaritsa Lada Lihanya
+			Lodyga Lunika Lyubona Magda Malenya Marpa Milogostya Miloslava Nadeya 
+			Natella Nedilka Opala Orexa Pavlina Polkana Poreya Pojega Predislava 
+			Razmysla Rostiha Rozvada Sestrata Snovida Stoinega Terxinya Tereza Uda
+			Uvoda Vasilesa Vexeora Venega Venezda Vera Vlasya Voltza Vzora Yaxa 
+			Zaitza Zavida Zelya Jiznomira
+			
 			#Byelocontanan
-			Ieva Giorzya Milaslava Newadara Tisavlada Bazhena Beresa Izbigneda 
-			Lada Luba Vasya Alisa Agranya Palinka Malanya Olizha Marfa Magda 
-			Katinka Nafanya Danilka Zlata Zoritsa Lada
+			Agrania Alyzha Anka Asia Bagdani Bazhena Byresa Bystra Danylka Dariena
+			Galiena Giorzia Ieva Izbigneda Kalienka Kalytsa Kapielia Kasara Katsynka
+			Kostsyna Krumka Lada Liubana Liusia Magda Malania Marfa Mladiena Mylaslava
+			Mylka Myriana Nafania Najytsa Nevadara Niebysa Nieviana Niezabravka Nusha
+			Nyjelna Palynka Praskovynka Radunia Rumiena Tsysavlada Vasia Vazdiana
+			Viera Vysielia Yglieka Yskriena Zlata Zorytsa
+			
 			#Kyovian
-			Ieva Zhorga Miloslawa Akomira Belana Zirobuda Lyubava Naumena Alisa 
-			Agripina Pawlina Olga Magda Katerina Velimira Sobislawa
+			Akomira Aliza Belana Birotna Blazhina Branka Danicha Doleslawa Dorota
+			Drgana Edita Germina Grzana Imriska Iskira Iwa Iwona Kveta Ladislawa 
+			Lerka Lizaweta Lyubava Magda Miloslawa Mladana Mrawa Nadezha Naumena
+			Nivenya Pawlina Prisonya Rdamila Simona Slawna Smeyana Sobislawa Sontsena
+			Staniwna Stoyana Tayona Tishiwna Velimira Vesnisha Vlastona Woislawa 
+			Woyla Yagida Zhivena Zhorga Zlatana Zrinka Zrobuda 
+			
 			#Kaidu
-			Linni Aliisa Kaarita Helevi Uoni Talki Puulima Iida Paavi Dia 
-			Irmi Uoti Kata Vaalma Eesi Lena Aili Sanna Sinedi Rauni Impi Suvi Aina 
-			Ilvee Tiinua
+			Aano Aili Aina Aliisa Darra Dia Eesi Eevie Ehha Eloa Elvii Entla Halvie
+			Helevi Hilia Iautta Iida Ilona Ilvee Imppi Irmi Kaarita Kaartu Kaia Kata
+			Kertau Killiki Kuulli Laggie Leela Lena Linni Maima Mielvi Olie Paavi
+			Piia Puulima Rauni Sanna Sinedi Sirie Suvi Taalvie Talki Terhe Tiinua 
+			Tuulie Uoni Uoti Vaalma Vaiku Vilha Virvie
+			
 			#Yurzestani
 			Nino Nanna Natia Manana Ketvan Katuna Lali Marim Tamara Mzia Gvantas 
 			Salomi Eteri Nanuli Makvala Lamar Shorena Rusudan Iuna Dali Eka Dareian 
 			Megra Sevan
+			
 			#Kishkyolian
 			Agota Haynal Shushana Skila Boglara Torma Dorashe Magda Nadi Aranka 
 			Agna Ildiko Rekka Eshtera Andi Shofia Tunde Terezha Nora Zhana 
 			Ada Andyalka Biborka Borbala Bozhi Ertsebet Boroka Tsenge Dalma 
 			Edina Emyoke Enikyo Dyondi Hayna Hanga Ibolya Irma Kinchyo Kinga 
 			Prisa Kreka Sarolt Timea Tyunder
+			
 			#Chimaltenango
 			Mantzina Maguaya Ahitli Dafanfanse Tabaguet Apanga Mayecuitla Tacueitli 
 			Chamal Manginte Antzi Morai Taoro Atzitl Aniai Queitli Ahorahana Taguax 
 			Chamatl Maganse Manchitlil Tlaco Yairana Ahico Mitomaninc Icoaxchi Maganitl 
 			Guima Macueyoa Marol Tomecox Esechn Iconi Cuicomitzin Arakucua Totzi 
 			Tenete Casmama
+			
 			#Quinaultan
 			Chura Oqus Rircar Oquas Isimboca Acaca Curumbola Cuman Anta Umbo Curca 
 			Qumpua Arilquiruay Riquala Chua Imbo Ancocllas Poco Chillquna Umpus Arumpua 
 			Urcambo Pococta Cuaqa
+			
 			#Auzatl
 			Tlinal Nahua Huecto Matliiol Yapecatlin Mezil Achitl Tene Yaotzotl Lotet 
 			Yaotlipoct Citlanima Quicatl Yolochixotl Iyocnotl Ixacatzin Itoti Chixotl 
 			Tonalnan Ziltzen Ihuiatl Ohitli Chipahua Teoxi 
 			Meyalli Malinalli Metzli Quetzalli Tlalli Xochilt Zeltzin
+			
 			#Zolatec
 			Ahmetakana Tecunumcam Cocan Bahlunuyg Vazacui Cochanec Chan Gucaan 
 			Chiam Zotz Chanaki Cochiaman Nacao Chao Muan Ukumatz Chacyum Anuyg 
@@ -424,22 +483,28 @@ FSR = {
 	}
 	surnames = {
 		#Byelocontanan
-		Lokon Vuk Varona Vyachok Domash Yelich Orshak Krev Lybed Zhihar Myavun 
-		Pyatla Balaz Kislichok Paganok Garochka Listovich Kranionich Skirushka 
-		Keremsha Svikha Buravka Tsvietanich Vydra Melnichar Duga Rybar Bizha 
-		Mechka Bubolka
+		Balaz Bieshka Byzha Bubolka Bujysha Buravka Domash Duga Garochka Ykunka 
+		Yzrast Kalyka Keremsha Kysliechek Kranionich Kriev Lystovych Lybaj Mechka
+		Melnychar Miavun Orshak Paganak Piatla Rybar Skyrushka Svyha Tsvietanych 
+		Varona Vierbiak Verieme Vuk Viachok Vydra Yelych Zhyhar Zuikevych
+		
 		#Kyovian
-		Praskowyk Gorinets Dewetko Zimovitsa Soshnyuk Yorshenko Malko Marchenko 
-		Kavalyow Pogostitsa Feotorchuk Kotinko Breshlo Soborowets Starko Kawylka 
-		Vorotalets Mogust Kamezh Sevko Ponomarenko Kolisnychenko Kushniruk Iskora 
-		Shvabko Mywalyuk Melynaritsa Kovaritsa Liniwko Pugil Kokovshik Genyuk 
-		Rechek
+		Borysko Breshlo Dewetko Feotrchuk Gornets Ilitsa Iskora Ivnitsa Kalinitsa
+		Kamizh Kavalyow Kawylka Kolisnychenko Kitinko Kovaritsa Kushniruk Liniwko
+		Malko Marchenko Melynaritsa Mogust Mywalyuk Pigostitsa Ponomrenko Praskowyk
+		Sbrawets Sevko Shvabko Soshnyuk Starko Vanko Vazhnik Vratalets Yorshenko 
+		Zimovitsa Zubets
+		
+		Klushko Kiliuk Paschenko Kasenko Bugai Lukianinko Wasylevitsa Chumak Woitovich
+		Okrimenko Borniuk Trokimniv Sloboditsa Kostiuk Onysha Voroniv Sviatopolkivich
+		
 		#Kaidu
 		Anibruut Kuihaa Niskuo Poelga Petali Kuodo Piriil Huuva Lehine Vaarik Murik 
 		Shuuki Kalidnu Tukuot Kirti Lehaab Yog Oya Pokya Yaarvu Lampi Vaar Selga Maagi 
 		Kalio Kuoski Kuorik Luodo Suar Skeelmi Lakti Neemi Raunda Manis Kungas
 		Huttala Hantula Paanan Paavalo Sanli Virolaini Lapupi Pertula Pentinten
 		Muston Liika Laakko
+		
 		#Yurzestani
 		Maki Chahun Senikini Bari Dava Seya Luziyan Shun Nurkudze Astots Eviny Yeshagi 
 		Tavrunts Terozoq Avoly Qrunts Bagust Calrisian Akaya Kayapetro Deghily Tsulyu 
@@ -449,12 +514,14 @@ FSR = {
 		Lagarelereti Setvali Ozubi Dmtre Bonola Baghi Tsaghkha Vagda Akhdo Botsani
 		Ozuredava Tsatvi Malari Kvisi Telani Tsqamian Seredalnian Sardedian Akkhaga Bomtvi 
 		Sagdi Tsikhero Tsagotiardo Akharikhatsa
+		
 		#Kishkyolian
 		Zalator Tyured Dunanash Mohacha Fedihaza Kunsentgrot Budakallo 
 		Sholtsa Balmash Haydyuhad Hatonfyur Bekeshaseg Diomaendryo Sentgrot Ishany 
 		Zirtesallas Pilishvar Balas Fyuzesh Vesthely Sentpeter Sharbogardi Vereny Budakesh 
 		Varpalom Tisavash Balaseg Komarts Nyirad Tisafyolk Polgarda Kerekesi Letavernek 
 		Devavany Yasarosh Seghalmash 
+		
 		#Chimaltenango
 		Cohinaco Acomatl Guico Telitl Cimamo Cuetone Huimech Cinechua Acoch Tezito Anomiten 
 		Alach Lihinal Tihui Cuinor Temacamatl Adarbango Quangalitero Gulin Acaga Danga 
@@ -463,10 +530,12 @@ FSR = {
 		Atlahoar Chinecoare Teguante Yaol Cihuanamero Hecoch Chin Guayochuhnec Chamenceje 
 		Bente Cuechitlc Tiac Achaman Mizxora Litla Tacotoch Citlica Anaak Huauhugual 
 		Cual Eseronac Mica Fayos Arify Copar Guhch Acacocanga
+		
 		#Quinaultan
 		Camata Cara Carachu Cashuca Chatomebas Chuamachu Chuarachu Colla Cutluco Cuzcusi 
 		Habamba Hacocha Leca Pachina Paro Pikawas Pikilla Pirca Pisi Ratraychi Tamba 
 		Tilca Tilcanchu
+		
 		#Auzatl
 		Quidel Malinalli Itlismi Poquatl Xitlalli Itoticuih Mahui Tizoh Ilhitzilih 
 		Mezahuitl Tecamin Teyacolel Teoxochia Momoztl Teyacatl Ihuametzin Teichitli 
@@ -541,6 +610,7 @@ FSR = {
 	}
 }
 
+#Arcasia
 ARC = {
 	male = {
 		names = {  
@@ -548,7 +618,7 @@ ARC = {
 			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
 			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
 			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
-			 Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+			Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
 			
 			Aaron Adélard Aimé Alain Alban Albert Alcide Aldéric Alexandre Alexis 
 			Amable Amaury Ambroise Anaclet Anatole André Anselme Aristide Armand 
@@ -616,6 +686,7 @@ ARC = {
 	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
 }
 
+#Lespia
 LSP = {
 	male = {
 		names = { 
@@ -637,15 +708,15 @@ LSP = {
 			Maria Anna Sara Laura Sofia Estela Angela Jovanna Jusepina Janna Julia 
 			Valentina 
 		
-			Natividad Merenciana Virdiana Piedad Veronique Minerva Euridiz Rut Anquella 
-			Constanza Concepcion Roxio Rafela Esperia Asuncion Luzia Gabriela Monlora
-			Esmeralda Albina Celena Fernanda Onora Cilla Felicitas
+			Nativita Merenciana Virdiana Piedad Veronique Minerva Euridiz Rut Anquella 
+			Constanza Conzetion Roxia Rafaella Esperia Asunzion Luzia Gabriela Monlora
+			Esmeralda Albina Celena Fernanda Onora Cilla Felicitaz
 		}
 	}
 	surnames = {
-		Acton Albriscio Badogle Baldissera Baratierez Bava-Beccaris Cadorna Cagni Canevaro Capella
+		Actonez Albriscio Badogle Baldissera Baratierez Bava-Beccaris Cadorna Cagni Canevaro Capella
 		Cavilla Cesquerinez Caldinez Cusanez Dezca "de Robilant" "de Perla"
-		Emo Fantez Fara Filomarine Jaribaldez Jardino Govonez "de la Libera" Marbetez 
+		Emonio Fantez Fara Filomarine Jaribaldez Jardino Govonez "de la Libera" Marbetez 
 		Menabrea Orengue Pallavicine Pecorez Jiraldez Pello Peruquetez Planellez Porro
 		Presquitero Ramorino Ricottes Mannani Sazci Saletto Sanna Solare Vaccare Cupelle
 		
@@ -657,6 +728,7 @@ LSP = {
 	callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso Robur Gino Giri }
 }
 
+#Agnolia
 AGN = {
 	male = {
 		names = { 
@@ -707,6 +779,7 @@ AGN = {
 	callsigns = { }
 }
 
+#Sordland
 SRD = {
 	male = {
 		names = {
@@ -753,6 +826,7 @@ SRD = {
 	callsigns = { }
 }
 
+#Valgsland
 VLG = {
 	male = {
 		names = {
@@ -871,6 +945,48 @@ RIZ = {
 	}
 }
 
+#Morella
+MRL = {
+	male = {
+		names = {
+		Alpe Amator Veat Cavette Lar Costas Crecyas Deodde Domne Velicyen Lorin 
+		Riuinne Ractuos Valuente Avin Eneros Ereon Lonorin Leronim Last Leone 
+		Narcyess Pe Prim Prosper Rouat Servate Siut Arsin Victorin Vincyante Vitalis
+		Cyepurin 
+		Atave Asat Durdo Ecyas Cadur Masatte Mardan Oras Uves Rousanne Lerulle Serdar
+		}
+		surnames = {
+		Acmadulle Acmetos Ainutto Alies Alimos Aliso Aneues Areso Aripo Asies 
+		Avracyetos Cabaes Calimullo Camato Carames Carivano Cuarimes Cuiuros Cursave
+		Cusainos Cutuss Cyabaues Cyabes Cyainulle Cyalanos Cyavaes Cyaviulle 
+		Cyeddatulle Cyelano Cyeripo Cyeuros Dinos Eniatulle Icmouratos Imaues 
+		Issatulle Isuanato Ivrauimos Lalillo Lismatulo Mamacyass Manuros Marconico
+		Mariano Mirsanos Naviulino Niumatullo Nureues Racmano Rauin Rimatos Ronso
+		Sadicos Saidecyess Saudeves Sunaves Tactass Tacyes Tuleues Ualimos Ubaidules
+		Utiacyes Vacruttino Vaiculinne Vaisulino Vaiveco Values Vareves Vattaco
+		Vaucullo Vecvulates Vilalos Vilualettines Vorlano
+		}
+	female = {
+		names = {
+		Amata Aurea Veneitta Viana Cadida Lemetta Corona Desiderra Donata Eleuva 
+		Vevonna Velina Enerosa Lonorata Lanatta Letta Leonna Cyerina Reula Sibulla
+		Uala Auna Valarula Lamila Oulsa Cyanetta Mualira Maralla Nuacyacca Sona
+		Sevla
+		}
+		surnames = {
+		Acmadulle Acmetos Ainutta Alies Alimos Alisa Aneues Aresa Aripa Asies 
+		Avracyetos Cabaes Calimulla Camata Carames Carivana Cuarimes Cuiuros Cursave
+		Cusainos Cutuss Cyabaues Cyabes Cyainulle Cyalanos Cyavaes Cyaviulle 
+		Cyeddatulle Cyelana Cyeripa Cyeuros Dinos Eniatulle Icmouratos Imaues 
+		Issatulle Isuanata Ivrauimos Lalilla Lismatula Mamacyass Manuros Marconica
+		Mariana Mirsanos Naviulina Niumatulla Nureues Racmana Rauin Rimatos Ronsa
+		Sadicos Saidecyess Saudeves Sunaves Tactass Tacyes Tuleues Ualimos Ubaidules
+		Utiacyes Vacruttina Vaiculinne Vaisulina Vaiveca Values Vareves Vattaca
+		Vauculla Vecvulates Vilalos Vilualettines Vorlana
+		}
+	}
+}
+
 #G'aleroi
 GLI = {
 	male = {
@@ -906,6 +1022,7 @@ GLI = {
 	callsigns = { }
 }
 
+#Hijana
 HIJ = {
 	male = {
 		names = {
@@ -1000,6 +1117,7 @@ LSY = {
 	callsigns = { }
 }
 
+#Montesayette
 MTY = {
 	male = {
 	names = {
@@ -1313,7 +1431,6 @@ ADA = {
 
 
 #Nahrburk
-
 NHK = {
 	male = {
 		names = {
@@ -1347,6 +1464,7 @@ NHK = {
 	}
 }
 
+#Erdmarg
 ERD = {
 	male = {
 		names = {
@@ -1436,6 +1554,7 @@ KYT = {
 		callsigns = { }
 }
 
+#Bludia - change the tag?
 BFF = {
 	male = {
 		names = {
@@ -2173,7 +2292,7 @@ YAR = {
 	callsigns = { }
 }
 
-
+# Unassigned - probably for Al-Riqar or something
 
 #Aban Abbad "Al-Azim" "Al-Aziz" "Al-Baki" "Al-Basir" "Al-Gafur" 
 #"Al-Gani" "Al-Hakim" "Al-Hamid" "Al-Hakk" "Al-Yabbar" 
